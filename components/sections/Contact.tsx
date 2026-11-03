@@ -60,17 +60,6 @@ export function Contact() {
                         {contactDetails.address}
                       </span>
                     </address>
-                    <a
-                      href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-                        `${siteConfig.legalName}, ${contactDetails.address.replace(/\n/g, " ")}`,
-                      )}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mt-4 inline-flex items-center gap-2 text-xs font-semibold text-rose-200 transition-colors hover:text-white"
-                    >
-                      View on Google Maps
-                      <span aria-hidden>→</span>
-                    </a>
                   </div>
                 </div>
               </div>
