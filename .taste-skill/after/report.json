@@ -1,6 +1,6 @@
 {
- "url": "http://localhost:3499",
- "at": "2026-11-03T09:54:47.180Z",
+ "url": "http://localhost:3507",
+ "at": "2026-11-03T10:21:38.852Z",
  "allow": [],
  "viewports": [
   {
@@ -10,17 +10,17 @@
    "screens": 12,
    "filled": [
     0.61,
-    0.83,
+    0.91,
     0.97,
-    0.68,
+    0.65,
     0.59,
     0.97,
     0.97,
     0.97,
     0.97,
-    0.77,
-    0.61,
-    0.88
+    0.79,
+    0.65,
+    0.95
    ],
    "motion": {
     "elements": 43,
@@ -36,13 +36,13 @@
      "h": 900
     },
     "page": {
-     "height": 12352,
-     "screens": 13.7,
-     "words": 704,
+     "height": 11593,
+     "screens": 12.9,
+     "words": 714,
      "img": 16,
      "video": 0,
      "canvas": 0,
-     "svg": 8,
+     "svg": 11,
      "sections": 7,
      "horizontalOverflow": 0,
      "overflowCulprits": [],
@@ -118,12 +118,12 @@
       "kind": "heading"
      },
      {
-      "text": "DESIGN DEVELOPMENT PERFORATION EMBOSSING HOT MELT LAMINATION CUTTING QUALITY CONTROL DESIGN DEVELOPMENT PERFORATION EMBOSSING HOT MELT LAMINATION CUTTING QUALITY CONTROL",
-      "words": 20,
-      "chars": 169,
+      "text": "DESIGN DEVELOPMENT",
+      "words": 2,
+      "chars": 18,
       "lines": 1,
-      "size": 88,
-      "vw": 6.1,
+      "size": 56,
+      "vw": 3.9,
       "font": "Barlow Condensed",
       "weight": 700,
       "tracking": -0.02,
@@ -132,10 +132,241 @@
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 1,
-      "top": 900,
-      "tag": "div",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 924,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "PERFORATION",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.22,
+      "top": 924,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "EMBOSSING",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.19,
+      "top": 924,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "HOT MELT LAMINATION",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.33,
+      "top": 924,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "CUTTING",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.16,
+      "top": 924,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "QUALITY CONTROL",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.28,
+      "top": 924,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "DESIGN DEVELOPMENT",
+      "words": 2,
+      "chars": 18,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.34,
+      "top": 924,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "PERFORATION",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.22,
+      "top": 924,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "EMBOSSING",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.19,
+      "top": 924,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "HOT MELT LAMINATION",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.33,
+      "top": 924,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "CUTTING",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.16,
+      "top": 924,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "QUALITY CONTROL",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.28,
+      "top": 924,
+      "tag": "li",
       "kind": "statement"
      },
      {
@@ -155,7 +386,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.33,
-      "top": 1329,
+      "top": 1284,
       "tag": "h2",
       "kind": "heading"
      },
@@ -176,7 +407,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.48,
-      "top": 1329,
+      "top": 1284,
       "tag": "h3",
       "kind": "heading"
      },
@@ -197,7 +428,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.48,
-      "top": 1998,
+      "top": 1953,
       "tag": "h3",
       "kind": "heading"
      },
@@ -218,7 +449,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.41,
-      "top": 2730,
+      "top": 2685,
       "tag": "h2",
       "kind": "heading"
      },
@@ -239,7 +470,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.13,
-      "top": 2804,
+      "top": 2759,
       "tag": "h3",
       "kind": "heading"
      },
@@ -260,7 +491,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.33,
-      "top": 3528,
+      "top": 3483,
       "tag": "h2",
       "kind": "heading"
      },
@@ -281,7 +512,7 @@
       "align": "center",
       "position": "left",
       "widthRatio": 0.33,
-      "top": 3786,
+      "top": 3742,
       "tag": "li",
       "kind": "statement"
      },
@@ -302,7 +533,7 @@
       "align": "center",
       "position": "left",
       "widthRatio": 0.33,
-      "top": 3835,
+      "top": 3790,
       "tag": "li",
       "kind": "statement"
      },
@@ -323,7 +554,7 @@
       "align": "center",
       "position": "left",
       "widthRatio": 0.33,
-      "top": 3884,
+      "top": 3839,
       "tag": "li",
       "kind": "statement"
      },
@@ -344,7 +575,7 @@
       "align": "center",
       "position": "left",
       "widthRatio": 0.33,
-      "top": 3933,
+      "top": 3888,
       "tag": "li",
       "kind": "statement"
      },
@@ -365,7 +596,7 @@
       "align": "center",
       "position": "left",
       "widthRatio": 0.33,
-      "top": 3982,
+      "top": 3937,
       "tag": "li",
       "kind": "statement"
      },
@@ -386,7 +617,7 @@
       "align": "center",
       "position": "center",
       "widthRatio": 0.15,
-      "top": 4690,
+      "top": 4645,
       "tag": "h2",
       "kind": "heading"
      },
@@ -407,7 +638,7 @@
       "align": "center",
       "position": "center",
       "widthRatio": 0.24,
-      "top": 5590,
+      "top": 5545,
       "tag": "h2",
       "kind": "heading"
      },
@@ -428,7 +659,7 @@
       "align": "center",
       "position": "center",
       "widthRatio": 0.16,
-      "top": 6490,
+      "top": 6445,
       "tag": "h2",
       "kind": "heading"
      },
@@ -449,7 +680,7 @@
       "align": "center",
       "position": "center",
       "widthRatio": 0.21,
-      "top": 7390,
+      "top": 7345,
       "tag": "h2",
       "kind": "heading"
      },
@@ -470,7 +701,7 @@
       "align": "center",
       "position": "center",
       "widthRatio": 0.08,
-      "top": 8290,
+      "top": 8245,
       "tag": "h2",
       "kind": "heading"
      },
@@ -491,7 +722,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.41,
-      "top": 8892,
+      "top": 8847,
       "tag": "h2",
       "kind": "heading"
      },
@@ -512,7 +743,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.41,
-      "top": 9116,
+      "top": 9071,
       "tag": "h3",
       "kind": "heading"
      },
@@ -533,7 +764,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.41,
-      "top": 9288,
+      "top": 9243,
       "tag": "h3",
       "kind": "heading"
      },
@@ -554,7 +785,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.41,
-      "top": 9338,
+      "top": 9293,
       "tag": "h3",
       "kind": "heading"
      },
@@ -575,35 +806,14 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.41,
-      "top": 9389,
+      "top": 9344,
       "tag": "h3",
       "kind": "heading"
      },
      {
-      "text": "contact@jundesigntech.in",
-      "words": 1,
-      "chars": 24,
-      "lines": 1,
-      "size": 88,
-      "vw": 6.1,
-      "font": "Barlow Condensed",
-      "weight": 500,
-      "tracking": -0.02,
-      "leading": 0.9,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 0.83,
-      "top": 10017,
-      "tag": "a",
-      "kind": "heading"
-     },
-     {
-      "text": "ENQUIRY FORM",
-      "words": 2,
-      "chars": 12,
+      "text": "TALK TO OUR TEAM",
+      "words": 4,
+      "chars": 16,
       "lines": 1,
       "size": 56,
       "vw": 3.9,
@@ -616,8 +826,29 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.26,
-      "top": 10618,
+      "widthRatio": 0.33,
+      "top": 9689,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SEND AN ENQUIRY",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.34,
+      "top": 9737,
       "tag": "h3",
       "kind": "heading"
      },
@@ -638,7 +869,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.41,
-      "top": 11628,
+      "top": 10869,
       "tag": "li",
       "kind": "statement"
      },
@@ -659,7 +890,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.41,
-      "top": 11674,
+      "top": 10915,
       "tag": "li",
       "kind": "statement"
      },
@@ -680,7 +911,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.41,
-      "top": 11721,
+      "top": 10962,
       "tag": "li",
       "kind": "statement"
      },
@@ -701,37 +932,16 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.41,
-      "top": 11767,
-      "tag": "li",
-      "kind": "statement"
-     },
-     {
-      "text": "CONTACT",
-      "words": 1,
-      "chars": 7,
-      "lines": 1,
-      "size": 32,
-      "vw": 2.2,
-      "font": "Barlow Condensed",
-      "weight": 700,
-      "tracking": -0.02,
-      "leading": 0.9,
-      "upper": true,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "right",
-      "widthRatio": 0.41,
-      "top": 11814,
+      "top": 11008,
       "tag": "li",
       "kind": "statement"
      }
     ],
     "headingSummary": {
-     "count": 30,
+     "count": 41,
      "maxLines": 2,
      "over2Lines": 0,
-     "statements": 11,
+     "statements": 22,
      "centered": 10,
      "medianWords": 1,
      "mixedFontHeadings": 0
@@ -774,7 +984,7 @@
       "size": 88,
       "vw": 6.1,
       "font": "Barlow Condensed",
-      "text": "Design Development"
+      "text": "Design"
      },
      "monoShare": 0,
      "monoProseShare": 0,
@@ -818,7 +1028,7 @@
       },
       {
        "color": "#f0f0ee",
-       "top": 2618,
+       "top": 2573,
        "hsl": {
         "h": 60,
         "s": 0.06,
@@ -827,7 +1037,7 @@
       },
       {
        "color": "#0f0f0e",
-       "top": 4280,
+       "top": 4235,
        "hsl": {
         "h": 60,
         "s": 0.03,
@@ -835,8 +1045,17 @@
        }
       },
       {
+       "color": "#232322",
+       "top": 9689,
+       "hsl": {
+        "h": 60,
+        "s": 0.01,
+        "l": 0.14
+       }
+      },
+      {
        "color": "#fa003f",
-       "top": 11452,
+       "top": 10693,
        "hsl": {
         "h": 345,
         "s": 1,
@@ -847,11 +1066,11 @@
      "textColors": [
       {
        "color": "#ffffff",
-       "share": 0.5
+       "share": 0.53
       },
       {
        "color": "#161615",
-       "share": 0.39
+       "share": 0.36
       },
       {
        "color": "#0f0f0e",
@@ -936,7 +1155,7 @@
      "w": 1440,
      "h": 900
     },
-    "pageH": 12352,
+    "pageH": 11593,
     "margins": {
      "left": 120,
      "right": 78
@@ -969,18 +1188,18 @@
       "sel": "section.bg-ground",
       "tag": "section",
       "top": 900,
-      "height": 317,
-      "words": 24,
+      "height": 272,
+      "words": 27,
       "media": 0,
-      "middle": 86,
+      "middle": 59,
       "heading": {
-       "text": "Perforation",
-       "size": 88,
-       "tag": "span"
+       "text": "Embossing",
+       "size": 56,
+       "tag": "a"
       },
-      "left": 0,
+      "left": 27,
       "right": 0,
-      "textLeft": 0,
+      "textLeft": 27,
       "textRight": 0,
       "fullBleed": false,
       "footer": false,
@@ -991,7 +1210,7 @@
      {
       "sel": "section#services.relative.bg-charcoal-900",
       "tag": "section",
-      "top": 1217,
+      "top": 1172,
       "height": 1401,
       "words": 88,
       "media": 2,
@@ -1014,7 +1233,7 @@
      {
       "sel": "section#iso.bg-surface.py-24",
       "tag": "section",
-      "top": 2618,
+      "top": 2573,
       "height": 798,
       "words": 67,
       "media": 0,
@@ -1037,7 +1256,7 @@
      {
       "sel": "div.mx-auto.w-full",
       "tag": "div",
-      "top": 3416,
+      "top": 3371,
       "height": 864,
       "words": 61,
       "media": 1,
@@ -1060,7 +1279,7 @@
      {
       "sel": "article#design-development.relative.h-svh",
       "tag": "article",
-      "top": 4280,
+      "top": 4235,
       "height": 900,
       "words": 45,
       "media": 1,
@@ -1083,7 +1302,7 @@
      {
       "sel": "article#perforation.relative.h-svh",
       "tag": "article",
-      "top": 5180,
+      "top": 5135,
       "height": 900,
       "words": 40,
       "media": 1,
@@ -1106,7 +1325,7 @@
      {
       "sel": "article#embossing.relative.h-svh",
       "tag": "article",
-      "top": 6080,
+      "top": 6035,
       "height": 900,
       "words": 42,
       "media": 1,
@@ -1129,7 +1348,7 @@
      {
       "sel": "article#hot-melt-lamination.relative.h-svh",
       "tag": "article",
-      "top": 6980,
+      "top": 6935,
       "height": 900,
       "words": 40,
       "media": 1,
@@ -1152,7 +1371,7 @@
      {
       "sel": "article#cutting.relative.h-svh",
       "tag": "article",
-      "top": 7880,
+      "top": 7835,
       "height": 900,
       "words": 40,
       "media": 1,
@@ -1175,7 +1394,7 @@
      {
       "sel": "section#quality.bg-ground.py-24",
       "tag": "section",
-      "top": 8780,
+      "top": 8735,
       "height": 826,
       "words": 57,
       "media": 1,
@@ -1196,55 +1415,32 @@
       "pinned": true
      },
      {
-      "sel": "div.mx-auto.w-full",
-      "tag": "div",
-      "top": 9606,
-      "height": 900,
-      "words": 47,
+      "sel": "section#contact.bg-charcoal-950.text-white",
+      "tag": "section",
+      "top": 9561,
+      "height": 1132,
+      "words": 86,
       "media": 0,
-      "middle": 66,
+      "middle": 187,
       "heading": {
-       "text": "contact",
-       "size": 88,
-       "tag": "a"
-      },
-      "left": 120,
-      "right": 120,
-      "textLeft": 120,
-      "textRight": 120,
-      "fullBleed": false,
-      "footer": false,
-      "hero": false,
-      "continues": true,
-      "pinned": false
-     },
-     {
-      "sel": "div.bg-surface.text-charcoal-900",
-      "tag": "div",
-      "top": 10506,
-      "height": 946,
-      "words": 31,
-      "media": 0,
-      "middle": 176,
-      "heading": {
-       "text": "Enquiry form",
+       "text": "Talk to our team",
        "size": 56,
-       "tag": "h3"
+       "tag": "h2"
       },
       "left": 120,
-      "right": 160,
+      "right": 168,
       "textLeft": 120,
-      "textRight": 376,
+      "textRight": 193,
       "fullBleed": false,
       "footer": false,
       "hero": false,
       "continues": true,
-      "pinned": false
+      "pinned": true
      },
      {
       "sel": "footer.grid.bg-rose-600",
       "tag": "footer",
-      "top": 11452,
+      "top": 10693,
       "height": 900,
       "words": 49,
       "media": 0,
@@ -1267,8 +1463,8 @@
     ],
     "gaps": [
      {
-      "top": 3240,
-      "height": 276
+      "top": 3192,
+      "height": 280
      }
     ],
     "h1s": [
@@ -1287,7 +1483,7 @@
      },
      {
       "x": 120,
-      "n": 13
+      "n": 12
      },
      {
       "x": 633,
@@ -1298,11 +1494,15 @@
       "n": 2
      },
      {
+      "x": 784,
+      "n": 2
+     },
+     {
       "x": 887,
       "n": 1
      }
     ],
-    "leftBlocks": 34,
+    "leftBlocks": 35,
     "bodySize": 19,
     "stage": false,
     "explains": true,
@@ -1325,16 +1525,16 @@
    "screens": 12,
    "filled": [
     0.55,
-    0.88,
-    0.96,
-    0.48,
-    0.6,
-    0.96,
-    0.96,
+    0.85,
+    0.95,
+    0.39,
+    0.76,
     0.96,
     0.96,
     0.96,
-    0.65,
+    0.96,
+    0.96,
+    0.61,
     0.83
    ],
    "motion": {
@@ -1351,25 +1551,25 @@
      "h": 1024
     },
     "page": {
-     "height": 14831,
-     "screens": 14.5,
-     "words": 697,
+     "height": 14318,
+     "screens": 14,
+     "words": 707,
      "img": 16,
      "video": 0,
      "canvas": 0,
-     "svg": 8,
+     "svg": 11,
      "sections": 7,
      "horizontalOverflow": 0,
      "overflowCulprits": [],
      "uiFragments": 0,
      "uiAbuse": false,
-     "realPictures": 14,
+     "realPictures": 15,
      "videoCount": 0,
      "uiPictures": 0,
      "pictureSamples": [
       "image?url=%2Fimages%2Fhero-interior.jpg&w=640&q=",
       "image?url=%2Fimages%2Fprocess-perforation.jpg&w=",
-      "image?url=%2Fimages%2Fprocess-embossing.jpg&w=82",
+      "image?url=%2Fimages%2Fprocess-embossing.jpg&w=25",
       "image?url=%2Fimages%2Fservice-design.jpg&w=640&q",
       "image?url=%2Fimages%2Fservice-post.jpg&w=640&q=7",
       "image?url=%2Fimages%2Fprocess-design.jpg&w=828&q",
@@ -1433,12 +1633,75 @@
       "kind": "heading"
      },
      {
-      "text": "DESIGN DEVELOPMENT PERFORATION EMBOSSING HOT MELT LAMINATION CUTTING QUALITY CONTROL DESIGN DEVELOPMENT PERFORATION EMBOSSING HOT MELT LAMINATION CUTTING QUALITY CONTROL",
-      "words": 20,
-      "chars": 169,
+      "text": "DESIGN DEVELOPMENT",
+      "words": 2,
+      "chars": 18,
       "lines": 1,
-      "size": 60.9,
-      "vw": 7.9,
+      "size": 40.8,
+      "vw": 5.3,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.46,
+      "top": 1265,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "PERFORATION",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 40.8,
+      "vw": 5.3,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 1265,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "EMBOSSING",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 40.8,
+      "vw": 5.3,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 1265,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "HOT MELT LAMINATION",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 40.8,
+      "vw": 5.3,
       "font": "Barlow Condensed",
       "weight": 700,
       "tracking": -0.02,
@@ -1448,9 +1711,177 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 1,
-      "top": 1245,
-      "tag": "div",
+      "widthRatio": 0.46,
+      "top": 1265,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "CUTTING",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 40.8,
+      "vw": 5.3,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.22,
+      "top": 1265,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "QUALITY CONTROL",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 40.8,
+      "vw": 5.3,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.39,
+      "top": 1265,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "DESIGN DEVELOPMENT",
+      "words": 2,
+      "chars": 18,
+      "lines": 1,
+      "size": 40.8,
+      "vw": 5.3,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.46,
+      "top": 1265,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "PERFORATION",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 40.8,
+      "vw": 5.3,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.31,
+      "top": 1265,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "EMBOSSING",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 40.8,
+      "vw": 5.3,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.27,
+      "top": 1265,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "HOT MELT LAMINATION",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 40.8,
+      "vw": 5.3,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.46,
+      "top": 1265,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "CUTTING",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 40.8,
+      "vw": 5.3,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.22,
+      "top": 1265,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "QUALITY CONTROL",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 40.8,
+      "vw": 5.3,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.39,
+      "top": 1265,
+      "tag": "li",
       "kind": "statement"
      },
      {
@@ -1470,7 +1901,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 1,
-      "top": 1593,
+      "top": 1567,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1491,7 +1922,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 2999,
+      "top": 2973,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1512,7 +1943,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 4063,
+      "top": 4061,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1533,7 +1964,7 @@
       "align": "center",
       "position": "center",
       "widthRatio": 0.19,
-      "top": 5631,
+      "top": 5605,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1554,7 +1985,7 @@
       "align": "center",
       "position": "center",
       "widthRatio": 0.31,
-      "top": 6655,
+      "top": 6629,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1575,7 +2006,7 @@
       "align": "center",
       "position": "center",
       "widthRatio": 0.21,
-      "top": 7679,
+      "top": 7653,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1596,7 +2027,7 @@
       "align": "center",
       "position": "center",
       "widthRatio": 0.27,
-      "top": 8703,
+      "top": 8677,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1617,7 +2048,7 @@
       "align": "center",
       "position": "center",
       "widthRatio": 0.11,
-      "top": 9727,
+      "top": 9701,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1638,35 +2069,14 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 10939,
+      "top": 10913,
       "tag": "h2",
       "kind": "heading"
      },
      {
-      "text": "contact@jundesigntech.in",
-      "words": 1,
-      "chars": 24,
-      "lines": 1,
-      "size": 60.9,
-      "vw": 7.9,
-      "font": "Barlow Condensed",
-      "weight": 500,
-      "tracking": -0.02,
-      "leading": 0.9,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 0.92,
-      "top": 11985,
-      "tag": "a",
-      "kind": "heading"
-     },
-     {
-      "text": "ENQUIRY FORM",
-      "words": 2,
-      "chars": 12,
+      "text": "TALK TO OUR TEAM",
+      "words": 4,
+      "chars": 16,
       "lines": 1,
       "size": 40.8,
       "vw": 5.3,
@@ -1680,16 +2090,16 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 12636,
-      "tag": "h3",
+      "top": 11586,
+      "tag": "h2",
       "kind": "heading"
      }
     ],
     "headingSummary": {
-     "count": 13,
+     "count": 23,
      "maxLines": 2,
      "over2Lines": 0,
-     "statements": 1,
+     "statements": 12,
      "centered": 5,
      "medianWords": 2,
      "mixedFontHeadings": 0
@@ -1732,7 +2142,7 @@
       "size": 60.9,
       "vw": 7.9,
       "font": "Barlow Condensed",
-      "text": "Design Development"
+      "text": "Design"
      },
      "monoShare": 0,
      "monoProseShare": 0,
@@ -1776,7 +2186,7 @@
       },
       {
        "color": "#f0f0ee",
-       "top": 2903,
+       "top": 2877,
        "hsl": {
         "h": 60,
         "s": 0.06,
@@ -1785,7 +2195,7 @@
       },
       {
        "color": "#0f0f0e",
-       "top": 5147,
+       "top": 5121,
        "hsl": {
         "h": 60,
         "s": 0.03,
@@ -1793,8 +2203,17 @@
        }
       },
       {
+       "color": "#232322",
+       "top": 12184,
+       "hsl": {
+        "h": 60,
+        "s": 0.01,
+        "l": 0.14
+       }
+      },
+      {
        "color": "#fa003f",
-       "top": 13595,
+       "top": 13082,
        "hsl": {
         "h": 345,
         "s": 1,
@@ -1805,11 +2224,11 @@
      "textColors": [
       {
        "color": "#ffffff",
-       "share": 0.5
+       "share": 0.54
       },
       {
        "color": "#161615",
-       "share": 0.39
+       "share": 0.35
       },
       {
        "color": "#0f0f0e",
@@ -1872,7 +2291,7 @@
     "heroMedia": [
      {
       "type": "img",
-      "ratio": 0.28
+      "ratio": 0.29
      },
      {
       "type": "img",
@@ -1897,7 +2316,7 @@
      "w": 768,
      "h": 1024
     },
-    "pageH": 14831,
+    "pageH": 14318,
     "margins": {
      "left": 32,
      "right": 0
@@ -1930,18 +2349,18 @@
       "sel": "section.bg-ground",
       "tag": "section",
       "top": 1245,
-      "height": 252,
-      "words": 23,
+      "height": 226,
+      "words": 25,
       "media": 0,
-      "middle": 0,
+      "middle": 47,
       "heading": {
-       "text": "Perforation",
-       "size": 61,
-       "tag": "span"
+       "text": "Embossing",
+       "size": 41,
+       "tag": "a"
       },
-      "left": 0,
+      "left": 32,
       "right": 0,
-      "textLeft": 0,
+      "textLeft": 32,
       "textRight": 0,
       "fullBleed": false,
       "footer": false,
@@ -1952,9 +2371,9 @@
      {
       "sel": "section#services.relative.bg-charcoal-900",
       "tag": "section",
-      "top": 1497,
+      "top": 1471,
       "height": 1406,
-      "words": 83,
+      "words": 88,
       "media": 2,
       "middle": 0,
       "heading": {
@@ -1975,7 +2394,7 @@
      {
       "sel": "section#iso.bg-surface.py-24",
       "tag": "section",
-      "top": 2903,
+      "top": 2877,
       "height": 1064,
       "words": 67,
       "media": 0,
@@ -1998,15 +2417,15 @@
      {
       "sel": "div.mx-auto.w-full",
       "tag": "div",
-      "top": 3967,
+      "top": 3941,
       "height": 1179,
-      "words": 61,
+      "words": 57,
       "media": 1,
       "middle": 0,
       "heading": {
-       "text": "One swatch, five processes",
-       "size": 41,
-       "tag": "h2"
+       "text": "Design",
+       "size": 25,
+       "tag": "button"
       },
       "left": 32,
       "right": 160,
@@ -2021,7 +2440,7 @@
      {
       "sel": "article#design-development.relative.h-svh",
       "tag": "article",
-      "top": 5147,
+      "top": 5121,
       "height": 1024,
       "words": 45,
       "media": 1,
@@ -2044,7 +2463,7 @@
      {
       "sel": "article#perforation.relative.h-svh",
       "tag": "article",
-      "top": 6171,
+      "top": 6145,
       "height": 1024,
       "words": 40,
       "media": 1,
@@ -2067,7 +2486,7 @@
      {
       "sel": "article#embossing.relative.h-svh",
       "tag": "article",
-      "top": 7195,
+      "top": 7169,
       "height": 1024,
       "words": 42,
       "media": 1,
@@ -2090,7 +2509,7 @@
      {
       "sel": "article#hot-melt-lamination.relative.h-svh",
       "tag": "article",
-      "top": 8219,
+      "top": 8193,
       "height": 1024,
       "words": 40,
       "media": 1,
@@ -2113,7 +2532,7 @@
      {
       "sel": "article#cutting.relative.h-svh",
       "tag": "article",
-      "top": 9243,
+      "top": 9217,
       "height": 1024,
       "words": 40,
       "media": 1,
@@ -2136,7 +2555,7 @@
      {
       "sel": "section#quality.bg-ground.py-24",
       "tag": "section",
-      "top": 10267,
+      "top": 10241,
       "height": 1249,
       "words": 57,
       "media": 1,
@@ -2153,45 +2572,22 @@
       "pinned": false
      },
      {
-      "sel": "div.mx-auto.w-full",
-      "tag": "div",
-      "top": 11516,
-      "height": 1024,
-      "words": 47,
+      "sel": "section#contact.bg-charcoal-950.text-white",
+      "tag": "section",
+      "top": 11490,
+      "height": 1592,
+      "words": 86,
       "media": 0,
       "middle": 0,
       "heading": {
-       "text": "contact",
-       "size": 61,
-       "tag": "a"
-      },
-      "left": 32,
-      "right": 32,
-      "textLeft": 32,
-      "textRight": 32,
-      "fullBleed": false,
-      "footer": false,
-      "hero": false,
-      "continues": true,
-      "pinned": false
-     },
-     {
-      "sel": "div.bg-surface.text-charcoal-900",
-      "tag": "div",
-      "top": 12540,
-      "height": 1055,
-      "words": 31,
-      "media": 0,
-      "middle": 0,
-      "heading": {
-       "text": "Enquiry form",
+       "text": "Talk to our team",
        "size": 41,
-       "tag": "h3"
+       "tag": "h2"
       },
       "left": 32,
       "right": 72,
       "textLeft": 32,
-      "textRight": 301,
+      "textRight": 83,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -2201,7 +2597,7 @@
      {
       "sel": "footer.grid.bg-rose-600",
       "tag": "footer",
-      "top": 13595,
+      "top": 13082,
       "height": 1236,
       "words": 49,
       "media": 0,
@@ -2218,7 +2614,12 @@
       "pinned": false
      }
     ],
-    "gaps": [],
+    "gaps": [
+     {
+      "top": 3780,
+      "height": 324
+     }
+    ],
     "h1s": [
      {
       "text": "JUN AUTO DESIGN TECH",
@@ -2231,11 +2632,11 @@
     "edges": [
      {
       "x": 32,
-      "n": 19
+      "n": 17
      },
      {
       "x": 64,
-      "n": 14
+      "n": 16
      },
      {
       "x": 80,
@@ -2263,19 +2664,19 @@
     0.88,
     0.97,
     0.97,
-    0.5,
-    0.69,
-    0.85,
+    0.42,
+    0.77,
+    0.91,
     0.99,
+    0.98,
     0.99,
-    0.99,
-    0.99,
-    0.63
+    0.98,
+    0.61
    ],
    "motion": {
-    "elements": 38,
+    "elements": 37,
     "css": 8,
-    "transitions": 30,
+    "transitions": 29,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -2286,13 +2687,13 @@
      "h": 844
     },
     "page": {
-     "height": 13723,
-     "screens": 16.3,
-     "words": 698,
+     "height": 13447,
+     "screens": 15.9,
+     "words": 707,
      "img": 16,
      "video": 0,
      "canvas": 0,
-     "svg": 8,
+     "svg": 11,
      "sections": 7,
      "horizontalOverflow": 0,
      "overflowCulprits": [],
@@ -2368,12 +2769,12 @@
       "kind": "heading"
      },
      {
-      "text": "DESIGN DEVELOPMENT PERFORATION EMBOSSING HOT MELT LAMINATION CUTTING QUALITY CONTROL DESIGN DEVELOPMENT PERFORATION EMBOSSING HOT MELT LAMINATION CUTTING QUALITY CONTROL",
-      "words": 20,
-      "chars": 169,
+      "text": "DESIGN DEVELOPMENT",
+      "words": 2,
+      "chars": 18,
       "lines": 1,
-      "size": 44,
-      "vw": 11.3,
+      "size": 32,
+      "vw": 8.2,
       "font": "Barlow Condensed",
       "weight": 700,
       "tracking": -0.02,
@@ -2382,10 +2783,241 @@
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 1,
-      "top": 965,
-      "tag": "div",
+      "position": "left",
+      "widthRatio": 0.71,
+      "top": 985,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "PERFORATION",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 985,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "EMBOSSING",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 985,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "HOT MELT LAMINATION",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.71,
+      "top": 985,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "CUTTING",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.33,
+      "top": 985,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "QUALITY CONTROL",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.6,
+      "top": 985,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "DESIGN DEVELOPMENT",
+      "words": 2,
+      "chars": 18,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.71,
+      "top": 985,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "PERFORATION",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.47,
+      "top": 985,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "EMBOSSING",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.41,
+      "top": 985,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "HOT MELT LAMINATION",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.71,
+      "top": 985,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "CUTTING",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.33,
+      "top": 985,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "QUALITY CONTROL",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.6,
+      "top": 985,
+      "tag": "li",
       "kind": "statement"
      },
      {
@@ -2405,7 +3037,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.98,
-      "top": 1321,
+      "top": 1302,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2426,7 +3058,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 1437,
+      "top": 1419,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2447,7 +3079,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 2200,
+      "top": 2181,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2468,7 +3100,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 3042,
+      "top": 3023,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2489,7 +3121,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.32,
-      "top": 3533,
+      "top": 3514,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2510,7 +3142,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 4204,
+      "top": 4185,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2531,7 +3163,7 @@
       "align": "center",
       "position": "left",
       "widthRatio": 0.22,
-      "top": 4381,
+      "top": 4363,
       "tag": "li",
       "kind": "statement"
      },
@@ -2552,7 +3184,7 @@
       "align": "center",
       "position": "center",
       "widthRatio": 0.3,
-      "top": 4381,
+      "top": 4363,
       "tag": "li",
       "kind": "statement"
      },
@@ -2573,7 +3205,7 @@
       "align": "center",
       "position": "right",
       "widthRatio": 0.23,
-      "top": 4381,
+      "top": 4363,
       "tag": "li",
       "kind": "statement"
      },
@@ -2594,7 +3226,7 @@
       "align": "center",
       "position": "left",
       "widthRatio": 0.27,
-      "top": 4413,
+      "top": 4394,
       "tag": "li",
       "kind": "statement"
      },
@@ -2615,7 +3247,7 @@
       "align": "center",
       "position": "center",
       "widthRatio": 0.16,
-      "top": 4413,
+      "top": 4394,
       "tag": "li",
       "kind": "statement"
      },
@@ -2636,7 +3268,7 @@
       "align": "center",
       "position": "center",
       "widthRatio": 0.28,
-      "top": 5481,
+      "top": 5462,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2657,7 +3289,7 @@
       "align": "center",
       "position": "center",
       "widthRatio": 0.44,
-      "top": 6325,
+      "top": 6306,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2678,7 +3310,7 @@
       "align": "center",
       "position": "center",
       "widthRatio": 0.3,
-      "top": 7169,
+      "top": 7150,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2699,7 +3331,7 @@
       "align": "center",
       "position": "center",
       "widthRatio": 0.38,
-      "top": 8013,
+      "top": 7994,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2720,7 +3352,7 @@
       "align": "center",
       "position": "center",
       "widthRatio": 0.15,
-      "top": 8857,
+      "top": 8838,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2741,7 +3373,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 9849,
+      "top": 9830,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2762,7 +3394,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 10068,
+      "top": 10049,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2783,7 +3415,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 10222,
+      "top": 10203,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2804,7 +3436,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 10263,
+      "top": 10244,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2825,35 +3457,14 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 10305,
+      "top": 10286,
       "tag": "h3",
       "kind": "heading"
      },
      {
-      "text": "contact@ jundesigntech.in",
-      "words": 2,
-      "chars": 25,
-      "lines": 2,
-      "size": 39,
-      "vw": 10,
-      "font": "Barlow Condensed",
-      "weight": 500,
-      "tracking": -0.02,
-      "leading": 0.9,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 0.9,
-      "top": 10764,
-      "tag": "a",
-      "kind": "heading"
-     },
-     {
-      "text": "ENQUIRY FORM",
-      "words": 2,
-      "chars": 12,
+      "text": "TALK TO OUR TEAM",
+      "words": 4,
+      "chars": 16,
       "lines": 1,
       "size": 32,
       "vw": 8.2,
@@ -2867,7 +3478,28 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 11366,
+      "top": 10503,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SEND AN ENQUIRY",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 11143,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2888,7 +3520,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 13056,
+      "top": 12780,
       "tag": "li",
       "kind": "statement"
      },
@@ -2909,7 +3541,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 13094,
+      "top": 12817,
       "tag": "li",
       "kind": "statement"
      },
@@ -2930,7 +3562,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 13131,
+      "top": 12855,
       "tag": "li",
       "kind": "statement"
      },
@@ -2951,37 +3583,16 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 13169,
-      "tag": "li",
-      "kind": "statement"
-     },
-     {
-      "text": "CONTACT",
-      "words": 1,
-      "chars": 7,
-      "lines": 1,
-      "size": 22,
-      "vw": 5.6,
-      "font": "Barlow Condensed",
-      "weight": 700,
-      "tracking": -0.02,
-      "leading": 0.9,
-      "upper": true,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 0.92,
-      "top": 13206,
+      "top": 12892,
       "tag": "li",
       "kind": "statement"
      }
     ],
     "headingSummary": {
-     "count": 30,
-     "maxLines": 2,
+     "count": 41,
+     "maxLines": 1,
      "over2Lines": 0,
-     "statements": 11,
+     "statements": 22,
      "centered": 10,
      "medianWords": 1,
      "mixedFontHeadings": 0
@@ -3006,11 +3617,10 @@
       20,
       22,
       32,
-      39,
       40,
       44
      ],
-     "sizeCount": 8,
+     "sizeCount": 7,
      "notLoaded": [],
      "body": {
       "font": "Barlow",
@@ -3025,7 +3635,7 @@
       "size": 44,
       "vw": 11.3,
       "font": "Barlow Condensed",
-      "text": "Design Development"
+      "text": "Design"
      },
      "monoShare": 0,
      "monoProseShare": 0,
@@ -3069,7 +3679,7 @@
       },
       {
        "color": "#f0f0ee",
-       "top": 2946,
+       "top": 2927,
        "hsl": {
         "h": 60,
         "s": 0.06,
@@ -3078,7 +3688,7 @@
       },
       {
        "color": "#0f0f0e",
-       "top": 5222,
+       "top": 5204,
        "hsl": {
         "h": 60,
         "s": 0.03,
@@ -3086,8 +3696,17 @@
        }
       },
       {
+       "color": "#232322",
+       "top": 11119,
+       "hsl": {
+        "h": 60,
+        "s": 0.01,
+        "l": 0.14
+       }
+      },
+      {
        "color": "#fa003f",
-       "top": 12482,
+       "top": 12206,
        "hsl": {
         "h": 345,
         "s": 1,
@@ -3098,11 +3717,11 @@
      "textColors": [
       {
        "color": "#ffffff",
-       "share": 0.5
+       "share": 0.54
       },
       {
        "color": "#161615",
-       "share": 0.39
+       "share": 0.35
       },
       {
        "color": "#0f0f0e",
@@ -3186,7 +3805,7 @@
      "w": 390,
      "h": 844
     },
-    "pageH": 13723,
+    "pageH": 13447,
     "margins": {
      "left": 16,
      "right": 20
@@ -3219,14 +3838,14 @@
       "sel": "section.bg-ground",
       "tag": "section",
       "top": 965,
-      "height": 259,
+      "height": 240,
       "words": 23,
       "media": 0,
-      "middle": 14,
+      "middle": 1,
       "heading": {
        "text": "Perforation",
-       "size": 44,
-       "tag": "span"
+       "size": 32,
+       "tag": "a"
       },
       "left": 0,
       "right": 0,
@@ -3241,7 +3860,7 @@
      {
       "sel": "section#services.relative.bg-charcoal-900",
       "tag": "section",
-      "top": 1225,
+      "top": 1206,
       "height": 1721,
       "words": 88,
       "media": 2,
@@ -3264,9 +3883,9 @@
      {
       "sel": "section#iso.bg-surface.py-24",
       "tag": "section",
-      "top": 2946,
+      "top": 2927,
       "height": 1162,
-      "words": 67,
+      "words": 63,
       "media": 0,
       "middle": 0,
       "heading": {
@@ -3287,7 +3906,7 @@
      {
       "sel": "div.mx-auto.w-full",
       "tag": "div",
-      "top": 4108,
+      "top": 4089,
       "height": 1114,
       "words": 61,
       "media": 1,
@@ -3310,7 +3929,7 @@
      {
       "sel": "article#design-development.relative.h-svh",
       "tag": "article",
-      "top": 5222,
+      "top": 5204,
       "height": 844,
       "words": 45,
       "media": 1,
@@ -3333,7 +3952,7 @@
      {
       "sel": "article#perforation.relative.h-svh",
       "tag": "article",
-      "top": 6066,
+      "top": 6048,
       "height": 844,
       "words": 40,
       "media": 1,
@@ -3356,7 +3975,7 @@
      {
       "sel": "article#embossing.relative.h-svh",
       "tag": "article",
-      "top": 6910,
+      "top": 6892,
       "height": 844,
       "words": 42,
       "media": 1,
@@ -3379,7 +3998,7 @@
      {
       "sel": "article#hot-melt-lamination.relative.h-svh",
       "tag": "article",
-      "top": 7754,
+      "top": 7736,
       "height": 844,
       "words": 40,
       "media": 1,
@@ -3402,7 +4021,7 @@
      {
       "sel": "article#cutting.relative.h-svh",
       "tag": "article",
-      "top": 8598,
+      "top": 8580,
       "height": 844,
       "words": 40,
       "media": 1,
@@ -3425,7 +4044,7 @@
      {
       "sel": "section#quality.bg-ground.py-24",
       "tag": "section",
-      "top": 9442,
+      "top": 9424,
       "height": 984,
       "words": 57,
       "media": 1,
@@ -3446,45 +4065,22 @@
       "pinned": false
      },
      {
-      "sel": "div.mx-auto.w-full",
-      "tag": "div",
-      "top": 10426,
-      "height": 844,
-      "words": 47,
+      "sel": "section#contact.bg-charcoal-950.text-white",
+      "tag": "section",
+      "top": 10407,
+      "height": 1799,
+      "words": 86,
       "media": 0,
       "middle": 0,
       "heading": {
-       "text": "contact",
-       "size": 39,
-       "tag": "a"
-      },
-      "left": 20,
-      "right": 39,
-      "textLeft": 20,
-      "textRight": 39,
-      "fullBleed": false,
-      "footer": false,
-      "hero": false,
-      "continues": true,
-      "pinned": false
-     },
-     {
-      "sel": "div.bg-surface.text-charcoal-900",
-      "tag": "div",
-      "top": 11270,
-      "height": 1212,
-      "words": 31,
-      "media": 0,
-      "middle": 0,
-      "heading": {
-       "text": "Enquiry form",
+       "text": "Talk to our team",
        "size": 32,
-       "tag": "h3"
+       "tag": "h2"
       },
       "left": 20,
-      "right": 23,
+      "right": 21,
       "textLeft": 20,
-      "textRight": 23,
+      "textRight": 21,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -3494,7 +4090,7 @@
      {
       "sel": "footer.grid.bg-rose-600",
       "tag": "footer",
-      "top": 12482,
+      "top": 12206,
       "height": 1241,
       "words": 49,
       "media": 0,
@@ -3524,18 +4120,18 @@
     "edges": [
      {
       "x": 16,
-      "n": 18
+      "n": 17
      },
      {
       "x": 44,
-      "n": 15
+      "n": 17
      },
      {
       "x": 158,
       "n": 1
      }
     ],
-    "leftBlocks": 34,
+    "leftBlocks": 35,
     "bodySize": 17,
     "stage": false,
     "explains": true,

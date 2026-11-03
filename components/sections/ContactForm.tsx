@@ -6,8 +6,9 @@ import { services } from "@/lib/site";
 type Status = "idle" | "submitting" | "success";
 type Errors = Partial<Record<"name" | "email" | "message", string>>;
 
+// Dark fields for the charcoal contact panel; the border only appears on focus.
 const inputClass =
-  "w-full border border-charcoal-300 bg-white px-4 py-3.5 text-body text-charcoal-900 placeholder:text-charcoal-500 transition-colors focus:border-charcoal-900 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-600";
+  "w-full border border-transparent bg-charcoal-900 px-4 py-3.5 text-body text-white placeholder:text-white/50 transition-colors focus:border-white focus:outline-none";
 
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -43,7 +44,7 @@ export function ContactForm() {
   if (status === "success") {
     return (
       <div className="flex min-h-[420px] flex-col items-center justify-center text-center" role="status">
-        <span className="flex h-16 w-16 items-center justify-center bg-rose-600 text-white">
+        <span className="flex h-16 w-16 items-center justify-center rounded-full bg-rose-700 text-white">
           <svg viewBox="0 0 24 24" fill="none" className="h-8 w-8" aria-hidden>
             <path
               d="m5 12.5 4.5 4.5L19 7.5"
@@ -54,16 +55,16 @@ export function ContactForm() {
             />
           </svg>
         </span>
-        <h3 className="mt-6 font-display text-sub font-bold uppercase text-charcoal-900">
+        <h3 className="mt-6 font-display text-sub font-bold uppercase text-white">
           Thank you for your enquiry
         </h3>
-        <p className="mt-3 max-w-sm text-body text-charcoal-900">
+        <p className="mt-3 max-w-sm text-body text-white/80">
           We have received your details. A member of our team will get back to you soon.
         </p>
         <button
           type="button"
           onClick={() => setStatus("idle")}
-          className="mt-8 text-body font-semibold text-rose-700 underline-offset-4 hover:underline"
+          className="mt-8 text-body font-semibold text-rose-400 underline-offset-4 hover:underline"
         >
           Send another enquiry
         </button>
@@ -73,7 +74,7 @@ export function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} noValidate className="grid gap-5 sm:grid-cols-2">
-      <Field label="Full Name" htmlFor="name" required error={errors.name}>
+      <Field label="Full name" htmlFor="name" required error={errors.name}>
         <input id="name" name="name" type="text" autoComplete="name" placeholder="Your name" className={inputClass} />
       </Field>
       <Field label="Company" htmlFor="company">
@@ -85,7 +86,7 @@ export function ContactForm() {
       <Field label="Phone" htmlFor="phone">
         <input id="phone" name="phone" type="tel" autoComplete="tel" placeholder="Phone number" className={inputClass} />
       </Field>
-      <Field label="Service of Interest" htmlFor="service" className="sm:col-span-2">
+      <Field label="Service of interest" htmlFor="service" className="sm:col-span-2">
         <select id="service" name="service" defaultValue="" className={`${inputClass} appearance-none`}>
           <option value="" disabled>
             Select a service
@@ -114,7 +115,7 @@ export function ContactForm() {
           disabled={status === "submitting"}
           className="inline-flex w-full items-center justify-center bg-rose-700 px-8 py-4 text-body font-semibold text-white transition-[background-color,transform] duration-200 hover:bg-rose-800 active:scale-[0.97] disabled:cursor-wait disabled:opacity-70 sm:w-auto"
         >
-          {status === "submitting" ? "Sending…" : "Submit Enquiry"}
+          {status === "submitting" ? "Sending…" : "Send enquiry"}
         </button>
       </div>
     </form>
@@ -133,13 +134,13 @@ type FieldProps = {
 function Field({ label, htmlFor, required, error, className = "", children }: FieldProps) {
   return (
     <div className={className}>
-      <label htmlFor={htmlFor} className="mb-2 block text-body font-semibold text-charcoal-900">
+      <label htmlFor={htmlFor} className="mb-2 block text-body font-medium text-white">
         {label}
-        {required && <span className="ml-1 text-rose-700">*</span>}
+        {required && <span className="ml-1 text-rose-400">*</span>}
       </label>
       {children}
       {error && (
-        <p className="mt-2 text-small font-medium text-rose-700" role="alert">
+        <p className="mt-2 text-small font-medium text-rose-300" role="alert">
           {error}
         </p>
       )}
