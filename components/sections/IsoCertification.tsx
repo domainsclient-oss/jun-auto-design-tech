@@ -1,3 +1,4 @@
+import { ClipboardCheck, FileText, ScanBarcode, TrendingUp } from "lucide-react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/Container";
@@ -6,16 +7,16 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { isoDetails, siteConfig } from "@/lib/site";
 
 const commitments = [
-  { title: "Documented, repeatable processes", text: "Every process runs to a written method." },
-  { title: "Defined inspection and approval stages", text: "Work moves on only once it is checked." },
-  { title: "Record keeping and traceability", text: "Each batch can be traced and reviewed." },
-  { title: "Continuous improvement", text: "Findings feed back into how we work." },
+  { title: "Documented, repeatable processes", text: "Every process runs to a written method.", Icon: FileText },
+  { title: "Defined inspection and approval stages", text: "Work moves on only once it is checked.", Icon: ClipboardCheck },
+  { title: "Record keeping and traceability", text: "Each batch can be traced and reviewed.", Icon: ScanBarcode },
+  { title: "Continuous improvement", text: "Findings feed back into how we work.", Icon: TrendingUp },
 ];
 
 const tableRowClass = "border-b border-charcoal-100 transition-colors duration-200 last:border-b-0 hover:bg-surface"; // taste-skill-ignore: a real table keeps its row lines
 
 /**
- * Quality on record: the commitments as a check list whose ticks draw in turn, beside the
+ * Quality on record: the commitments, each with its own icon, rising in turn beside the
  * certificate set as a document card on an offset brand-red plate.
  */
 export function IsoCertification() {
@@ -47,17 +48,7 @@ export function IsoCertification() {
             {commitments.map((item, index) => (
               <Reveal as="li" key={item.title} delay={120 + index * 110} className="group flex items-start gap-5">
                 <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white text-rose-600 transition-colors duration-300 group-hover:bg-rose-600 group-hover:text-white">
-                  <svg viewBox="0 0 24 24" fill="none" className="h-5 w-5" aria-hidden>
-                    <path
-                      d="m5 12.5 4.5 4.5L19 7.5"
-                      stroke="currentColor"
-                      strokeWidth="2.4"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="check-draw"
-                      style={{ transitionDelay: `${320 + index * 110}ms` }}
-                    />
-                  </svg>
+                  <item.Icon className="h-5 w-5 transition-transform duration-300 group-hover:scale-110" strokeWidth={2} aria-hidden />
                 </span>
                 <span className="pt-1">
                   <span className="block text-body font-semibold text-charcoal-900">{item.title}</span>
