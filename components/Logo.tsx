@@ -13,10 +13,10 @@ export function Logo({ tone = "dark", tile = "rose", className = "" }: LogoProps
     <a
       href="#top"
       aria-label={`${siteConfig.name}, back to top`}
-      className={`flex items-center gap-3 ${className}`}
+      className={`group flex items-center gap-3 ${className}`}
     >
       <span
-        className={`relative flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-lg ${
+        className={`relative flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-[0.5rem] transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-105 ${
           tile === "dark" ? "bg-charcoal-950" : "bg-rose-600"
         }`}
       >
@@ -33,7 +33,7 @@ export function Logo({ tone = "dark", tile = "rose", className = "" }: LogoProps
         </svg>
       </span>
       <span
-        className={`font-display text-lead font-bold uppercase leading-none ${
+        className={`whitespace-nowrap font-display text-body font-bold uppercase leading-none sm:text-lead ${
           tone === "light" ? "text-white" : "text-charcoal-900"
         }`}
       >

@@ -7,10 +7,12 @@ type RevealProps = {
   as?: ElementType;
   delay?: number;
   className?: string;
+  /** "rise" fades and lifts; "clip" opens the element upward from its bottom edge (for pictures). */
+  variant?: "rise" | "clip";
 };
 
-/** Fades and lifts its children into view the first time they scroll on screen. */
-export function Reveal({ children, as: Tag = "div", delay = 0, className = "" }: RevealProps) {
+/** Brings its children into view the first time they scroll on screen. */
+export function Reveal({ children, as: Tag = "div", delay = 0, className = "", variant = "rise" }: RevealProps) {
   const ref = useRef<HTMLElement>(null);
 
   useEffect(() => {
@@ -34,7 +36,7 @@ export function Reveal({ children, as: Tag = "div", delay = 0, className = "" }:
   return (
     <Tag
       ref={ref}
-      className={`reveal ${className}`}
+      className={`${variant === "clip" ? "reveal-clip" : "reveal"} ${className}`}
       style={{ "--reveal-delay": `${delay}ms` } as CSSProperties}
     >
       {children}

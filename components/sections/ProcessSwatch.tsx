@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, type ReactNode } from "react";
+import { Reveal } from "@/components/ui/Reveal";
 import { processes } from "@/lib/site";
 
 type ProcessId = (typeof processes)[number]["id"];
@@ -45,10 +46,10 @@ export function ProcessSwatch({ intro }: { intro?: ReactNode }) {
 
   return (
     <div className="grid gap-10 lg:grid-cols-12 lg:gap-8">
-      <div className="lg:col-span-5 lg:flex lg:flex-col lg:justify-between">
+      <div className="lg:col-span-6 lg:flex lg:flex-col lg:justify-between">
         <div>
         {intro}
-        <ul className="mt-10 flex flex-wrap gap-3 lg:flex-col lg:gap-5" aria-label="Processes applied to the swatch">
+        <ul className="mt-10 grid gap-2 sm:grid-cols-2 lg:grid-cols-1" aria-label="Processes applied to the swatch">
           {processes.map((process) => {
             const on = has(process.id);
             return (
@@ -57,17 +58,34 @@ export function ProcessSwatch({ intro }: { intro?: ReactNode }) {
                   type="button"
                   aria-pressed={on}
                   onClick={() => toggle(process.id)}
-                  className={`group flex items-center gap-4 font-display text-sub font-bold uppercase transition-[color,transform] duration-200 active:scale-[0.98] ${
-                    on ? "text-charcoal-900" : "text-charcoal-500 hover:text-charcoal-900"
+                  className={`group flex w-full items-center gap-4 px-4 py-3 text-left transition-[color,background-color,transform] duration-200 active:scale-[0.99] ${
+                    on ? "bg-surface text-charcoal-900" : "text-charcoal-500 hover:bg-surface hover:text-charcoal-900"
                   }`}
                 >
+                  <span className="min-w-0 flex-1">
+                    <span className="block font-display text-sub font-bold uppercase leading-tight">{process.verb}</span>
+                    <span className="block text-small text-charcoal-700">{process.caption}</span>
+                  </span>
+                  {/* On/off switch: the knob slides across a track that turns brand red when on. */}
                   <span
-                    className={`h-4 w-4 shrink-0 transition-colors duration-200 sm:h-5 sm:w-5 ${
-                      on ? "bg-rose-600" : "bg-charcoal-100 group-hover:bg-charcoal-300"
+                    className={`relative inline-flex h-9 w-[4.5rem] shrink-0 items-center rounded-full transition-colors duration-300 ${
+                      on ? "bg-rose-600" : "bg-charcoal-100 group-hover:bg-charcoal-300/60"
                     }`}
                     aria-hidden
-                  />
-                  {process.verb}
+                  >
+                    <span
+                      className={`absolute text-[0.6875rem] font-bold tracking-wide transition-opacity duration-200 ${
+                        on ? "left-3 text-white opacity-100" : "right-2.5 text-charcoal-500 opacity-100"
+                      }`}
+                    >
+                      {on ? "ON" : "OFF"}
+                    </span>
+                    <span
+                      className={`absolute top-1 h-7 w-7 rounded-full bg-white shadow-[0_1px_3px_rgb(0_0_0/0.25)] transition-[left] duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+                        on ? "left-[calc(100%-2rem)]" : "left-1"
+                      }`}
+                    />
+                  </span>
                 </button>
               </li>
             );
@@ -97,7 +115,15 @@ export function ProcessSwatch({ intro }: { intro?: ReactNode }) {
         </div>
       </div>
 
-      <figure className="bg-surface lg:col-span-7">
+      <Reveal as="figure" delay={120} className="relative bg-charcoal-900 lg:col-span-6">
+        <div className="flex items-center justify-between gap-4 px-6 pt-6 text-small text-white sm:px-8 sm:pt-8" aria-live="polite">
+          <span className="font-semibold">Seat face swatch</span>
+          <span>
+            <span className="font-display text-lead font-bold text-rose-500">{applied.length}</span>
+            <span className="text-white/70"> of {processes.length} applied</span>
+          </span>
+        </div>
+        <div className="mx-6 mt-5 bg-surface sm:mx-8">
         <svg
           viewBox="0 0 400 520"
           role="img"
@@ -174,12 +200,13 @@ export function ProcessSwatch({ intro }: { intro?: ReactNode }) {
             opacity={cut ? 1 : 0}
           />
         </svg>
-        <figcaption className="px-6 pb-6 text-small text-charcoal-900 sm:px-8 sm:pb-8">
+        </div>
+        <figcaption className="px-6 pb-6 pt-4 text-small text-white/80 sm:px-8 sm:pb-8">
           {laminated
             ? "Edge, top to bottom: face material, hot melt adhesive, foam, scrim."
             : "A swatch of seat face material, drawn to show what each process adds."}
         </figcaption>
-      </figure>
+      </Reveal>
     </div>
   );
 }

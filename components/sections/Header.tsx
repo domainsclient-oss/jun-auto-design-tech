@@ -2,11 +2,12 @@
 
 import { useEffect, useState } from "react";
 import { Logo } from "@/components/Logo";
+import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/Container";
+import { Sheet, SheetClose, SheetContent, SheetDescription, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { navLinks } from "@/lib/site";
 
 export function Header() {
-  const [menuOpen, setMenuOpen] = useState(false);
   const [activeId, setActiveId] = useState<string>("");
 
   // Highlight the link of the section in view; the hero is observed so nothing stays lit at the top.
@@ -28,22 +29,12 @@ export function Header() {
     return () => observer.disconnect();
   }, []);
 
-  // Lock page scroll while the phone menu is open.
-  useEffect(() => {
-    document.body.style.overflow = menuOpen ? "hidden" : "";
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, [menuOpen]);
-
   return (
-    <header
-      className="fixed inset-x-0 top-0 z-50 bg-white"
-    >
+    <header className="fixed inset-x-0 top-0 z-50 bg-white">
       <Container className="flex h-20 items-center justify-between">
         <Logo tone="dark" />
 
-        <nav aria-label="Primary" className="hidden lg:block">
+        <nav aria-label="Primary" className="hidden xl:block">
           <ul className="flex items-center gap-9">
             {navLinks.map((link) => {
               const isActive = activeId === link.href.slice(1);
@@ -52,8 +43,8 @@ export function Header() {
                   <a
                     href={link.href}
                     aria-current={isActive ? "true" : undefined}
-                    className={`text-body font-medium transition-colors duration-200 hover:text-rose-700 ${
-                      isActive ? "text-rose-700" : "text-charcoal-900"
+                    className={`relative text-body font-medium transition-colors duration-200 after:absolute after:-bottom-1.5 after:left-0 after:h-0.5 after:w-full after:origin-left after:bg-rose-600 after:transition-transform after:duration-300 hover:text-rose-700 hover:after:scale-x-100 ${
+                      isActive ? "text-rose-700 after:scale-x-100" : "text-charcoal-900 after:scale-x-0"
                     }`}
                   >
                     {link.label}
@@ -64,52 +55,47 @@ export function Header() {
           </ul>
         </nav>
 
-        <a
-          href="#contact"
-          className="hidden bg-rose-600 px-6 py-3 text-body font-bold text-white transition-[background-color,transform] duration-200 hover:bg-rose-700 active:scale-[0.97] lg:inline-flex"
-        >
-          Send an enquiry
-        </a>
+        <Button asChild className="hidden h-auto px-6 py-3 text-body font-bold xl:inline-flex">
+          <a href="#contact">Send an enquiry</a>
+        </Button>
 
-        <button
-          type="button"
-          onClick={() => setMenuOpen((open) => !open)}
-          aria-expanded={menuOpen}
-          aria-controls="mobile-menu"
-          className="text-body font-semibold text-charcoal-900 lg:hidden"
-        >
-          {menuOpen ? "Close" : "Menu"}
-        </button>
+        {/* Phone and tablet menu: a shadcn Sheet sliding in from the right. */}
+        <Sheet>
+          <SheetTrigger asChild>
+            <Button variant="ghost" className="h-auto px-3 py-2 text-body font-semibold text-charcoal-900 xl:hidden">
+              Menu
+            </Button>
+          </SheetTrigger>
+          <SheetContent side="right" className="gap-0 bg-white p-0 data-[side=right]:w-full data-[side=right]:sm:max-w-md xl:hidden">
+            <SheetTitle className="sr-only">Menu</SheetTitle>
+            <SheetDescription className="sr-only">Jump to a section of the page</SheetDescription>
+            <div className="flex h-20 items-center pl-4 pr-14 sm:pl-8">
+              <Logo tone="dark" />
+            </div>
+            <div className="flex flex-1 flex-col justify-between px-4 pb-8 pt-6 sm:px-8">
+              <ul className="flex flex-col gap-5">
+                {navLinks.map((link) => (
+                  <li key={link.href}>
+                    <SheetClose asChild>
+                      <a
+                        href={link.href}
+                        className="block font-display text-sub font-bold uppercase text-charcoal-900 transition-[color,transform] duration-200 hover:translate-x-1 hover:text-rose-700"
+                      >
+                        {link.label}
+                      </a>
+                    </SheetClose>
+                  </li>
+                ))}
+              </ul>
+              <SheetClose asChild>
+                <Button asChild size="cta" className="mt-10 w-full">
+                  <a href="#contact">Send an enquiry</a>
+                </Button>
+              </SheetClose>
+            </div>
+          </SheetContent>
+        </Sheet>
       </Container>
-
-      <div
-        id="mobile-menu"
-        hidden={!menuOpen}
-        className="h-[calc(100svh-5rem)] overflow-y-auto bg-white lg:hidden"
-      >
-        <Container className="flex h-full flex-col justify-between py-8">
-          <ul className="flex flex-col gap-4">
-            {navLinks.map((link) => (
-              <li key={link.href}>
-                <a
-                  href={link.href}
-                  onClick={() => setMenuOpen(false)}
-                  className="block font-display text-sub font-bold uppercase text-charcoal-900 transition-colors hover:text-rose-700"
-                >
-                  {link.label}
-                </a>
-              </li>
-            ))}
-          </ul>
-          <a
-            href="#contact"
-            onClick={() => setMenuOpen(false)}
-            className="mt-10 flex w-full items-center justify-center bg-rose-600 px-6 py-4 text-body font-bold text-white transition-colors duration-200 hover:bg-rose-700"
-          >
-            Send an enquiry
-          </a>
-        </Container>
-      </div>
     </header>
   );
 }
