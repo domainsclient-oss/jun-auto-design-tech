@@ -55,7 +55,7 @@ export function Header() {
           </ul>
         </nav>
 
-        <Button asChild className="hidden h-auto px-6 py-3 text-body font-bold xl:inline-flex">
+        <Button asChild className="hidden h-auto px-6 py-3 text-body font-semibold xl:inline-flex">
           <a href="#contact">Send an enquiry</a>
         </Button>
 
@@ -79,7 +79,7 @@ export function Header() {
                     <SheetClose asChild>
                       <a
                         href={link.href}
-                        className="block font-display text-sub font-bold uppercase text-charcoal-900 transition-[color,transform] duration-200 hover:translate-x-1 hover:text-rose-700"
+                        className="block font-display text-sub font-semibold uppercase text-charcoal-900 transition-[color,transform] duration-200 hover:translate-x-1 hover:text-rose-700"
                       >
                         {link.label}
                       </a>

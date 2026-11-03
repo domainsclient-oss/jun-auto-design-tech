@@ -1,6 +1,6 @@
 {
- "url": "http://localhost:3530",
- "at": "2026-11-03T12:13:45.292Z",
+ "url": "http://localhost:3535",
+ "at": "2026-11-03T12:44:57.542Z",
  "allow": [],
  "viewports": [
   {
@@ -13,19 +13,19 @@
     0.78,
     0.99,
     0.91,
-    0.67,
-    0.72,
+    0.68,
+    0.69,
     0.98,
-    0.99,
     0.98,
-    0.99,
-    0.75,
-    0.59
+    0.98,
+    0.98,
+    0.68,
+    0.67
    ],
    "motion": {
-    "elements": 109,
-    "css": 12,
-    "transitions": 97,
+    "elements": 112,
+    "css": 11,
+    "transitions": 101,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -36,10 +36,10 @@
      "h": 900
     },
     "page": {
-     "height": 13315,
-     "screens": 14.8,
-     "words": 894,
-     "img": 16,
+     "height": 12403,
+     "screens": 13.8,
+     "words": 864,
+     "img": 15,
      "video": 0,
      "canvas": 0,
      "svg": 15,
@@ -48,7 +48,7 @@
      "overflowCulprits": [],
      "uiFragments": 0,
      "uiAbuse": false,
-     "realPictures": 15,
+     "realPictures": 14,
      "videoCount": 0,
      "uiPictures": 0,
      "pictureSamples": [
@@ -74,7 +74,7 @@
      "lines": 2,
      "size": 72,
      "vw": 5,
-     "font": "Archivo",
+     "font": "Manrope",
      "weight": 700,
      "tracking": -0.015,
      "leading": 1.02,
@@ -84,7 +84,7 @@
      "align": "left",
      "position": "left",
      "widthRatio": 0.38,
-     "top": 188,
+     "top": 259,
      "tag": "h1",
      "kind": "heading"
     },
@@ -93,7 +93,7 @@
      "words": 4,
      "lines": 2,
      "size": 72,
-     "font": "Archivo"
+     "font": "Manrope"
     },
     "headings": [
      {
@@ -103,7 +103,7 @@
       "lines": 2,
       "size": 72,
       "vw": 5,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -113,7 +113,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.38,
-      "top": 188,
+      "top": 259,
       "tag": "h1",
       "kind": "heading"
      },
@@ -124,7 +124,7 @@
       "lines": 1,
       "size": 56,
       "vw": 3.9,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -133,7 +133,7 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.49,
+      "widthRatio": 0.46,
       "top": 924,
       "tag": "li",
       "kind": "statement"
@@ -145,7 +145,7 @@
       "lines": 1,
       "size": 56,
       "vw": 3.9,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -154,7 +154,7 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.32,
+      "widthRatio": 0.3,
       "top": 924,
       "tag": "li",
       "kind": "statement"
@@ -166,7 +166,7 @@
       "lines": 1,
       "size": 56,
       "vw": 3.9,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -175,7 +175,7 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.28,
+      "widthRatio": 0.26,
       "top": 924,
       "tag": "li",
       "kind": "statement"
@@ -187,7 +187,7 @@
       "lines": 1,
       "size": 56,
       "vw": 3.9,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -195,8 +195,8 @@
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 0.48,
+      "position": "left",
+      "widthRatio": 0.45,
       "top": 924,
       "tag": "li",
       "kind": "statement"
@@ -208,7 +208,7 @@
       "lines": 1,
       "size": 56,
       "vw": 3.9,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -216,8 +216,8 @@
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "right",
-      "widthRatio": 0.22,
+      "position": "center",
+      "widthRatio": 0.21,
       "top": 924,
       "tag": "li",
       "kind": "statement"
@@ -229,7 +229,7 @@
       "lines": 1,
       "size": 56,
       "vw": 3.9,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -238,7 +238,7 @@
       "mono": false,
       "align": "left",
       "position": "right",
-      "widthRatio": 0.41,
+      "widthRatio": 0.39,
       "top": 924,
       "tag": "li",
       "kind": "statement"
@@ -250,7 +250,7 @@
       "lines": 1,
       "size": 56,
       "vw": 3.9,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -259,7 +259,7 @@
       "mono": false,
       "align": "left",
       "position": "right",
-      "widthRatio": 0.49,
+      "widthRatio": 0.46,
       "top": 924,
       "tag": "li",
       "kind": "statement"
@@ -271,7 +271,7 @@
       "lines": 1,
       "size": 56,
       "vw": 3.9,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -280,7 +280,7 @@
       "mono": false,
       "align": "left",
       "position": "right",
-      "widthRatio": 0.32,
+      "widthRatio": 0.3,
       "top": 924,
       "tag": "li",
       "kind": "statement"
@@ -292,7 +292,7 @@
       "lines": 1,
       "size": 56,
       "vw": 3.9,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -301,7 +301,7 @@
       "mono": false,
       "align": "left",
       "position": "right",
-      "widthRatio": 0.28,
+      "widthRatio": 0.26,
       "top": 924,
       "tag": "li",
       "kind": "statement"
@@ -313,7 +313,7 @@
       "lines": 1,
       "size": 56,
       "vw": 3.9,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -322,7 +322,7 @@
       "mono": false,
       "align": "left",
       "position": "right",
-      "widthRatio": 0.48,
+      "widthRatio": 0.45,
       "top": 924,
       "tag": "li",
       "kind": "statement"
@@ -334,7 +334,7 @@
       "lines": 1,
       "size": 56,
       "vw": 3.9,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -343,7 +343,7 @@
       "mono": false,
       "align": "left",
       "position": "right",
-      "widthRatio": 0.22,
+      "widthRatio": 0.21,
       "top": 924,
       "tag": "li",
       "kind": "statement"
@@ -355,7 +355,7 @@
       "lines": 1,
       "size": 56,
       "vw": 3.9,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -364,7 +364,7 @@
       "mono": false,
       "align": "left",
       "position": "right",
-      "widthRatio": 0.41,
+      "widthRatio": 0.39,
       "top": 924,
       "tag": "li",
       "kind": "statement"
@@ -376,7 +376,7 @@
       "lines": 3,
       "size": 36,
       "vw": 2.5,
-      "font": "Plus Jakarta Sans",
+      "font": "Inter",
       "weight": 500,
       "tracking": 0,
       "leading": 1.25,
@@ -397,7 +397,7 @@
       "lines": 1,
       "size": 56,
       "vw": 3.9,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -418,8 +418,8 @@
       "lines": 1,
       "size": 48,
       "vw": 3.3,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
@@ -436,11 +436,11 @@
       "text": "POST PROCESSING",
       "words": 2,
       "chars": 15,
-      "lines": 2,
+      "lines": 1,
       "size": 48,
       "vw": 3.3,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
@@ -457,10 +457,10 @@
       "text": "QUALITY ON RECORD",
       "words": 3,
       "chars": 17,
-      "lines": 2,
+      "lines": 1,
       "size": 56,
       "vw": 3.9,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -470,7 +470,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.41,
-      "top": 3389,
+      "top": 3354,
       "tag": "h2",
       "kind": "heading"
      },
@@ -478,11 +478,11 @@
       "text": "QUALITY SYSTEM",
       "words": 2,
       "chars": 14,
-      "lines": 2,
+      "lines": 1,
       "size": 32,
       "vw": 2.2,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
@@ -491,7 +491,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.18,
-      "top": 3428,
+      "top": 3379,
       "tag": "h3",
       "kind": "heading"
      },
@@ -502,7 +502,7 @@
       "lines": 2,
       "size": 56,
       "vw": 3.9,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -512,7 +512,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.41,
-      "top": 4225,
+      "top": 4176,
       "tag": "h2",
       "kind": "heading"
      },
@@ -523,8 +523,8 @@
       "lines": 1,
       "size": 32,
       "vw": 2.2,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
@@ -532,8 +532,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.33,
-      "top": 4480,
+      "widthRatio": 0.32,
+      "top": 4431,
       "tag": "span",
       "kind": "statement"
      },
@@ -544,8 +544,8 @@
       "lines": 1,
       "size": 32,
       "vw": 2.2,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
@@ -553,8 +553,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.33,
-      "top": 4567,
+      "widthRatio": 0.32,
+      "top": 4518,
       "tag": "span",
       "kind": "statement"
      },
@@ -565,8 +565,8 @@
       "lines": 1,
       "size": 32,
       "vw": 2.2,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
@@ -574,8 +574,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.33,
-      "top": 4654,
+      "widthRatio": 0.32,
+      "top": 4605,
       "tag": "span",
       "kind": "statement"
      },
@@ -586,8 +586,8 @@
       "lines": 1,
       "size": 32,
       "vw": 2.2,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
@@ -595,8 +595,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.33,
-      "top": 4741,
+      "widthRatio": 0.32,
+      "top": 4692,
       "tag": "span",
       "kind": "statement"
      },
@@ -607,8 +607,8 @@
       "lines": 1,
       "size": 32,
       "vw": 2.2,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
@@ -616,8 +616,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.33,
-      "top": 4828,
+      "widthRatio": 0.32,
+      "top": 4779,
       "tag": "span",
       "kind": "statement"
      },
@@ -628,7 +628,7 @@
       "lines": 1,
       "size": 88,
       "vw": 6.1,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -637,8 +637,8 @@
       "mono": false,
       "align": "center",
       "position": "center",
-      "widthRatio": 0.24,
-      "top": 5395,
+      "widthRatio": 0.22,
+      "top": 5346,
       "tag": "h2",
       "kind": "heading"
      },
@@ -649,7 +649,7 @@
       "lines": 1,
       "size": 88,
       "vw": 6.1,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -658,8 +658,8 @@
       "mono": false,
       "align": "center",
       "position": "center",
-      "widthRatio": 0.37,
-      "top": 6295,
+      "widthRatio": 0.34,
+      "top": 6246,
       "tag": "h2",
       "kind": "heading"
      },
@@ -670,7 +670,7 @@
       "lines": 1,
       "size": 88,
       "vw": 6.1,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -679,8 +679,8 @@
       "mono": false,
       "align": "center",
       "position": "center",
-      "widthRatio": 0.27,
-      "top": 7195,
+      "widthRatio": 0.25,
+      "top": 7146,
       "tag": "h2",
       "kind": "heading"
      },
@@ -691,7 +691,7 @@
       "lines": 1,
       "size": 88,
       "vw": 6.1,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -700,8 +700,8 @@
       "mono": false,
       "align": "center",
       "position": "center",
-      "widthRatio": 0.31,
-      "top": 8095,
+      "widthRatio": 0.29,
+      "top": 8046,
       "tag": "h2",
       "kind": "heading"
      },
@@ -712,7 +712,7 @@
       "lines": 1,
       "size": 88,
       "vw": 6.1,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -721,8 +721,8 @@
       "mono": false,
       "align": "center",
       "position": "center",
-      "widthRatio": 0.13,
-      "top": 8995,
+      "widthRatio": 0.12,
+      "top": 8946,
       "tag": "h2",
       "kind": "heading"
      },
@@ -733,7 +733,7 @@
       "lines": 2,
       "size": 56,
       "vw": 3.9,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -743,7 +743,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.41,
-      "top": 9777,
+      "top": 9728,
       "tag": "h2",
       "kind": "heading"
      },
@@ -751,11 +751,11 @@
       "text": "INCOMING MATERIAL INSPECTION",
       "words": 3,
       "chars": 28,
-      "lines": 2,
+      "lines": 1,
       "size": 32,
       "vw": 2.2,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
@@ -764,7 +764,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.37,
-      "top": 10065,
+      "top": 10016,
       "tag": "h3",
       "kind": "heading"
      },
@@ -775,8 +775,8 @@
       "lines": 1,
       "size": 32,
       "vw": 2.2,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
@@ -785,7 +785,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.37,
-      "top": 10170,
+      "top": 10088,
       "tag": "h3",
       "kind": "heading"
      },
@@ -796,8 +796,8 @@
       "lines": 1,
       "size": 32,
       "vw": 2.2,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
@@ -806,7 +806,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.37,
-      "top": 10243,
+      "top": 10161,
       "tag": "h3",
       "kind": "heading"
      },
@@ -814,11 +814,11 @@
       "text": "TRACEABILITY & DOCUMENTATION",
       "words": 3,
       "chars": 28,
-      "lines": 2,
+      "lines": 1,
       "size": 32,
       "vw": 2.2,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
@@ -827,7 +827,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.37,
-      "top": 10425,
+      "top": 10234,
       "tag": "h3",
       "kind": "heading"
      },
@@ -838,7 +838,7 @@
       "lines": 1,
       "size": 56,
       "vw": 3.9,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -848,7 +848,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.41,
-      "top": 10855,
+      "top": 10713,
       "tag": "h2",
       "kind": "heading"
      },
@@ -859,8 +859,8 @@
       "lines": 1,
       "size": 32,
       "vw": 2.2,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
@@ -869,58 +869,16 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.41,
-      "top": 11068,
+      "top": 10925,
       "tag": "h3",
       "kind": "heading"
-     },
-     {
-      "text": "YOUR NEXT INTERIOR STARTS HERE",
-      "words": 5,
-      "chars": 30,
-      "lines": 2,
-      "size": 56,
-      "vw": 3.9,
-      "font": "Archivo",
-      "weight": 700,
-      "tracking": -0.015,
-      "leading": 1.02,
-      "upper": true,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "left",
-      "widthRatio": 0.47,
-      "top": 12319,
-      "tag": "p",
-      "kind": "statement"
-     },
-     {
-      "text": "JUN AUTO",
-      "words": 2,
-      "chars": 8,
-      "lines": 1,
-      "size": 223.2,
-      "vw": 15.5,
-      "font": "Archivo",
-      "weight": 700,
-      "tracking": -0.015,
-      "leading": 1.02,
-      "upper": true,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 0.83,
-      "top": 13016,
-      "tag": "p",
-      "kind": "statement"
      }
     ],
     "headingSummary": {
-     "count": 39,
+     "count": 37,
      "maxLines": 3,
      "over2Lines": 0,
-     "statements": 20,
+     "statements": 18,
      "centered": 5,
      "medianWords": 2,
      "mixedFontHeadings": 0
@@ -928,18 +886,19 @@
     "type": {
      "families": [
       {
-       "family": "Plus Jakarta Sans",
-       "share": 0.89,
+       "family": "Inter",
+       "share": 0.91,
        "mono": false
       },
       {
-       "family": "Archivo",
-       "share": 0.11,
+       "family": "Manrope",
+       "share": 0.09,
        "mono": false
       }
      ],
      "familyCount": 2,
      "sizes": [
+      11,
       15,
       19,
       26,
@@ -948,13 +907,12 @@
       48,
       56,
       72,
-      88,
-      223
+      88
      ],
      "sizeCount": 10,
      "notLoaded": [],
      "body": {
-      "font": "Plus Jakarta Sans",
+      "font": "Inter",
       "size": 19,
       "leading": 1.5,
       "weight": 400,
@@ -963,10 +921,10 @@
      },
      "measureChars": 54,
      "max": {
-      "size": 223.2,
-      "vw": 15.5,
-      "font": "Archivo",
-      "text": "Jun Auto"
+      "size": 88,
+      "vw": 6.1,
+      "font": "Manrope",
+      "text": "Design"
      },
      "monoShare": 0,
      "monoProseShare": 0,
@@ -1019,7 +977,7 @@
       },
       {
        "color": "#f0f0ee",
-       "top": 3252,
+       "top": 3203,
        "hsl": {
         "h": 60,
         "s": 0.06,
@@ -1028,27 +986,18 @@
       },
       {
        "color": "#232322",
-       "top": 10998,
+       "top": 10855,
        "hsl": {
         "h": 60,
         "s": 0.01,
         "l": 0.14
-       }
-      },
-      {
-       "color": "#fa003f",
-       "top": 12498,
-       "hsl": {
-        "h": 345,
-        "s": 1,
-        "l": 0.49
        }
       }
      ],
      "textColors": [
       {
        "color": "#ffffff",
-       "share": 0.51
+       "share": 0.6
       },
       {
        "color": "#161615",
@@ -1056,15 +1005,15 @@
       },
       {
        "color": "#343432",
-       "share": 0.17
-      },
-      {
-       "color": "#0f0f0e",
-       "share": 0.07
+       "share": 0.16
       },
       {
        "color": "#5c5c59",
        "share": 0.02
+      },
+      {
+       "color": "#d10035",
+       "share": 0
       }
      ],
      "button": {
@@ -1076,10 +1025,19 @@
       },
       "fg": "#ffffff"
      },
-     "lowContrast": []
+     "lowContrast": [
+      {
+       "text": "Send an enquiry",
+       "ratio": 4.1,
+       "need": 4.5,
+       "size": 19,
+       "fg": "#ffffff",
+       "bg": "#fa003f"
+      }
+     ]
     },
     "buttons": {
-     "count": 11,
+     "count": 10,
      "inHero": 2,
      "radius": 0,
      "height": 79,
@@ -1105,18 +1063,18 @@
      "outlinedBoxes": 0,
      "dashed": 0,
      "blurred": 0,
-     "roundedBoxes": 0,
-     "boxRadius": 0,
-     "squareMedia": 14,
-     "roundedMedia": 0,
-     "mediaRadius": 0,
+     "roundedBoxes": 2,
+     "boxRadius": 28,
+     "squareMedia": 11,
+     "roundedMedia": 2,
+     "mediaRadius": 28,
      "textShadow": 0,
      "cardRows": []
     },
     "heroMedia": [
      {
       "type": "img",
-      "ratio": 0.4
+      "ratio": 0.41
      }
     ],
     "nav": {
@@ -1127,10 +1085,9 @@
      "blur": false
     },
     "fontsLoaded": [
-     "plus jakarta sans",
-     "plus jakarta sans fallback",
-     "archivo",
-     "archivo fallback"
+     "inter",
+     "inter fallback",
+     "manrope"
     ]
    },
    "layout": {
@@ -1138,7 +1095,7 @@
      "w": 1440,
      "h": 900
     },
-    "pageH": 13315,
+    "pageH": 12403,
     "margins": {
      "left": 120,
      "right": 120
@@ -1149,9 +1106,9 @@
       "tag": "section",
       "top": 0,
       "height": 900,
-      "words": 62,
+      "words": 47,
       "media": 2,
-      "middle": 178,
+      "middle": 176,
       "heading": {
        "text": "Jun Auto",
        "size": 72,
@@ -1172,11 +1129,11 @@
       "tag": "section",
       "top": 900,
       "height": 443,
-      "words": 39,
+      "words": 41,
       "media": 0,
       "middle": 59,
       "heading": {
-       "text": "Perforation",
+       "text": "Hot Melt Lamination",
        "size": 56,
        "tag": "a"
       },
@@ -1194,7 +1151,7 @@
       "sel": "section#services.bg-charcoal-900.py-24",
       "tag": "section",
       "top": 1343,
-      "height": 1909,
+      "height": 1860,
       "words": 114,
       "media": 2,
       "middle": 0,
@@ -1206,7 +1163,7 @@
       "left": 65,
       "right": 65,
       "textLeft": 120,
-      "textRight": 137,
+      "textRight": 143,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -1216,11 +1173,11 @@
      {
       "sel": "section#iso.overflow-hidden.bg-surface",
       "tag": "section",
-      "top": 3252,
+      "top": 3203,
       "height": 861,
       "words": 96,
       "media": 0,
-      "middle": 195,
+      "middle": 217,
       "heading": {
        "text": "Quality on record",
        "size": 56,
@@ -1239,7 +1196,7 @@
      {
       "sel": "div.mx-auto.w-full",
       "tag": "div",
-      "top": 4113,
+      "top": 4064,
       "height": 1052,
       "words": 86,
       "media": 1,
@@ -1262,7 +1219,7 @@
      {
       "sel": "article#design-development.group.relative",
       "tag": "article",
-      "top": 5165,
+      "top": 5116,
       "height": 900,
       "words": 45,
       "media": 0,
@@ -1273,9 +1230,9 @@
        "tag": "h2"
       },
       "left": 152,
-      "right": 550,
+      "right": 563,
       "textLeft": 152,
-      "textRight": 550,
+      "textRight": 563,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -1285,7 +1242,7 @@
      {
       "sel": "article#perforation.group.relative",
       "tag": "article",
-      "top": 6065,
+      "top": 6016,
       "height": 900,
       "words": 40,
       "media": 0,
@@ -1296,9 +1253,9 @@
        "tag": "h2"
       },
       "left": 152,
-      "right": 453,
+      "right": 479,
       "textLeft": 152,
-      "textRight": 453,
+      "textRight": 479,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -1308,7 +1265,7 @@
      {
       "sel": "article#embossing.group.relative",
       "tag": "article",
-      "top": 6965,
+      "top": 6916,
       "height": 900,
       "words": 44,
       "media": 0,
@@ -1319,9 +1276,9 @@
        "tag": "h2"
       },
       "left": 152,
-      "right": 529,
+      "right": 541,
       "textLeft": 152,
-      "textRight": 529,
+      "textRight": 541,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -1331,7 +1288,7 @@
      {
       "sel": "article#hot-melt-lamination.group.relative",
       "tag": "article",
-      "top": 7865,
+      "top": 7816,
       "height": 900,
       "words": 40,
       "media": 0,
@@ -1342,9 +1299,9 @@
        "tag": "h2"
       },
       "left": 152,
-      "right": 496,
+      "right": 511,
       "textLeft": 152,
-      "textRight": 496,
+      "textRight": 511,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -1354,7 +1311,7 @@
      {
       "sel": "article#cutting.group.relative",
       "tag": "article",
-      "top": 8765,
+      "top": 8716,
       "height": 900,
       "words": 40,
       "media": 0,
@@ -1365,9 +1322,9 @@
        "tag": "h2"
       },
       "left": 152,
-      "right": 629,
+      "right": 631,
       "textLeft": 152,
-      "textRight": 629,
+      "textRight": 631,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -1377,9 +1334,9 @@
      {
       "sel": "section#quality.bg-ground.py-24",
       "tag": "section",
-      "top": 9665,
-      "height": 969,
-      "words": 62,
+      "top": 9616,
+      "height": 875,
+      "words": 61,
       "media": 1,
       "middle": 135,
       "heading": {
@@ -1390,7 +1347,7 @@
       "left": 120,
       "right": 120,
       "textLeft": 144,
-      "textRight": 128,
+      "textRight": 129,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -1400,20 +1357,20 @@
      {
       "sel": "section#contact.bg-charcoal-950.text-white",
       "tag": "section",
-      "top": 10634,
+      "top": 10491,
       "height": 1360,
-      "words": 85,
+      "words": 89,
       "media": 0,
-      "middle": 91,
+      "middle": 57,
       "heading": {
-       "text": "Send an enquiry",
-       "size": 32,
-       "tag": "h3"
+       "text": "Talk",
+       "size": 56,
+       "tag": "h2"
       },
-      "left": 188,
-      "right": 152,
-      "textLeft": 188,
-      "textRight": 152,
+      "left": 120,
+      "right": 140,
+      "textLeft": 120,
+      "textRight": 140,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -1421,22 +1378,22 @@
       "pinned": false
      },
      {
-      "sel": "footer.text-charcoal-950",
+      "sel": "footer.bg-charcoal-900.text-white",
       "tag": "footer",
-      "top": 11994,
-      "height": 1322,
-      "words": 76,
+      "top": 11851,
+      "height": 552,
+      "words": 68,
       "media": 0,
-      "middle": 147,
+      "middle": 112,
       "heading": {
-       "text": "Your next interior starts here",
-       "size": 56,
-       "tag": "p"
+       "text": "Jun Auto Design Tech",
+       "size": 26,
+       "tag": "span"
       },
       "left": 120,
-      "right": 137,
+      "right": 130,
       "textLeft": 120,
-      "textRight": 137,
+      "textRight": 130,
       "fullBleed": false,
       "footer": true,
       "hero": false,
@@ -1446,15 +1403,15 @@
     ],
     "gaps": [
      {
-      "top": 12952,
-      "height": 304
+      "top": 3068,
+      "height": 272
      }
     ],
     "h1s": [
      {
       "text": "JUN AUTO DESIGN TECH",
       "size": 72,
-      "top": 188,
+      "top": 259,
       "firstScreen": true
      }
     ],
@@ -1462,7 +1419,7 @@
     "edges": [
      {
       "x": 120,
-      "n": 11
+      "n": 12
      },
      {
       "x": 152,
@@ -1475,6 +1432,18 @@
      {
       "x": 736,
       "n": 2
+     },
+     {
+      "x": 264,
+      "n": 1
+     },
+     {
+      "x": 348,
+      "n": 1
+     },
+     {
+      "x": 475,
+      "n": 1
      },
      {
       "x": 839,
@@ -1493,17 +1462,17 @@
       "n": 1
      }
     ],
-    "leftBlocks": 29,
+    "leftBlocks": 33,
     "bodySize": 19,
     "stage": false,
     "explains": true,
     "slivers": [],
-    "voidShare": 0.07,
+    "voidShare": 0.11,
     "voidBox": {
      "x": 0,
-     "y": 120,
-     "w": 120,
-     "h": 780
+     "y": 720,
+     "w": 780,
+     "h": 180
     }
    },
    "app": null,
@@ -1515,23 +1484,23 @@
    "load": "load",
    "screens": 12,
    "filled": [
-    0.5,
-    0.76,
-    0.99,
+    0.59,
+    0.71,
     0.97,
     0.96,
-    0.39,
-    0.69,
-    0.9,
+    0.97,
+    0.45,
+    0.76,
+    0.97,
     0.97,
     0.97,
     0.97,
     0.97
    ],
    "motion": {
-    "elements": 92,
-    "css": 12,
-    "transitions": 80,
+    "elements": 89,
+    "css": 11,
+    "transitions": 78,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -1542,10 +1511,10 @@
      "h": 1024
     },
     "page": {
-     "height": 16847,
-     "screens": 16.5,
-     "words": 888,
-     "img": 16,
+     "height": 16215,
+     "screens": 15.8,
+     "words": 857,
+     "img": 15,
      "video": 0,
      "canvas": 0,
      "svg": 15,
@@ -1560,7 +1529,7 @@
      "pictureSamples": [
       "image?url=%2Fimages%2Fhero-interior.jpg&w=640&q=",
       "image?url=%2Fimages%2Fprocess-perforation.jpg&w=",
-      "image?url=%2Fimages%2Fprocess-embossing.jpg&w=25",
+      "image?url=%2Fimages%2Fprocess-embossing.jpg&w=82",
       "image?url=%2Fimages%2Fservice-design.jpg&w=828&q",
       "image?url=%2Fimages%2Fservice-post.jpg&w=828&q=7",
       "image?url=%2Fimages%2Fprocess-design.jpg&w=828&q",
@@ -1580,7 +1549,7 @@
      "lines": 2,
      "size": 51.6,
      "vw": 6.7,
-     "font": "Archivo",
+     "font": "Manrope",
      "weight": 700,
      "tracking": -0.015,
      "leading": 1.02,
@@ -1599,7 +1568,7 @@
      "words": 4,
      "lines": 2,
      "size": 51.6,
-     "font": "Archivo"
+     "font": "Manrope"
     },
     "headings": [
      {
@@ -1609,7 +1578,7 @@
       "lines": 2,
       "size": 51.6,
       "vw": 6.7,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -1630,7 +1599,7 @@
       "lines": 1,
       "size": 40.8,
       "vw": 5.3,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -1639,8 +1608,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.68,
-      "top": 1488,
+      "widthRatio": 0.63,
+      "top": 1351,
       "tag": "li",
       "kind": "statement"
      },
@@ -1651,7 +1620,7 @@
       "lines": 1,
       "size": 40.8,
       "vw": 5.3,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -1660,8 +1629,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.44,
-      "top": 1488,
+      "widthRatio": 0.41,
+      "top": 1351,
       "tag": "li",
       "kind": "statement"
      },
@@ -1672,7 +1641,7 @@
       "lines": 1,
       "size": 40.8,
       "vw": 5.3,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -1681,8 +1650,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.39,
-      "top": 1488,
+      "widthRatio": 0.37,
+      "top": 1351,
       "tag": "li",
       "kind": "statement"
      },
@@ -1693,7 +1662,7 @@
       "lines": 1,
       "size": 40.8,
       "vw": 5.3,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -1702,8 +1671,8 @@
       "mono": false,
       "align": "left",
       "position": "right",
-      "widthRatio": 0.66,
-      "top": 1488,
+      "widthRatio": 0.63,
+      "top": 1351,
       "tag": "li",
       "kind": "statement"
      },
@@ -1714,7 +1683,7 @@
       "lines": 1,
       "size": 40.8,
       "vw": 5.3,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -1723,8 +1692,8 @@
       "mono": false,
       "align": "left",
       "position": "right",
-      "widthRatio": 0.3,
-      "top": 1488,
+      "widthRatio": 0.29,
+      "top": 1351,
       "tag": "li",
       "kind": "statement"
      },
@@ -1735,7 +1704,7 @@
       "lines": 1,
       "size": 40.8,
       "vw": 5.3,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -1744,8 +1713,8 @@
       "mono": false,
       "align": "left",
       "position": "right",
-      "widthRatio": 0.56,
-      "top": 1488,
+      "widthRatio": 0.53,
+      "top": 1351,
       "tag": "li",
       "kind": "statement"
      },
@@ -1756,7 +1725,7 @@
       "lines": 1,
       "size": 40.8,
       "vw": 5.3,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -1765,8 +1734,8 @@
       "mono": false,
       "align": "left",
       "position": "right",
-      "widthRatio": 0.68,
-      "top": 1488,
+      "widthRatio": 0.63,
+      "top": 1351,
       "tag": "li",
       "kind": "statement"
      },
@@ -1777,7 +1746,7 @@
       "lines": 1,
       "size": 40.8,
       "vw": 5.3,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -1786,8 +1755,8 @@
       "mono": false,
       "align": "left",
       "position": "right",
-      "widthRatio": 0.44,
-      "top": 1488,
+      "widthRatio": 0.41,
+      "top": 1351,
       "tag": "li",
       "kind": "statement"
      },
@@ -1798,7 +1767,7 @@
       "lines": 1,
       "size": 40.8,
       "vw": 5.3,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -1807,8 +1776,8 @@
       "mono": false,
       "align": "left",
       "position": "right",
-      "widthRatio": 0.39,
-      "top": 1488,
+      "widthRatio": 0.37,
+      "top": 1351,
       "tag": "li",
       "kind": "statement"
      },
@@ -1819,7 +1788,7 @@
       "lines": 1,
       "size": 40.8,
       "vw": 5.3,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -1828,8 +1797,8 @@
       "mono": false,
       "align": "left",
       "position": "right",
-      "widthRatio": 0.66,
-      "top": 1488,
+      "widthRatio": 0.63,
+      "top": 1351,
       "tag": "li",
       "kind": "statement"
      },
@@ -1840,7 +1809,7 @@
       "lines": 1,
       "size": 40.8,
       "vw": 5.3,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -1849,8 +1818,8 @@
       "mono": false,
       "align": "left",
       "position": "right",
-      "widthRatio": 0.3,
-      "top": 1488,
+      "widthRatio": 0.29,
+      "top": 1351,
       "tag": "li",
       "kind": "statement"
      },
@@ -1861,7 +1830,7 @@
       "lines": 1,
       "size": 40.8,
       "vw": 5.3,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -1870,8 +1839,8 @@
       "mono": false,
       "align": "left",
       "position": "right",
-      "widthRatio": 0.56,
-      "top": 1488,
+      "widthRatio": 0.53,
+      "top": 1351,
       "tag": "li",
       "kind": "statement"
      },
@@ -1879,10 +1848,10 @@
       "text": "The stages a seat or trim material passes through with us, at SIPCOT Industrial Park, Sriperumbudur.",
       "words": 16,
       "chars": 100,
-      "lines": 2,
+      "lines": 3,
       "size": 29.9,
       "vw": 3.9,
-      "font": "Plus Jakarta Sans",
+      "font": "Inter",
       "weight": 500,
       "tracking": 0,
       "leading": 1.25,
@@ -1892,7 +1861,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 1613,
+      "top": 1477,
       "tag": "p",
       "kind": "statement"
      },
@@ -1903,7 +1872,7 @@
       "lines": 1,
       "size": 40.8,
       "vw": 5.3,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -1913,7 +1882,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 1977,
+      "top": 1881,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1924,8 +1893,8 @@
       "lines": 1,
       "size": 37.8,
       "vw": 4.9,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
@@ -1934,7 +1903,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 2749,
+      "top": 2653,
       "tag": "h3",
       "kind": "heading"
      },
@@ -1945,8 +1914,8 @@
       "lines": 1,
       "size": 37.8,
       "vw": 4.9,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
@@ -1955,7 +1924,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 3906,
+      "top": 3810,
       "tag": "h3",
       "kind": "heading"
      },
@@ -1966,7 +1935,7 @@
       "lines": 1,
       "size": 40.8,
       "vw": 5.3,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -1976,7 +1945,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 4601,
+      "top": 4505,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1987,7 +1956,7 @@
       "lines": 1,
       "size": 40.8,
       "vw": 5.3,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -1997,7 +1966,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 5897,
+      "top": 5800,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2008,7 +1977,7 @@
       "lines": 1,
       "size": 60.9,
       "vw": 7.9,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -2017,8 +1986,8 @@
       "mono": false,
       "align": "center",
       "position": "center",
-      "widthRatio": 0.31,
-      "top": 7568,
+      "widthRatio": 0.28,
+      "top": 7473,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2029,7 +1998,7 @@
       "lines": 1,
       "size": 60.9,
       "vw": 7.9,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -2038,8 +2007,8 @@
       "mono": false,
       "align": "center",
       "position": "center",
-      "widthRatio": 0.48,
-      "top": 8592,
+      "widthRatio": 0.43,
+      "top": 8497,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2050,7 +2019,7 @@
       "lines": 1,
       "size": 60.9,
       "vw": 7.9,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -2059,8 +2028,8 @@
       "mono": false,
       "align": "center",
       "position": "center",
-      "widthRatio": 0.34,
-      "top": 9616,
+      "widthRatio": 0.32,
+      "top": 9521,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2071,7 +2040,7 @@
       "lines": 1,
       "size": 60.9,
       "vw": 7.9,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -2080,8 +2049,8 @@
       "mono": false,
       "align": "center",
       "position": "center",
-      "widthRatio": 0.4,
-      "top": 10640,
+      "widthRatio": 0.38,
+      "top": 10545,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2092,7 +2061,7 @@
       "lines": 1,
       "size": 60.9,
       "vw": 7.9,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -2102,7 +2071,7 @@
       "align": "center",
       "position": "center",
       "widthRatio": 0.16,
-      "top": 11664,
+      "top": 11569,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2113,7 +2082,7 @@
       "lines": 1,
       "size": 40.8,
       "vw": 5.3,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -2123,7 +2092,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 13101,
+      "top": 13006,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2134,7 +2103,7 @@
       "lines": 1,
       "size": 40.8,
       "vw": 5.3,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -2144,58 +2113,16 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 13812,
+      "top": 13717,
       "tag": "h2",
       "kind": "heading"
-     },
-     {
-      "text": "YOUR NEXT INTERIOR STARTS HERE",
-      "words": 5,
-      "chars": 30,
-      "lines": 2,
-      "size": 40.8,
-      "vw": 5.3,
-      "font": "Archivo",
-      "weight": 700,
-      "tracking": -0.015,
-      "leading": 1.02,
-      "upper": true,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "left",
-      "widthRatio": 0.62,
-      "top": 15840,
-      "tag": "p",
-      "kind": "statement"
-     },
-     {
-      "text": "JUN AUTO",
-      "words": 2,
-      "chars": 8,
-      "lines": 1,
-      "size": 119,
-      "vw": 15.5,
-      "font": "Archivo",
-      "weight": 700,
-      "tracking": -0.015,
-      "leading": 1.02,
-      "upper": true,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 0.92,
-      "top": 16653,
-      "tag": "p",
-      "kind": "statement"
      }
     ],
     "headingSummary": {
-     "count": 28,
-     "maxLines": 2,
+     "count": 26,
+     "maxLines": 3,
      "over2Lines": 0,
-     "statements": 15,
+     "statements": 13,
      "centered": 5,
      "medianWords": 2,
      "mixedFontHeadings": 0
@@ -2203,18 +2130,19 @@
     "type": {
      "families": [
       {
-       "family": "Plus Jakarta Sans",
-       "share": 0.89,
+       "family": "Inter",
+       "share": 0.9,
        "mono": false
       },
       {
-       "family": "Archivo",
-       "share": 0.11,
+       "family": "Manrope",
+       "share": 0.1,
        "mono": false
       }
      ],
      "familyCount": 2,
      "sizes": [
+      11,
       14,
       18,
       23,
@@ -2223,13 +2151,12 @@
       38,
       41,
       52,
-      61,
-      119
+      61
      ],
      "sizeCount": 10,
      "notLoaded": [],
      "body": {
-      "font": "Plus Jakarta Sans",
+      "font": "Inter",
       "size": 17.9,
       "leading": 1.5,
       "weight": 400,
@@ -2238,10 +2165,10 @@
      },
      "measureChars": 57,
      "max": {
-      "size": 119,
-      "vw": 15.5,
-      "font": "Archivo",
-      "text": "Jun Auto"
+      "size": 60.9,
+      "vw": 7.9,
+      "font": "Manrope",
+      "text": "Design"
      },
      "monoShare": 0,
      "monoProseShare": 0,
@@ -2276,7 +2203,7 @@
       },
       {
        "color": "#0f0f0e",
-       "top": 730,
+       "top": 594,
        "hsl": {
         "h": 60,
         "s": 0.03,
@@ -2285,7 +2212,7 @@
       },
       {
        "color": "#161615",
-       "top": 1881,
+       "top": 1785,
        "hsl": {
         "h": 60,
         "s": 0.02,
@@ -2293,8 +2220,17 @@
        }
       },
       {
+       "color": "#232322",
+       "top": 2149,
+       "hsl": {
+        "h": 60,
+        "s": 0.01,
+        "l": 0.14
+       }
+      },
+      {
        "color": "#f0f0ee",
-       "top": 4505,
+       "top": 4409,
        "hsl": {
         "h": 60,
         "s": 0.06,
@@ -2303,27 +2239,18 @@
       },
       {
        "color": "#fa003f",
-       "top": 5181,
+       "top": 5085,
        "hsl": {
         "h": 345,
         "s": 1,
         "l": 0.49
-       }
-      },
-      {
-       "color": "#232322",
-       "top": 14473,
-       "hsl": {
-        "h": 60,
-        "s": 0.01,
-        "l": 0.14
        }
       }
      ],
      "textColors": [
       {
        "color": "#ffffff",
-       "share": 0.52
+       "share": 0.6
       },
       {
        "color": "#161615",
@@ -2331,15 +2258,15 @@
       },
       {
        "color": "#343432",
-       "share": 0.17
-      },
-      {
-       "color": "#0f0f0e",
-       "share": 0.07
+       "share": 0.16
       },
       {
        "color": "#5c5c59",
        "share": 0.02
+      },
+      {
+       "color": "#d10035",
+       "share": 0
       }
      ],
      "button": {
@@ -2349,7 +2276,7 @@
        "s": 0.06,
        "l": 0.94
       },
-      "fg": "#ffffff"
+      "fg": "#161615"
      },
      "lowContrast": [
       {
@@ -2363,7 +2290,7 @@
      ]
     },
     "buttons": {
-     "count": 11,
+     "count": 10,
      "inHero": 2,
      "radius": 0,
      "height": 71,
@@ -2389,18 +2316,18 @@
      "outlinedBoxes": 0,
      "dashed": 0,
      "blurred": 0,
-     "roundedBoxes": 0,
-     "boxRadius": 0,
-     "squareMedia": 14,
-     "roundedMedia": 0,
-     "mediaRadius": 0,
+     "roundedBoxes": 2,
+     "boxRadius": 28,
+     "squareMedia": 11,
+     "roundedMedia": 2,
+     "mediaRadius": 28,
      "textShadow": 0,
      "cardRows": []
     },
     "heroMedia": [
      {
       "type": "img",
-      "ratio": 0.27
+      "ratio": 0.39
      }
     ],
     "nav": {
@@ -2411,10 +2338,9 @@
      "blur": false
     },
     "fontsLoaded": [
-     "plus jakarta sans",
-     "plus jakarta sans fallback",
-     "archivo",
-     "archivo fallback"
+     "inter",
+     "inter fallback",
+     "manrope"
     ]
    },
    "layout": {
@@ -2422,7 +2348,7 @@
      "w": 768,
      "h": 1024
     },
-    "pageH": 16847,
+    "pageH": 16215,
     "margins": {
      "left": 32,
      "right": 32
@@ -2432,8 +2358,8 @@
       "sel": "section#top.bg-ground.pt-20",
       "tag": "section",
       "top": 0,
-      "height": 1468,
-      "words": 62,
+      "height": 1331,
+      "words": 47,
       "media": 1,
       "middle": 0,
       "heading": {
@@ -2454,13 +2380,13 @@
      {
       "sel": "section.bg-ground",
       "tag": "section",
-      "top": 1468,
-      "height": 413,
+      "top": 1331,
+      "height": 454,
       "words": 38,
       "media": 0,
-      "middle": 0,
+      "middle": 47,
       "heading": {
-       "text": "Perforation",
+       "text": "Embossing",
        "size": 41,
        "tag": "a"
       },
@@ -2477,7 +2403,7 @@
      {
       "sel": "section#services.bg-charcoal-900.py-24",
       "tag": "section",
-      "top": 1881,
+      "top": 1785,
       "height": 2624,
       "words": 116,
       "media": 2,
@@ -2488,9 +2414,9 @@
        "tag": "h2"
       },
       "left": 32,
-      "right": 47,
+      "right": 38,
       "textLeft": 32,
-      "textRight": 47,
+      "textRight": 38,
       "fullBleed": true,
       "footer": false,
       "hero": false,
@@ -2500,7 +2426,7 @@
      {
       "sel": "section#iso.overflow-hidden.bg-surface",
       "tag": "section",
-      "top": 4505,
+      "top": 4409,
       "height": 1295,
       "words": 96,
       "media": 0,
@@ -2523,8 +2449,8 @@
      {
       "sel": "div.mx-auto.w-full",
       "tag": "div",
-      "top": 5801,
-      "height": 1484,
+      "top": 5704,
+      "height": 1485,
       "words": 86,
       "media": 1,
       "middle": 0,
@@ -2536,7 +2462,7 @@
       "left": 32,
       "right": 32,
       "textLeft": 32,
-      "textRight": 48,
+      "textRight": 64,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -2546,7 +2472,7 @@
      {
       "sel": "article#design-development.group.relative",
       "tag": "article",
-      "top": 7285,
+      "top": 7190,
       "height": 1024,
       "words": 45,
       "media": 0,
@@ -2557,9 +2483,9 @@
        "tag": "h2"
       },
       "left": 64,
-      "right": 222,
+      "right": 220,
       "textLeft": 64,
-      "textRight": 222,
+      "textRight": 220,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -2569,7 +2495,7 @@
      {
       "sel": "article#perforation.group.relative",
       "tag": "article",
-      "top": 8309,
+      "top": 8214,
       "height": 1024,
       "words": 40,
       "media": 0,
@@ -2580,9 +2506,9 @@
        "tag": "h2"
       },
       "left": 64,
-      "right": 195,
+      "right": 217,
       "textLeft": 64,
-      "textRight": 195,
+      "textRight": 217,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -2592,7 +2518,7 @@
      {
       "sel": "article#embossing.group.relative",
       "tag": "article",
-      "top": 9333,
+      "top": 9238,
       "height": 1024,
       "words": 44,
       "media": 0,
@@ -2603,9 +2529,9 @@
        "tag": "h2"
       },
       "left": 64,
-      "right": 208,
+      "right": 211,
       "textLeft": 64,
-      "textRight": 208,
+      "textRight": 211,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -2615,7 +2541,7 @@
      {
       "sel": "article#hot-melt-lamination.group.relative",
       "tag": "article",
-      "top": 10357,
+      "top": 10262,
       "height": 1024,
       "words": 40,
       "media": 0,
@@ -2626,9 +2552,9 @@
        "tag": "h2"
       },
       "left": 64,
-      "right": 212,
+      "right": 205,
       "textLeft": 64,
-      "textRight": 212,
+      "textRight": 205,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -2638,7 +2564,7 @@
      {
       "sel": "article#cutting.group.relative",
       "tag": "article",
-      "top": 11381,
+      "top": 11286,
       "height": 1024,
       "words": 40,
       "media": 0,
@@ -2649,9 +2575,9 @@
        "tag": "h2"
       },
       "left": 64,
-      "right": 223,
+      "right": 217,
       "textLeft": 64,
-      "textRight": 223,
+      "textRight": 217,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -2661,7 +2587,7 @@
      {
       "sel": "section#quality.bg-ground.py-24",
       "tag": "section",
-      "top": 12405,
+      "top": 12310,
       "height": 1311,
       "words": 32,
       "media": 1,
@@ -2670,7 +2596,7 @@
       "left": 32,
       "right": 32,
       "textLeft": 56,
-      "textRight": 126,
+      "textRight": 188,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -2680,16 +2606,16 @@
      {
       "sel": "section#contact.bg-charcoal-950.text-white",
       "tag": "section",
-      "top": 13716,
+      "top": 13621,
       "height": 1682,
       "words": 85,
       "media": 0,
       "middle": 0,
       "heading": null,
       "left": 32,
-      "right": 72,
+      "right": 71,
       "textLeft": 32,
-      "textRight": 90,
+      "textRight": 71,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -2697,22 +2623,22 @@
       "pinned": false
      },
      {
-      "sel": "footer.text-charcoal-950",
+      "sel": "footer.bg-charcoal-900.text-white",
       "tag": "footer",
-      "top": 15398,
-      "height": 1449,
-      "words": 76,
+      "top": 15302,
+      "height": 913,
+      "words": 68,
       "media": 0,
       "middle": 0,
       "heading": {
-       "text": "Your next interior starts here",
-       "size": 41,
-       "tag": "p"
+       "text": "Company",
+       "size": 14,
+       "tag": "h3"
       },
       "left": 32,
-      "right": 50,
+      "right": 107,
       "textLeft": 32,
-      "textRight": 50,
+      "textRight": 107,
       "fullBleed": false,
       "footer": true,
       "hero": false,
@@ -2761,22 +2687,22 @@
    "load": "load",
    "screens": 12,
    "filled": [
-    0.52,
-    0.82,
-    0.92,
+    0.59,
+    0.72,
     0.99,
-    0.98,
-    0.92,
-    0.48,
-    0.66,
-    0.89,
+    0.99,
+    0.99,
+    0.76,
+    0.53,
+    0.68,
+    0.91,
     0.99,
     0.99,
     0.99
    ],
    "motion": {
-    "elements": 86,
-    "css": 10,
+    "elements": 85,
+    "css": 9,
     "transitions": 76,
     "scripted": 0,
     "videos": 0,
@@ -2788,10 +2714,10 @@
      "h": 844
     },
     "page": {
-     "height": 16054,
-     "screens": 19,
-     "words": 886,
-     "img": 16,
+     "height": 15572,
+     "screens": 18.5,
+     "words": 855,
+     "img": 15,
      "video": 0,
      "canvas": 0,
      "svg": 15,
@@ -2800,7 +2726,7 @@
      "overflowCulprits": [],
      "uiFragments": 0,
      "uiAbuse": false,
-     "realPictures": 11,
+     "realPictures": 12,
      "videoCount": 0,
      "uiPictures": 0,
      "pictureSamples": [
@@ -2826,7 +2752,7 @@
      "lines": 2,
      "size": 40,
      "vw": 10.3,
-     "font": "Archivo",
+     "font": "Manrope",
      "weight": 700,
      "tracking": -0.015,
      "leading": 1.02,
@@ -2845,7 +2771,7 @@
      "words": 4,
      "lines": 2,
      "size": 40,
-     "font": "Archivo"
+     "font": "Manrope"
     },
     "headings": [
      {
@@ -2855,7 +2781,7 @@
       "lines": 2,
       "size": 40,
       "vw": 10.3,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -2876,7 +2802,7 @@
       "lines": 1,
       "size": 32,
       "vw": 8.2,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -2885,8 +2811,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 1.05,
-      "top": 1350,
+      "widthRatio": 0.98,
+      "top": 1196,
       "tag": "li",
       "kind": "statement"
      },
@@ -2897,7 +2823,7 @@
       "lines": 1,
       "size": 32,
       "vw": 8.2,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -2906,8 +2832,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.68,
-      "top": 1350,
+      "widthRatio": 0.63,
+      "top": 1196,
       "tag": "li",
       "kind": "statement"
      },
@@ -2918,7 +2844,7 @@
       "lines": 1,
       "size": 32,
       "vw": 8.2,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -2926,9 +2852,9 @@
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 0.6,
-      "top": 1350,
+      "position": "left",
+      "widthRatio": 0.56,
+      "top": 1196,
       "tag": "li",
       "kind": "statement"
      },
@@ -2939,7 +2865,7 @@
       "lines": 1,
       "size": 32,
       "vw": 8.2,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -2948,8 +2874,8 @@
       "mono": false,
       "align": "left",
       "position": "right",
-      "widthRatio": 1.02,
-      "top": 1350,
+      "widthRatio": 0.96,
+      "top": 1196,
       "tag": "li",
       "kind": "statement"
      },
@@ -2960,7 +2886,7 @@
       "lines": 1,
       "size": 32,
       "vw": 8.2,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -2969,8 +2895,8 @@
       "mono": false,
       "align": "left",
       "position": "right",
-      "widthRatio": 0.46,
-      "top": 1350,
+      "widthRatio": 0.45,
+      "top": 1196,
       "tag": "li",
       "kind": "statement"
      },
@@ -2981,7 +2907,7 @@
       "lines": 1,
       "size": 32,
       "vw": 8.2,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -2990,8 +2916,8 @@
       "mono": false,
       "align": "left",
       "position": "right",
-      "widthRatio": 0.86,
-      "top": 1350,
+      "widthRatio": 0.82,
+      "top": 1196,
       "tag": "li",
       "kind": "statement"
      },
@@ -3002,7 +2928,7 @@
       "lines": 1,
       "size": 32,
       "vw": 8.2,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -3011,8 +2937,8 @@
       "mono": false,
       "align": "left",
       "position": "right",
-      "widthRatio": 1.05,
-      "top": 1350,
+      "widthRatio": 0.98,
+      "top": 1196,
       "tag": "li",
       "kind": "statement"
      },
@@ -3023,7 +2949,7 @@
       "lines": 1,
       "size": 32,
       "vw": 8.2,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -3032,8 +2958,8 @@
       "mono": false,
       "align": "left",
       "position": "right",
-      "widthRatio": 0.68,
-      "top": 1350,
+      "widthRatio": 0.63,
+      "top": 1196,
       "tag": "li",
       "kind": "statement"
      },
@@ -3044,7 +2970,7 @@
       "lines": 1,
       "size": 32,
       "vw": 8.2,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -3053,8 +2979,8 @@
       "mono": false,
       "align": "left",
       "position": "right",
-      "widthRatio": 0.6,
-      "top": 1350,
+      "widthRatio": 0.56,
+      "top": 1196,
       "tag": "li",
       "kind": "statement"
      },
@@ -3065,7 +2991,7 @@
       "lines": 1,
       "size": 32,
       "vw": 8.2,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -3074,8 +3000,8 @@
       "mono": false,
       "align": "left",
       "position": "right",
-      "widthRatio": 1.02,
-      "top": 1350,
+      "widthRatio": 0.96,
+      "top": 1196,
       "tag": "li",
       "kind": "statement"
      },
@@ -3086,7 +3012,7 @@
       "lines": 1,
       "size": 32,
       "vw": 8.2,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -3095,8 +3021,8 @@
       "mono": false,
       "align": "left",
       "position": "right",
-      "widthRatio": 0.46,
-      "top": 1350,
+      "widthRatio": 0.45,
+      "top": 1196,
       "tag": "li",
       "kind": "statement"
      },
@@ -3107,7 +3033,7 @@
       "lines": 1,
       "size": 32,
       "vw": 8.2,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -3116,8 +3042,8 @@
       "mono": false,
       "align": "left",
       "position": "right",
-      "widthRatio": 0.86,
-      "top": 1350,
+      "widthRatio": 0.82,
+      "top": 1196,
       "tag": "li",
       "kind": "statement"
      },
@@ -3128,7 +3054,7 @@
       "lines": 4,
       "size": 24,
       "vw": 6.2,
-      "font": "Plus Jakarta Sans",
+      "font": "Inter",
       "weight": 500,
       "tracking": 0,
       "leading": 1.25,
@@ -3138,7 +3064,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 1466,
+      "top": 1313,
       "tag": "p",
       "kind": "statement"
      },
@@ -3149,7 +3075,7 @@
       "lines": 1,
       "size": 32,
       "vw": 8.2,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -3159,7 +3085,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 1903,
+      "top": 1749,
       "tag": "h2",
       "kind": "heading"
      },
@@ -3170,8 +3096,8 @@
       "lines": 1,
       "size": 32,
       "vw": 8.2,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
@@ -3180,7 +3106,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 2499,
+      "top": 2321,
       "tag": "h3",
       "kind": "heading"
      },
@@ -3191,8 +3117,8 @@
       "lines": 1,
       "size": 32,
       "vw": 8.2,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
@@ -3201,7 +3127,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 3498,
+      "top": 3344,
       "tag": "h3",
       "kind": "heading"
      },
@@ -3212,7 +3138,7 @@
       "lines": 1,
       "size": 32,
       "vw": 8.2,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -3222,7 +3148,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 4337,
+      "top": 4183,
       "tag": "h2",
       "kind": "heading"
      },
@@ -3233,8 +3159,8 @@
       "lines": 1,
       "size": 22,
       "vw": 5.6,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
@@ -3242,8 +3168,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.48,
-      "top": 5006,
+      "widthRatio": 0.45,
+      "top": 4852,
       "tag": "h3",
       "kind": "heading"
      },
@@ -3254,7 +3180,7 @@
       "lines": 2,
       "size": 32,
       "vw": 8.2,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -3264,7 +3190,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 5768,
+      "top": 5614,
       "tag": "h2",
       "kind": "heading"
      },
@@ -3275,17 +3201,17 @@
       "lines": 1,
       "size": 22,
       "vw": 5.6,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 0.64,
-      "top": 5993,
+      "position": "left",
+      "widthRatio": 0.59,
+      "top": 5840,
       "tag": "span",
       "kind": "statement"
      },
@@ -3296,17 +3222,17 @@
       "lines": 1,
       "size": 22,
       "vw": 5.6,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 0.64,
-      "top": 6069,
+      "position": "left",
+      "widthRatio": 0.59,
+      "top": 5915,
       "tag": "span",
       "kind": "statement"
      },
@@ -3317,17 +3243,17 @@
       "lines": 1,
       "size": 22,
       "vw": 5.6,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 0.64,
-      "top": 6144,
+      "position": "left",
+      "widthRatio": 0.59,
+      "top": 5991,
       "tag": "span",
       "kind": "statement"
      },
@@ -3338,17 +3264,17 @@
       "lines": 1,
       "size": 22,
       "vw": 5.6,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 0.64,
-      "top": 6220,
+      "position": "left",
+      "widthRatio": 0.59,
+      "top": 6066,
       "tag": "span",
       "kind": "statement"
      },
@@ -3359,17 +3285,17 @@
       "lines": 1,
       "size": 22,
       "vw": 5.6,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 0.64,
-      "top": 6295,
+      "position": "left",
+      "widthRatio": 0.59,
+      "top": 6141,
       "tag": "span",
       "kind": "statement"
      },
@@ -3380,7 +3306,7 @@
       "lines": 1,
       "size": 44,
       "vw": 11.3,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -3389,8 +3315,8 @@
       "mono": false,
       "align": "center",
       "position": "center",
-      "widthRatio": 0.44,
-      "top": 7397,
+      "widthRatio": 0.4,
+      "top": 7244,
       "tag": "h2",
       "kind": "heading"
      },
@@ -3401,7 +3327,7 @@
       "lines": 1,
       "size": 44,
       "vw": 11.3,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -3410,8 +3336,8 @@
       "mono": false,
       "align": "center",
       "position": "center",
-      "widthRatio": 0.68,
-      "top": 8241,
+      "widthRatio": 0.62,
+      "top": 8088,
       "tag": "h2",
       "kind": "heading"
      },
@@ -3422,7 +3348,7 @@
       "lines": 1,
       "size": 44,
       "vw": 11.3,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -3431,8 +3357,8 @@
       "mono": false,
       "align": "center",
       "position": "center",
-      "widthRatio": 0.49,
-      "top": 9085,
+      "widthRatio": 0.46,
+      "top": 8932,
       "tag": "h2",
       "kind": "heading"
      },
@@ -3443,7 +3369,7 @@
       "lines": 1,
       "size": 44,
       "vw": 11.3,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -3452,8 +3378,8 @@
       "mono": false,
       "align": "center",
       "position": "center",
-      "widthRatio": 0.57,
-      "top": 9929,
+      "widthRatio": 0.53,
+      "top": 9776,
       "tag": "h2",
       "kind": "heading"
      },
@@ -3464,7 +3390,7 @@
       "lines": 1,
       "size": 44,
       "vw": 11.3,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -3474,7 +3400,7 @@
       "align": "center",
       "position": "center",
       "widthRatio": 0.23,
-      "top": 10773,
+      "top": 10620,
       "tag": "h2",
       "kind": "heading"
      },
@@ -3485,7 +3411,7 @@
       "lines": 2,
       "size": 32,
       "vw": 8.2,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -3495,7 +3421,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 11810,
+      "top": 11658,
       "tag": "h2",
       "kind": "heading"
      },
@@ -3506,8 +3432,8 @@
       "lines": 2,
       "size": 22,
       "vw": 5.6,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
@@ -3516,7 +3442,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.75,
-      "top": 12042,
+      "top": 11889,
       "tag": "h3",
       "kind": "heading"
      },
@@ -3527,8 +3453,8 @@
       "lines": 1,
       "size": 22,
       "vw": 5.6,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
@@ -3537,7 +3463,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.75,
-      "top": 12252,
+      "top": 12100,
       "tag": "h3",
       "kind": "heading"
      },
@@ -3548,8 +3474,8 @@
       "lines": 1,
       "size": 22,
       "vw": 5.6,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
@@ -3558,7 +3484,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.75,
-      "top": 12315,
+      "top": 12162,
       "tag": "h3",
       "kind": "heading"
      },
@@ -3569,8 +3495,8 @@
       "lines": 2,
       "size": 22,
       "vw": 5.6,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
@@ -3579,7 +3505,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.75,
-      "top": 12377,
+      "top": 12225,
       "tag": "h3",
       "kind": "heading"
      },
@@ -3590,7 +3516,7 @@
       "lines": 1,
       "size": 32,
       "vw": 8.2,
-      "font": "Archivo",
+      "font": "Manrope",
       "weight": 700,
       "tracking": -0.015,
       "leading": 1.02,
@@ -3600,7 +3526,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 12646,
+      "top": 12493,
       "tag": "h2",
       "kind": "heading"
      },
@@ -3611,8 +3537,8 @@
       "lines": 1,
       "size": 22,
       "vw": 5.6,
-      "font": "Archivo",
-      "weight": 700,
+      "font": "Manrope",
+      "weight": 600,
       "tracking": -0.015,
       "leading": 1.02,
       "upper": true,
@@ -3621,58 +3547,16 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.77,
-      "top": 13450,
+      "top": 13298,
       "tag": "h3",
       "kind": "heading"
-     },
-     {
-      "text": "YOUR NEXT INTERIOR STARTS HERE",
-      "words": 5,
-      "chars": 30,
-      "lines": 2,
-      "size": 32,
-      "vw": 8.2,
-      "font": "Archivo",
-      "weight": 700,
-      "tracking": -0.015,
-      "leading": 1.02,
-      "upper": true,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 0.9,
-      "top": 14791,
-      "tag": "p",
-      "kind": "statement"
-     },
-     {
-      "text": "JUN AUTO",
-      "words": 2,
-      "chars": 8,
-      "lines": 1,
-      "size": 60.5,
-      "vw": 15.5,
-      "font": "Archivo",
-      "weight": 700,
-      "tracking": -0.015,
-      "leading": 1.02,
-      "upper": true,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 0.9,
-      "top": 15920,
-      "tag": "p",
-      "kind": "statement"
      }
     ],
     "headingSummary": {
-     "count": 39,
+     "count": 37,
      "maxLines": 4,
      "over2Lines": 0,
-     "statements": 20,
+     "statements": 18,
      "centered": 5,
      "medianWords": 2,
      "mixedFontHeadings": 0
@@ -3680,18 +3564,19 @@
     "type": {
      "families": [
       {
-       "family": "Plus Jakarta Sans",
-       "share": 0.89,
+       "family": "Inter",
+       "share": 0.9,
        "mono": false
       },
       {
-       "family": "Archivo",
-       "share": 0.11,
+       "family": "Manrope",
+       "share": 0.1,
        "mono": false
       }
      ],
      "familyCount": 2,
      "sizes": [
+      11,
       14,
       17,
       20,
@@ -3699,13 +3584,12 @@
       24,
       32,
       40,
-      44,
-      61
+      44
      ],
      "sizeCount": 9,
      "notLoaded": [],
      "body": {
-      "font": "Plus Jakarta Sans",
+      "font": "Inter",
       "size": 17,
       "leading": 1.5,
       "weight": 400,
@@ -3714,10 +3598,10 @@
      },
      "measureChars": 36,
      "max": {
-      "size": 60.5,
-      "vw": 15.5,
-      "font": "Archivo",
-      "text": "Jun Auto"
+      "size": 44,
+      "vw": 11.3,
+      "font": "Manrope",
+      "text": "Design"
      },
      "monoShare": 0,
      "monoProseShare": 0,
@@ -3752,7 +3636,7 @@
       },
       {
        "color": "#0f0f0e",
-       "top": 807,
+       "top": 653,
        "hsl": {
         "h": 60,
         "s": 0.03,
@@ -3761,7 +3645,7 @@
       },
       {
        "color": "#161615",
-       "top": 1807,
+       "top": 1653,
        "hsl": {
         "h": 60,
         "s": 0.02,
@@ -3770,7 +3654,7 @@
       },
       {
        "color": "#f0f0ee",
-       "top": 4241,
+       "top": 4087,
        "hsl": {
         "h": 60,
         "s": 0.06,
@@ -3779,7 +3663,7 @@
       },
       {
        "color": "#fa003f",
-       "top": 4994,
+       "top": 4840,
        "hsl": {
         "h": 345,
         "s": 1,
@@ -3788,7 +3672,7 @@
       },
       {
        "color": "#232322",
-       "top": 13404,
+       "top": 13252,
        "hsl": {
         "h": 60,
         "s": 0.01,
@@ -3799,7 +3683,7 @@
      "textColors": [
       {
        "color": "#ffffff",
-       "share": 0.52
+       "share": 0.6
       },
       {
        "color": "#161615",
@@ -3807,15 +3691,15 @@
       },
       {
        "color": "#343432",
-       "share": 0.17
-      },
-      {
-       "color": "#0f0f0e",
-       "share": 0.07
+       "share": 0.16
       },
       {
        "color": "#5c5c59",
        "share": 0.02
+      },
+      {
+       "color": "#d10035",
+       "share": 0
       }
      ],
      "button": {
@@ -3825,7 +3709,7 @@
        "s": 0.06,
        "l": 0.94
       },
-      "fg": "#ffffff"
+      "fg": "#161615"
      },
      "lowContrast": [
       {
@@ -3839,7 +3723,7 @@
      ]
     },
     "buttons": {
-     "count": 11,
+     "count": 10,
      "inHero": 2,
      "radius": 0,
      "height": 67,
@@ -3865,15 +3749,20 @@
      "outlinedBoxes": 0,
      "dashed": 0,
      "blurred": 0,
-     "roundedBoxes": 0,
-     "boxRadius": 0,
-     "squareMedia": 13,
-     "roundedMedia": 0,
-     "mediaRadius": 0,
+     "roundedBoxes": 2,
+     "boxRadius": 28,
+     "squareMedia": 10,
+     "roundedMedia": 2,
+     "mediaRadius": 28,
      "textShadow": 0,
      "cardRows": []
     },
-    "heroMedia": [],
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.26
+     }
+    ],
     "nav": {
      "links": 1,
      "fixed": true,
@@ -3882,10 +3771,9 @@
      "blur": false
     },
     "fontsLoaded": [
-     "plus jakarta sans",
-     "plus jakarta sans fallback",
-     "archivo",
-     "archivo fallback"
+     "inter",
+     "inter fallback",
+     "manrope"
     ]
    },
    "layout": {
@@ -3893,7 +3781,7 @@
      "w": 390,
      "h": 844
     },
-    "pageH": 16054,
+    "pageH": 15572,
     "margins": {
      "left": 16,
      "right": 20
@@ -3903,8 +3791,8 @@
       "sel": "section#top.bg-ground.pt-20",
       "tag": "section",
       "top": 0,
-      "height": 1330,
-      "words": 62,
+      "height": 1176,
+      "words": 47,
       "media": 0,
       "middle": 0,
       "heading": {
@@ -3913,9 +3801,9 @@
        "tag": "h1"
       },
       "left": 16,
-      "right": 16,
+      "right": 29,
       "textLeft": 16,
-      "textRight": 16,
+      "textRight": 29,
       "fullBleed": false,
       "footer": false,
       "hero": true,
@@ -3925,13 +3813,13 @@
      {
       "sel": "section.bg-ground",
       "tag": "section",
-      "top": 1330,
+      "top": 1176,
       "height": 477,
-      "words": 38,
+      "words": 37,
       "media": 0,
       "middle": 0,
       "heading": {
-       "text": "Perforation",
+       "text": "Embossing",
        "size": 32,
        "tag": "a"
       },
@@ -3948,9 +3836,9 @@
      {
       "sel": "section#services.bg-charcoal-900.py-24",
       "tag": "section",
-      "top": 1807,
+      "top": 1653,
       "height": 2434,
-      "words": 114,
+      "words": 116,
       "media": 2,
       "middle": 0,
       "heading": {
@@ -3971,7 +3859,7 @@
      {
       "sel": "section#iso.overflow-hidden.bg-surface",
       "tag": "section",
-      "top": 4241,
+      "top": 4087,
       "height": 1431,
       "words": 96,
       "media": 0,
@@ -3994,8 +3882,8 @@
      {
       "sel": "div.mx-auto.w-full",
       "tag": "div",
-      "top": 5672,
-      "height": 1488,
+      "top": 5518,
+      "height": 1489,
       "words": 86,
       "media": 1,
       "middle": 0,
@@ -4007,7 +3895,7 @@
       "left": 20,
       "right": 20,
       "textLeft": 20,
-      "textRight": 30,
+      "textRight": 28,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -4017,7 +3905,7 @@
      {
       "sel": "article#design-development.group.relative",
       "tag": "article",
-      "top": 7160,
+      "top": 7007,
       "height": 844,
       "words": 45,
       "media": 0,
@@ -4028,9 +3916,9 @@
        "tag": "h2"
       },
       "left": 44,
-      "right": 45,
+      "right": 49,
       "textLeft": 44,
-      "textRight": 45,
+      "textRight": 49,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -4040,7 +3928,7 @@
      {
       "sel": "article#perforation.group.relative",
       "tag": "article",
-      "top": 8004,
+      "top": 7851,
       "height": 844,
       "words": 40,
       "media": 0,
@@ -4051,9 +3939,9 @@
        "tag": "h2"
       },
       "left": 44,
-      "right": 62,
+      "right": 67,
       "textLeft": 44,
-      "textRight": 62,
+      "textRight": 67,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -4063,7 +3951,7 @@
      {
       "sel": "article#embossing.group.relative",
       "tag": "article",
-      "top": 8848,
+      "top": 8695,
       "height": 844,
       "words": 44,
       "media": 0,
@@ -4074,9 +3962,9 @@
        "tag": "h2"
       },
       "left": 44,
-      "right": 53,
+      "right": 52,
       "textLeft": 44,
-      "textRight": 53,
+      "textRight": 52,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -4086,9 +3974,9 @@
      {
       "sel": "article#hot-melt-lamination.group.relative",
       "tag": "article",
-      "top": 9692,
+      "top": 9539,
       "height": 844,
-      "words": 1,
+      "words": 40,
       "media": 0,
       "middle": 0,
       "heading": {
@@ -4096,10 +3984,10 @@
        "size": 44,
        "tag": "h2"
       },
-      "left": 83,
-      "right": 83,
-      "textLeft": 83,
-      "textRight": 83,
+      "left": 44,
+      "right": 59,
+      "textLeft": 44,
+      "textRight": 59,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -4109,7 +3997,7 @@
      {
       "sel": "article#cutting.group.relative",
       "tag": "article",
-      "top": 10536,
+      "top": 10383,
       "height": 844,
       "words": 0,
       "media": 0,
@@ -4128,7 +4016,7 @@
      {
       "sel": "section#quality.bg-ground.py-24",
       "tag": "section",
-      "top": 11380,
+      "top": 11227,
       "height": 1170,
       "words": 32,
       "media": 1,
@@ -4137,7 +4025,7 @@
       "left": 20,
       "right": 20,
       "textLeft": 40,
-      "textRight": 32,
+      "textRight": 31,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -4147,16 +4035,16 @@
      {
       "sel": "section#contact.bg-charcoal-950.text-white",
       "tag": "section",
-      "top": 12550,
+      "top": 12397,
       "height": 1973,
       "words": 85,
       "media": 0,
       "middle": 0,
       "heading": null,
       "left": 20,
-      "right": 25,
+      "right": 35,
       "textLeft": 20,
-      "textRight": 25,
+      "textRight": 35,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -4164,41 +4052,22 @@
       "pinned": false
      },
      {
-      "sel": "div.relative.isolate",
-      "tag": "div",
-      "top": 14523,
-      "height": 473,
-      "words": 8,
-      "media": 0,
-      "middle": 0,
-      "heading": {
-       "text": "Your next interior starts here",
-       "size": 32,
-       "tag": "p"
-      },
-      "left": 20,
-      "right": 25,
-      "textLeft": 20,
-      "textRight": 25,
-      "fullBleed": false,
-      "footer": false,
-      "hero": false,
-      "continues": false,
-      "pinned": false
-     },
-     {
-      "sel": "div.bg-rose-600",
-      "tag": "div",
-      "top": 14996,
-      "height": 1058,
+      "sel": "footer.bg-charcoal-900.text-white",
+      "tag": "footer",
+      "top": 14371,
+      "height": 1202,
       "words": 68,
       "media": 0,
       "middle": 0,
-      "heading": null,
+      "heading": {
+       "text": "Company",
+       "size": 14,
+       "tag": "h3"
+      },
       "left": 20,
-      "right": 27,
+      "right": 26,
       "textLeft": 20,
-      "textRight": 27,
+      "textRight": 26,
       "fullBleed": false,
       "footer": true,
       "hero": false,
@@ -4208,11 +4077,11 @@
     ],
     "gaps": [
      {
-      "top": 11740,
+      "top": 11588,
       "height": 300
      },
      {
-      "top": 12456,
+      "top": 12304,
       "height": 256
      }
     ],
@@ -4228,14 +4097,14 @@
     "edges": [
      {
       "x": 16,
-      "n": 14
+      "n": 15
      },
      {
       "x": 44,
-      "n": 9
+      "n": 11
      }
     ],
-    "leftBlocks": 23,
+    "leftBlocks": 26,
     "bodySize": 17,
     "stage": false,
     "explains": true,
@@ -4250,9 +4119,20 @@
  "findings": [
   {
    "level": "WARN",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Low-contrast text: \"Send an enquiry\" 4.1:1 needs 4.5:1",
+   "fix": "Darken or lighten the text colour.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
    "id": "size-count",
    "width": 1440,
-   "message": "10 different font sizes (15, 19, 26, 32, 36, 48, 56, 72, 88, 223).",
+   "message": "10 different font sizes (11, 15, 19, 26, 32, 36, 48, 56, 72, 88).",
    "fix": "A page needs about five: display, heading, lead, body, small.",
    "alsoAt": [
     768
@@ -4269,18 +4149,8 @@
    "level": "WARN",
    "id": "font-not-dealt",
    "width": 1440,
-   "message": "The sheet dealt Barlow Condensed and Barlow, but the page renders Plus Jakarta Sans, Archivo.",
+   "message": "The sheet dealt Barlow Condensed and Barlow, but the page renders Inter, Manrope.",
    "fix": "Load the dealt face (the link on the sheet) and put it first in font-family. A build that falls back to a default face lands on the default look."
-  },
-  {
-   "level": "WARN",
-   "id": "contrast",
-   "width": 768,
-   "message": "Low-contrast text: \"Send an enquiry\" 4.1:1 needs 4.5:1",
-   "fix": "Darken or lighten the text colour.",
-   "alsoAt": [
-    390
-   ]
   }
  ],
  "images": [

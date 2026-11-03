@@ -11,9 +11,9 @@ import { services } from "@/lib/site";
 type Status = "idle" | "submitting" | "success";
 type Errors = Partial<Record<"name" | "email" | "phone" | "message", string>>;
 
-// shadcn fields restyled for the charcoal contact panel; the border only appears on hover and focus.
+// shadcn fields restyled for the light contact card: soft grey fill, rounded, darker edge on hover and focus.
 const fieldClass =
-  "h-auto rounded-none border-transparent bg-charcoal-900 px-4 py-3.5 text-body text-white placeholder:text-white/50 hover:border-white/30 focus-visible:border-white focus-visible:ring-2 focus-visible:ring-rose-600/50 aria-invalid:border-rose-400 md:text-body";
+  "h-auto rounded-[0.75rem] border-charcoal-100 bg-surface px-4 py-3.5 text-body text-charcoal-900 placeholder:text-charcoal-500 hover:border-charcoal-300 focus-visible:border-charcoal-900 focus-visible:ring-2 focus-visible:ring-rose-600/25 aria-invalid:border-rose-600 md:text-body";
 
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const PHONE_PATTERN = /^[+\d][\d\s()-]{6,19}$/;
@@ -69,17 +69,17 @@ export function ContactForm() {
             />
           </svg>
         </span>
-        <h3 className="mt-6 font-display text-sub font-bold uppercase text-white">
+        <h3 className="mt-6 font-display text-sub font-semibold uppercase text-charcoal-900">
           Thank you for your enquiry
         </h3>
-        <p className="mt-3 max-w-sm text-body text-white/80">
+        <p className="mt-3 max-w-sm text-body text-charcoal-700">
           We have received your details. A member of our team will get back to you soon.
         </p>
         <Button
           type="button"
           variant="link"
           onClick={() => setStatus("idle")}
-          className="mt-8 h-auto p-0 text-body font-semibold text-rose-400"
+          className="mt-8 h-auto p-0 text-body font-semibold text-rose-700"
         >
           Send another enquiry
         </Button>
@@ -145,11 +145,11 @@ export function ContactForm() {
         <Select name="service">
           <SelectTrigger
             id="service"
-            className={`${fieldClass} w-full data-[size=default]:h-auto data-placeholder:text-white/50 [&_svg]:text-white/70`}
+            className={`${fieldClass} w-full data-[size=default]:h-auto data-placeholder:text-charcoal-500 [&_svg]:text-charcoal-500`}
           >
             <SelectValue placeholder="Select a service" />
           </SelectTrigger>
-          <SelectContent position="popper" className="rounded-none">
+          <SelectContent position="popper" className="rounded-[0.75rem]">
             {services.map((service) => (
               <SelectItem key={service.id} value={service.title} className="rounded-none py-2.5 text-body">
                 {service.title}
@@ -174,7 +174,7 @@ export function ContactForm() {
       </Field>
 
       <div className="sm:col-span-2">
-        <Button type="submit" size="cta" disabled={status === "submitting"} className="w-full sm:w-auto">
+        <Button type="submit" size="cta" disabled={status === "submitting"} className="w-full rounded-[0.75rem] sm:w-auto">
           {status === "submitting" ? "Sending…" : "Send enquiry"}
         </Button>
       </div>
@@ -194,13 +194,13 @@ type FieldProps = {
 function Field({ label, htmlFor, required, error, className = "", children }: FieldProps) {
   return (
     <div className={className}>
-      <Label htmlFor={htmlFor} className="mb-2 gap-1 text-body font-medium leading-normal text-white">
+      <Label htmlFor={htmlFor} className="mb-2 gap-1 text-small font-semibold leading-normal text-charcoal-900">
         {label}
-        {required && <span className="text-rose-400">*</span>}
+        {required && <span className="text-rose-700">*</span>}
       </Label>
       {children}
       {error && (
-        <p className="mt-2 text-small font-medium text-rose-300" role="alert">
+        <p className="mt-2 text-small font-medium text-rose-700" role="alert">
           {error}
         </p>
       )}

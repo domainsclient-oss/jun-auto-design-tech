@@ -66,7 +66,7 @@ export function Services() {
                 </Parallax>
 
                 <div className={`lg:col-span-5 ${reversed ? "lg:order-1 lg:col-start-1 lg:pr-8" : "lg:col-start-8 lg:pl-8"}`}>
-                  <Reveal as="h3" className="font-display text-[clamp(2rem,1.4rem+2vw,3rem)] font-bold uppercase leading-none">
+                  <Reveal as="h3" className="font-display text-[clamp(2rem,1.4rem+2vw,3rem)] font-semibold uppercase leading-none">
                     {service.title}
                   </Reveal>
                   <Reveal as="p" delay={80} className="mt-6 text-lead text-white/90">

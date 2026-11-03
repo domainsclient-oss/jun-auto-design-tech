@@ -30,14 +30,14 @@
   --color-charcoal-900: #161615;
   --color-charcoal-950: #0f0f0e;
 
-  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
-  --font-display: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
 
   /* Five type steps. */
   --text-small: clamp(0.875rem, 0.85rem + 0.1vw, 0.9375rem);
   --text-body: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem);
   --text-lead: clamp(1.25rem, 1.1rem + 0.7vw, 1.625rem);
-  --text-head: clamp(2rem, 1.4rem + 2.4vw, 3.5rem);
+  --text-head: clamp(2rem, 1.4rem + 2.2vw, 3.125rem);
   --text-sub: clamp(1.375rem, 1.1rem + 1vw, 2rem);
   --text-hero: clamp(2.5rem, 1.5rem + 3.6vw, 4.5rem);
   --text-display: clamp(2.75rem, 1.6rem + 4.6vw, 5.5rem);

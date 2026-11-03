@@ -33,7 +33,7 @@ export function Logo({ tone = "dark", tile = "rose", className = "" }: LogoProps
         </svg>
       </span>
       <span
-        className={`whitespace-nowrap font-display text-body font-bold uppercase leading-none sm:text-lead ${
+        className={`whitespace-nowrap font-display text-[17px] font-bold uppercase leading-none ${
           tone === "light" ? "text-white" : "text-charcoal-900"
         }`}
       >

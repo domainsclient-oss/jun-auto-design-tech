@@ -34,7 +34,7 @@ const buttonVariants = cva(
           "size-7 rounded-[min(var(--radius-md),12px)] in-data-[slot=button-group]:rounded-lg",
         "icon-lg": "size-9",
         // The site's standard call-to-action size.
-        cta: "h-auto gap-2 px-7 py-4 text-body font-bold",
+        cta: "h-auto gap-2 px-7 py-4 text-body font-semibold",
       },
     },
     defaultVariants: {

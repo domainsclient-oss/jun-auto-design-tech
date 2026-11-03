@@ -63,7 +63,7 @@ export function ProcessSwatch({ intro }: { intro?: ReactNode }) {
                   }`}
                 >
                   <span className="min-w-0 flex-1">
-                    <span className="block font-display text-sub font-bold uppercase leading-tight">{process.verb}</span>
+                    <span className="block font-display text-sub font-semibold uppercase leading-tight">{process.verb}</span>
                     <span className="block text-small text-charcoal-700">{process.caption}</span>
                   </span>
                   {/* On/off switch: the knob slides across a track that turns brand red when on. */}
@@ -119,7 +119,7 @@ export function ProcessSwatch({ intro }: { intro?: ReactNode }) {
         <div className="flex items-center justify-between gap-4 px-6 pt-6 text-small text-white sm:px-8 sm:pt-8" aria-live="polite">
           <span className="font-semibold">Seat face swatch</span>
           <span>
-            <span className="font-display text-lead font-bold text-rose-500">{applied.length}</span>
+            <span className="font-display text-lead font-semibold text-rose-500">{applied.length}</span>
             <span className="text-white/70"> of {processes.length} applied</span>
           </span>
         </div>

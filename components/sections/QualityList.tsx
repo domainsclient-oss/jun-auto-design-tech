@@ -63,7 +63,7 @@ export function QualityList({ heading }: { heading: ReactNode }) {
               <p className="mt-4 text-small text-white/70">
                 Stage {active + 1} of {qualitySteps.length}
               </p>
-              <p className="mt-1 font-display text-lead font-bold uppercase leading-tight">
+              <p className="mt-1 font-display text-lead font-semibold uppercase leading-tight">
                 {qualitySteps[active].title}
               </p>
             </div>
@@ -109,7 +109,7 @@ export function QualityList({ heading }: { heading: ReactNode }) {
                     onClick={() => setActive(index)}
                     onMouseEnter={() => setActive(index)}
                     onFocus={() => setActive(index)}
-                    className={`w-full py-4 text-left font-display text-sub font-bold uppercase transition-colors duration-200 ${
+                    className={`w-full py-4 text-left font-display text-sub font-semibold uppercase transition-colors duration-200 ${
                       isActive ? "text-charcoal-900" : "text-charcoal-500 hover:text-charcoal-900"
                     }`}
                   >

@@ -74,7 +74,7 @@ export function IsoCertification() {
           <div className="relative bg-white p-6 transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-x-1.5 hover:-translate-y-1.5 sm:p-12">
             <div className="flex items-start justify-between gap-6">
               <div>
-                <h3 className="font-display text-sub font-bold uppercase text-charcoal-900">
+                <h3 className="font-display text-sub font-semibold uppercase text-charcoal-900">
                   {cardTitle}
                 </h3>
               </div>
