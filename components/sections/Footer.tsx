@@ -1,57 +1,20 @@
-import Image from "next/image";
 import type { ReactNode } from "react";
 import { Logo } from "@/components/Logo";
-import { Button } from "@/components/ui/button";
 import { ContactIcon, type ContactIconType } from "@/components/ui/ContactIcon";
 import { Container } from "@/components/ui/Container";
 import { contactDetails, navLinks, processes, siteConfig } from "@/lib/site";
 
 /**
- * Corporate footer on charcoal: an enquiry card with the closing photograph, link columns
- * (company, processes, contact), then a slim bar with the legal line and back to top.
+ * Corporate footer on charcoal: link columns (company, processes, contact), then a slim
+ * bar with the legal line and back to top.
  */
 export function Footer() {
   const phoneHref = contactDetails.phone ? `tel:${contactDetails.phone.replace(/\s+/g, "")}` : null;
   const emailHref = contactDetails.email ? `mailto:${contactDetails.email}` : null;
 
   return (
-    <footer className="bg-charcoal-950 text-white">
-      <Container className="pt-20 lg:pt-24">
-        {/* Enquiry card */}
-        <div className="grid overflow-hidden bg-charcoal-900 md:grid-cols-12">
-          <div className="group relative min-h-56 overflow-hidden md:col-span-5">
-            <Image
-              src="/images/iso-quilted.jpg"
-              alt="Close crop of a quilted black leather seat"
-              fill
-              sizes="(min-width: 768px) 40vw, 100vw"
-              className="object-cover transition-transform duration-[1.2s] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105"
-            />
-          </div>
-          <div className="flex flex-col justify-center p-8 sm:p-10 md:col-span-7 lg:p-14">
-            <span className="block h-0.5 w-10 bg-rose-600" aria-hidden />
-            <h2 className="mt-6 font-display text-sub font-bold uppercase leading-tight">
-              Have a seat or trim program in mind?
-            </h2>
-            <p className="mt-4 max-w-lg text-body text-white/75">
-              Share your drawings, materials and volumes. We will come back with the next steps.
-            </p>
-            <div className="mt-8 flex flex-wrap items-center gap-x-8 gap-y-4">
-              <Button asChild size="cta">
-                <a href="#contact">Send an enquiry</a>
-              </Button>
-              {emailHref && (
-                <a
-                  href={emailHref}
-                  className="text-body font-semibold text-white underline-offset-4 transition-colors hover:text-rose-400 hover:underline"
-                >
-                  {contactDetails.email}
-                </a>
-              )}
-            </div>
-          </div>
-        </div>
-
+    <footer className="bg-charcoal-900 text-white">
+      <Container>
         {/* Link columns */}
         <div className="grid gap-12 py-16 sm:grid-cols-2 lg:grid-cols-12 lg:gap-8 lg:py-20">
           <div className="sm:col-span-2 lg:col-span-4">
@@ -97,7 +60,7 @@ export function Footer() {
       </Container>
 
       {/* Legal bar */}
-      <div className="bg-charcoal-900">
+      <div className="bg-charcoal-950">
         <Container className="flex items-center justify-between gap-6 py-5 text-small text-white/70">
           <p>© {siteConfig.legalName}. All rights reserved.</p>
           <a
