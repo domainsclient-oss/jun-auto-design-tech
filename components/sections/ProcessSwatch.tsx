@@ -64,21 +64,21 @@ export function ProcessSwatch({ intro }: { intro?: ReactNode }) {
                 >
                   {/* On/off switch: the knob slides across a track that turns brand red when on. */}
                   <span
-                    className={`relative inline-flex h-9 w-[4.5rem] shrink-0 items-center rounded-full transition-colors duration-300 ${
+                    className={`relative inline-flex h-7 w-14 shrink-0 items-center rounded-full transition-colors duration-300 ${
                       on ? "bg-rose-600" : "bg-charcoal-100 group-hover:bg-charcoal-300/60"
                     }`}
                     aria-hidden
                   >
                     <span
-                      className={`absolute text-[0.6875rem] font-bold tracking-wide transition-opacity duration-200 ${
-                        on ? "left-3 text-white opacity-100" : "right-2.5 text-charcoal-500 opacity-100"
+                      className={`absolute text-[0.5625rem] font-bold tracking-wide transition-opacity duration-200 ${
+                        on ? "left-2 text-white opacity-100" : "right-1.5 text-charcoal-500 opacity-100"
                       }`}
                     >
                       {on ? "ON" : "OFF"}
                     </span>
                     <span
-                      className={`absolute top-1 h-7 w-7 rounded-full bg-white shadow-[0_1px_3px_rgb(0_0_0/0.25)] transition-[left] duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] ${
-                        on ? "left-[calc(100%-2rem)]" : "left-1"
+                      className={`absolute top-1 h-5 w-5 rounded-full bg-white shadow-[0_1px_3px_rgb(0_0_0/0.25)] transition-[left] duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+                        on ? "left-[calc(100%-1.5rem)]" : "left-1"
                       }`}
                     />
                   </span>
