@@ -20,7 +20,7 @@ export const sectionVisibility: { about: boolean } = {
 const allNavLinks = [
   { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
-  { label: "ISO", href: "#iso" },
+  { label: "Certifications", href: "#iso" },
   { label: "Processes", href: "#processes" },
   { label: "Quality", href: "#quality" },
   { label: "Contact", href: "#contact" },

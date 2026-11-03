@@ -1,5 +1,6 @@
 "use client";
 
+import { Menu as MenuIcon } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Logo } from "@/components/Logo";
 import { Button } from "@/components/ui/button";
@@ -62,8 +63,12 @@ export function Header() {
         {/* Phone and tablet menu: a shadcn Sheet sliding in from the right. */}
         <Sheet>
           <SheetTrigger asChild>
-            <Button variant="ghost" className="h-auto px-3 py-2 text-body font-semibold text-charcoal-900 xl:hidden">
-              Menu
+            <Button
+              variant="ghost"
+              aria-label="Open menu"
+              className="h-11 w-11 rounded-[0.5rem] p-0 text-charcoal-900 hover:bg-surface xl:hidden"
+            >
+              <MenuIcon className="size-6" strokeWidth={2} aria-hidden />
             </Button>
           </SheetTrigger>
           <SheetContent side="right" className="gap-0 bg-white p-0 data-[side=right]:w-full data-[side=right]:sm:max-w-md xl:hidden">
