@@ -116,6 +116,7 @@ export const services = [
 export const processes = [
   {
     id: "design-development",
+    verb: "Design",
     title: "Design Development",
     shortTitle: "Design",
     caption: "Patterns & specifications",
@@ -127,6 +128,7 @@ export const processes = [
   },
   {
     id: "perforation",
+    verb: "Perforate",
     title: "Perforation Process",
     shortTitle: "Perforation",
     caption: "Breathable hole patterns",
@@ -138,6 +140,7 @@ export const processes = [
   },
   {
     id: "embossing",
+    verb: "Emboss",
     title: "Embossing Process",
     shortTitle: "Embossing",
     caption: "Textures, patterns & logos",
@@ -149,6 +152,7 @@ export const processes = [
   },
   {
     id: "hot-melt-lamination",
+    verb: "Laminate",
     title: "Hot Melt Lamination",
     shortTitle: "Lamination",
     caption: "Multi-layer bonding",
@@ -160,37 +164,46 @@ export const processes = [
   },
   {
     id: "cutting",
+    verb: "Cut",
     title: "Cutting Process",
     shortTitle: "Cutting",
     caption: "Precision to pattern",
     description:
       "Processed materials are cut to precise shapes and dimensions according to approved patterns, ensuring accurate fit and minimal waste for downstream assembly.",
     highlights: ["Pattern-accurate cutting", "Optimised nesting", "Clean, precise edges"],
-    image: "/images/process-cutting.jpg",
-    imageAlt: "Industrial cutting machine working on material sheets",
-    imagePosition: "object-bottom",
+    image: "/images/process-cutting-table.jpg",
+    imageAlt: "Cutter cutting dark material along a marked pattern on a cutting table",
   },
 ] as const;
 
 export const qualitySteps = [
   {
     title: "Incoming Material Inspection",
+    image: "/images/process-embossing.jpg",
+    imageAlt: "Close-up of a finished leather surface ready for inspection",
     description:
       "Raw materials are checked for specification, colour, thickness and visual defects before they enter production.",
   },
   {
     title: "In-Process Checks",
+    image: "/images/process-lamination.jpg",
+    imageAlt: "Production machinery running on the shop floor",
     description:
       "Operators and inspectors verify process parameters and output at each stage: perforation, embossing, lamination and cutting.",
   },
   {
     title: "Final Inspection",
+    image: "/images/qc-inspection.jpg",
+    imageAlt: "Team member presenting finished material panels",
     description:
       "Finished parts are inspected for dimensions, appearance and finish against approved samples and customer standards.",
   },
   {
     title: "Traceability & Documentation",
+    image: "/images/service-design.jpg",
+    imageAlt: "Engineer reviewing records on a workstation",
     description:
       "Inspection records are maintained so every batch can be traced, reviewed and continuously improved.",
   },
 ] as const;
+

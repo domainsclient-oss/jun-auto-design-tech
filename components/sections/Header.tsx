@@ -6,21 +6,11 @@ import { Container } from "@/components/ui/Container";
 import { navLinks } from "@/lib/site";
 
 export function Header() {
-  const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeId, setActiveId] = useState<string>("");
 
-  // Solid header once the user scrolls past the top of the hero.
+  // Highlight the link of the section in view; the hero is observed so nothing stays lit at the top.
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 24);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
-
-  // Highlight the nav link for the section currently in view.
-  useEffect(() => {
-    // The hero ("#top") is observed too, so no link stays highlighted when back at the top.
     const sections = ["#top", ...navLinks.map((link) => link.href)]
       .map((selector) => document.querySelector<HTMLElement>(selector))
       .filter((el): el is HTMLElement => el !== null);
@@ -38,7 +28,7 @@ export function Header() {
     return () => observer.disconnect();
   }, []);
 
-  // Lock body scroll while the mobile menu is open.
+  // Lock page scroll while the phone menu is open.
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
     return () => {
@@ -46,44 +36,27 @@ export function Header() {
     };
   }, [menuOpen]);
 
-  const solid = scrolled || menuOpen;
-
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
-        solid
-          ? "bg-white/90 shadow-[0_1px_0_rgba(0,0,0,0.06)] backdrop-blur-xl"
-          : "bg-transparent"
-      }`}
+      className="fixed inset-x-0 top-0 z-50 bg-white"
     >
       <Container className="flex h-20 items-center justify-between">
-        <Logo tone={solid ? "dark" : "light"} />
+        <Logo tone="dark" />
 
         <nav aria-label="Primary" className="hidden lg:block">
-          <ul className="flex items-center gap-1">
+          <ul className="flex items-center gap-9">
             {navLinks.map((link) => {
               const isActive = activeId === link.href.slice(1);
               return (
                 <li key={link.href}>
                   <a
                     href={link.href}
-                    className={`relative rounded-full px-4 py-2 text-sm font-medium transition-colors duration-300 ${
-                      solid
-                        ? isActive
-                          ? "text-rose-600"
-                          : "text-charcoal-700 hover:text-rose-600"
-                        : isActive
-                          ? "text-white"
-                          : "text-white/75 hover:text-white"
+                    aria-current={isActive ? "true" : undefined}
+                    className={`text-body font-medium transition-colors duration-200 hover:text-rose-700 ${
+                      isActive ? "text-rose-700" : "text-charcoal-900"
                     }`}
                   >
                     {link.label}
-                    <span
-                      className={`absolute inset-x-4 -bottom-0.5 h-0.5 origin-left rounded-full bg-rose-600 transition-transform duration-300 ${
-                        isActive ? "scale-x-100" : "scale-x-0"
-                      }`}
-                      aria-hidden
-                    />
                   </a>
                 </li>
               );
@@ -93,9 +66,9 @@ export function Header() {
 
         <a
           href="#contact"
-          className="hidden rounded-full bg-rose-600 px-6 py-2.5 text-sm font-semibold text-white shadow-lg shadow-rose-600/25 transition-colors duration-300 hover:bg-rose-700 lg:inline-flex"
+          className="hidden bg-rose-700 px-6 py-3 text-body font-semibold text-white transition-[background-color,transform] duration-200 hover:bg-rose-800 active:scale-[0.97] lg:inline-flex"
         >
-          Send Enquiry
+          Send an enquiry
         </a>
 
         <button
@@ -103,49 +76,27 @@ export function Header() {
           onClick={() => setMenuOpen((open) => !open)}
           aria-expanded={menuOpen}
           aria-controls="mobile-menu"
-          aria-label={menuOpen ? "Close menu" : "Open menu"}
-          className={`relative flex h-11 w-11 items-center justify-center rounded-full transition-colors lg:hidden ${
-            solid ? "text-charcoal-900 hover:bg-charcoal-50" : "text-white hover:bg-white/10"
-          }`}
+          className="text-body font-semibold text-charcoal-900 lg:hidden"
         >
-          <span className="sr-only">Menu</span>
-          <span
-            className={`absolute h-0.5 w-5 rounded-full bg-current transition-transform duration-300 ${
-              menuOpen ? "rotate-45" : "-translate-y-1.5"
-            }`}
-          />
-          <span
-            className={`absolute h-0.5 w-5 rounded-full bg-current transition-opacity duration-300 ${
-              menuOpen ? "opacity-0" : "opacity-100"
-            }`}
-          />
-          <span
-            className={`absolute h-0.5 w-5 rounded-full bg-current transition-transform duration-300 ${
-              menuOpen ? "-rotate-45" : "translate-y-1.5"
-            }`}
-          />
+          {menuOpen ? "Close" : "Menu"}
         </button>
       </Container>
 
       <div
         id="mobile-menu"
-        className={`overflow-hidden border-t border-charcoal-100 bg-white transition-[max-height,opacity] duration-500 lg:hidden ${
-          menuOpen ? "max-h-[calc(100vh-5rem)] opacity-100" : "max-h-0 border-transparent opacity-0"
-        }`}
+        hidden={!menuOpen}
+        className="h-[calc(100svh-5rem)] overflow-y-auto bg-white lg:hidden"
       >
-        <Container className="py-6">
-          <ul className="flex flex-col">
+        <Container className="flex h-full flex-col justify-between py-8">
+          <ul className="flex flex-col gap-4">
             {navLinks.map((link) => (
               <li key={link.href}>
                 <a
                   href={link.href}
                   onClick={() => setMenuOpen(false)}
-                  className="flex items-center justify-between border-b border-charcoal-100 py-4 font-display text-lg font-medium text-charcoal-900 transition-colors hover:text-rose-600"
+                  className="block font-display text-sub font-bold uppercase text-charcoal-900 transition-colors hover:text-rose-700"
                 >
                   {link.label}
-                  <span className="text-rose-600" aria-hidden>
-                    →
-                  </span>
                 </a>
               </li>
             ))}
@@ -153,9 +104,9 @@ export function Header() {
           <a
             href="#contact"
             onClick={() => setMenuOpen(false)}
-            className="mt-6 flex w-full items-center justify-center rounded-full bg-rose-600 px-6 py-3.5 text-sm font-semibold text-white"
+            className="mt-10 flex w-full items-center justify-center bg-rose-700 px-6 py-4 text-body font-semibold text-white"
           >
-            Send Enquiry
+            Send an enquiry
           </a>
         </Container>
       </div>

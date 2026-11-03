@@ -20,7 +20,7 @@ const pillars = [
 
 export function About() {
   return (
-    <section id="about" className="relative overflow-hidden bg-white py-24 sm:py-32">
+    <section id="about" className="relative overflow-hidden bg-paper py-24 sm:py-36">
       <Container className="grid items-center gap-16 lg:grid-cols-2 lg:gap-20">
         <Reveal className="relative order-2 lg:order-1">
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl bg-charcoal-100 sm:aspect-[5/4] lg:aspect-[4/5]">
@@ -32,7 +32,7 @@ export function About() {
               className="object-cover"
             />
           </div>
-          <div className="absolute -bottom-8 right-4 w-44 overflow-hidden rounded-2xl border-4 border-white shadow-2xl sm:-right-6 sm:w-56">
+          <div className="absolute -bottom-8 right-4 w-44 overflow-hidden rounded-2xl border-4 border-white sm:-right-6 sm:w-56">
             <div className="relative aspect-[4/5]">
               <Image
                 src="/images/about-seat.jpg"
@@ -51,7 +51,6 @@ export function About() {
 
         <div className="order-1 lg:order-2">
           <SectionHeading
-            eyebrow="About Us"
             title={
               <>
                 Engineering the details that define{" "}

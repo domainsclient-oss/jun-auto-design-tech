@@ -1,61 +1,81 @@
+import Image from "next/image";
 import type { ReactNode } from "react";
 import { Logo } from "@/components/Logo";
 import { ContactIcon, type ContactIconType } from "@/components/ui/ContactIcon";
-import { Container } from "@/components/ui/Container";
-import { contactDetails, navLinks, processes, services, siteConfig } from "@/lib/site";
+import { contactDetails, navLinks, siteConfig } from "@/lib/site";
 
+/** Photograph half, menu half: a close crop of the work beside the menu set large. */
 export function Footer() {
   return (
-    <footer className="border-t border-white/5 bg-charcoal-950 text-charcoal-300">
-      <Container className="grid gap-12 py-16 sm:grid-cols-2 lg:grid-cols-[1.6fr_1fr_1fr_1fr] lg:gap-16">
+    <footer className="grid bg-rose-600 text-charcoal-950 lg:min-h-svh lg:grid-cols-2">
+      <div className="relative h-[50svh] overflow-hidden lg:h-auto">
+        <Image
+          src="/images/iso-quilted.jpg"
+          alt="Close crop of a quilted black leather seat"
+          fill
+          sizes="(min-width: 1024px) 50vw, 100vw"
+          className="animate-drift object-cover"
+        />
+      </div>
+
+      <div className="flex flex-col justify-between gap-16 px-4 py-14 sm:px-8 lg:px-16 lg:py-20">
         <div>
-          <Logo tone="light" />
-          <p className="mt-6 max-w-xs text-sm leading-relaxed">
-            Design development and post-processing for automotive interior materials, delivered
-            with precision and consistent quality.
-          </p>
-          <address className="mt-8 space-y-4 not-italic">
-            {contactDetails.address && (
-              <FooterContact icon="Address">
-                {contactDetails.address.replace(/\n/g, " ")}
-              </FooterContact>
-            )}
+          <Logo tone="dark" tile="dark" />
+          <nav aria-label="Footer" className="mt-14">
+            <ul className="flex flex-col gap-3">
+              {navLinks.map((link) => (
+                <li key={link.href}>
+                  <a
+                    href={link.href}
+                    className="inline-block font-display text-sub font-bold uppercase leading-[0.95] transition-transform duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] hover:translate-x-3"
+                  >
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        </div>
+
+        <address className="flex flex-col gap-5 text-body not-italic">
+          {contactDetails.address && (
+            <FooterContact icon="address">
+              <span className="block font-semibold">{siteConfig.legalName}</span>
+              <span className="mt-1 block">{contactDetails.address.replace(/\n/g, " ")}</span>
+            </FooterContact>
+          )}
+          <div className="flex flex-col gap-5 sm:flex-row sm:gap-10">
             {contactDetails.phone && (
-              <FooterContact
-                icon="Phone"
-                href={`tel:${contactDetails.phone.replace(/\s+/g, "")}`}
-              >
+              <FooterContact icon="phone" href={`tel:${contactDetails.phone.replace(/\s+/g, "")}`}>
                 {contactDetails.phone}
               </FooterContact>
             )}
             {contactDetails.email && (
-              <FooterContact icon="Email" href={`mailto:${contactDetails.email}`}>
+              <FooterContact icon="email" href={`mailto:${contactDetails.email}`}>
                 {contactDetails.email}
               </FooterContact>
             )}
-          </address>
-        </div>
+          </div>
+        </address>
 
-        <FooterColumn title="Company" links={navLinks.map((l) => ({ label: l.label, href: l.href }))} />
-        <FooterColumn
-          title="Services"
-          links={services.map((s) => ({ label: s.title, href: "#services" }))}
-        />
-        <FooterColumn
-          title="Processes"
-          links={processes.map((p) => ({ label: p.title, href: `#${p.id}` }))}
-        />
-      </Container>
-
-      <div className="border-t border-white/5">
-        <Container className="flex flex-col items-center justify-between gap-4 py-6 text-xs sm:flex-row">
-          <p>
-            © {siteConfig.legalName}. All rights reserved.
-          </p>
-          <a href="#top" className="font-semibold text-white transition-colors hover:text-rose-200">
-            Back to top ↑
+        <div className="flex items-center justify-between gap-6 text-small">
+          <p>© {siteConfig.legalName}. All rights reserved.</p>
+          <a
+            href="#top"
+            aria-label="Back to top"
+            className="flex h-12 w-12 shrink-0 items-center justify-center bg-charcoal-950 text-white transition-[background-color,transform] duration-200 hover:-translate-y-1 hover:bg-charcoal-800 active:scale-[0.95]"
+          >
+            <svg viewBox="0 0 24 24" fill="none" className="h-5 w-5" aria-hidden>
+              <path
+                d="M12 19V5m0 0-6 6m6-6 6 6"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
           </a>
-        </Container>
+        </div>
       </div>
     </footer>
   );
@@ -67,48 +87,22 @@ type FooterContactProps = {
   children: ReactNode;
 };
 
+/** A contact line with its icon in a charcoal tile, readable on the red field. */
 function FooterContact({ icon, href, children }: FooterContactProps) {
   const content = (
     <>
-      <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-rose-600/15 text-rose-200 ring-1 ring-inset ring-rose-500/30 transition-colors duration-300 group-hover:bg-rose-600 group-hover:text-white group-hover:ring-rose-600">
-        <ContactIcon type={icon} className="h-4 w-4" />
+      <span className="flex h-10 w-10 shrink-0 items-center justify-center bg-charcoal-950 text-white transition-colors duration-200 group-hover:bg-white group-hover:text-charcoal-950">
+        <ContactIcon type={icon} />
       </span>
-      <span className="min-w-0 pt-2 text-sm leading-relaxed">{children}</span>
+      <span className="min-w-0 pt-2 font-semibold">{children}</span>
     </>
   );
 
   return href ? (
-    <a
-      href={href}
-      className="group flex items-start gap-3 text-white transition-colors hover:text-rose-200"
-    >
+    <a href={href} className="group flex items-start gap-4 underline-offset-4 hover:underline">
       {content}
     </a>
   ) : (
-    <div className="group flex max-w-xs items-start gap-3">{content}</div>
-  );
-}
-
-type FooterColumnProps = {
-  title: string;
-  links: { label: string; href: string }[];
-};
-
-function FooterColumn({ title, links }: FooterColumnProps) {
-  return (
-    <div>
-      <h3 className="font-display text-sm font-semibold uppercase tracking-[0.2em] text-white">
-        {title}
-      </h3>
-      <ul className="mt-5 space-y-3">
-        {links.map((link) => (
-          <li key={link.label}>
-            <a href={link.href} className="text-sm transition-colors hover:text-rose-200">
-              {link.label}
-            </a>
-          </li>
-        ))}
-      </ul>
-    </div>
+    <div className="flex items-start gap-4">{content}</div>
   );
 }

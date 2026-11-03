@@ -4,6 +4,7 @@ import { Footer } from "@/components/sections/Footer";
 import { Header } from "@/components/sections/Header";
 import { Hero } from "@/components/sections/Hero";
 import { IsoCertification } from "@/components/sections/IsoCertification";
+import { Marquee } from "@/components/sections/Marquee";
 import { Processes } from "@/components/sections/Processes";
 import { QualityControl } from "@/components/sections/QualityControl";
 import { Services } from "@/components/sections/Services";
@@ -15,6 +16,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <Marquee />
         {sectionVisibility.about && <About />}
         <Services />
         <IsoCertification />

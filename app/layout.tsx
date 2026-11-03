@@ -1,16 +1,17 @@
 import type { Metadata, Viewport } from "next";
-import { Manrope, Sora } from "next/font/google";
+import { Barlow, Barlow_Condensed } from "next/font/google";
 import "./globals.css";
 
-const manrope = Manrope({
-  variable: "--font-manrope",
+const barlow = Barlow({
+  variable: "--font-barlow",
   subsets: ["latin"],
+  weight: ["400", "500", "600"],
 });
 
-const sora = Sora({
-  variable: "--font-sora",
+const barlowCondensed = Barlow_Condensed({
+  variable: "--font-barlow-condensed",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["500", "700"],
 });
 
 export const metadata: Metadata = {
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#b32650",
+  themeColor: "#fa003f",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -28,9 +29,14 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html
       lang="en"
       data-scroll-behavior="smooth"
-      className={`${manrope.variable} ${sora.variable} antialiased`}
+      className={`${barlow.variable} ${barlowCondensed.variable} antialiased`}
+      suppressHydrationWarning
     >
-      <body className="min-h-screen font-sans">{children}</body>
+      <head>
+        {/* Marks that script runs, so entrance animations never hide content without it. */}
+        <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
+      </head>
+      <body className="min-h-svh font-sans">{children}</body>
     </html>
   );
 }

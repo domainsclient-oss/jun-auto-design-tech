@@ -1,134 +1,104 @@
-import { ContactIcon } from "@/components/ui/ContactIcon";
+import type { ReactNode } from "react";
+import { ContactIcon, type ContactIconType } from "@/components/ui/ContactIcon";
 import { Container } from "@/components/ui/Container";
 import { Reveal } from "@/components/ui/Reveal";
-import { SectionHeading } from "@/components/ui/SectionHeading";
 import { contactDetails, siteConfig } from "@/lib/site";
 import { ContactForm } from "./ContactForm";
 
+/** One contact section: the details on the left of a dark field, the enquiry form on the right. */
 export function Contact() {
-  const details = [
-    {
-      label: "Phone" as const,
-      value: contactDetails.phone,
-      href: contactDetails.phone ? `tel:${contactDetails.phone.replace(/\s+/g, "")}` : null,
-    },
-    {
-      label: "Email" as const,
-      value: contactDetails.email,
-      href: contactDetails.email ? `mailto:${contactDetails.email}` : null,
-    },
-    { label: "Working Hours" as const, value: contactDetails.hours, href: null },
-  ].filter((item) => item.value);
+  const phoneHref = contactDetails.phone ? `tel:${contactDetails.phone.replace(/\s+/g, "")}` : null;
+  const emailHref = contactDetails.email ? `mailto:${contactDetails.email}` : null;
 
   return (
-    <section id="contact" className="relative overflow-hidden bg-charcoal-950 py-24 sm:py-32">
-      <div className="bg-grid absolute inset-0 opacity-50" aria-hidden />
-      <div
-        className="absolute -right-40 top-0 h-[28rem] w-[28rem] rounded-full bg-rose-600/20 blur-3xl"
-        aria-hidden
-      />
-
-      <Container className="relative grid gap-14 lg:grid-cols-[0.85fr_1.15fr] lg:gap-20">
-        <div>
-          <SectionHeading
-            tone="dark"
-            eyebrow="Contact Us"
-            title={
-              <>
-                Let&apos;s build your <span className="text-rose-500">next interior</span>
-              </>
-            }
-            description="Share your requirement, whether design development, post-processing or a complete program, and our team will respond with the next steps."
-          />
-
-          <Reveal delay={150} className="mt-10 space-y-4">
-            {contactDetails.address && (
-              <div className="rounded-2xl border border-white/10 bg-white/5 px-6 py-6 backdrop-blur">
-                <div className="flex items-start gap-4">
-                  <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-rose-600/15 text-rose-200 ring-1 ring-inset ring-rose-500/30">
-                    <ContactIcon type="Address" />
-                  </span>
-                  <div>
-                    <p className="text-xs font-semibold uppercase tracking-[0.2em] text-rose-200">
-                      Address
-                    </p>
-                    <address className="mt-3 not-italic">
-                      <span className="block font-display text-base font-semibold text-white">
-                        {siteConfig.legalName}
-                      </span>
-                      <span className="mt-2 block whitespace-pre-line text-sm leading-relaxed text-white/70">
-                        {contactDetails.address}
-                      </span>
-                    </address>
-                  </div>
-                </div>
-              </div>
-            )}
-
-            {details.length > 0 ? (
-              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
-                {details.map((item) => {
-                  const content = (
-                    <>
-                      <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-rose-600/15 text-rose-200 ring-1 ring-inset ring-rose-500/30 transition-colors duration-300 group-hover:bg-rose-600 group-hover:text-white group-hover:ring-rose-600">
-                        <ContactIcon type={item.label} />
-                      </span>
-                      <span className="min-w-0">
-                        <span className="block text-xs font-semibold uppercase tracking-[0.2em] text-rose-200">
-                          {item.label}
-                        </span>
-                        <span className="mt-1.5 block break-words text-base font-semibold text-white">
-                          {item.value}
-                        </span>
-                      </span>
-                    </>
-                  );
-                  const cardClass =
-                    "group flex items-center gap-4 rounded-2xl border border-white/10 bg-white/5 px-6 py-5 backdrop-blur transition-colors duration-300";
-
-                  return item.href ? (
-                    <a
-                      key={item.label}
-                      href={item.href}
-                      className={`${cardClass} hover:border-rose-500/40 hover:bg-white/10`}
-                    >
-                      {content}
-                    </a>
-                  ) : (
-                    <div key={item.label} className={cardClass}>
-                      {content}
-                    </div>
-                  );
-                })}
-              </div>
-            ) : !contactDetails.address ? (
-              <div className="rounded-2xl border border-white/10 bg-white/5 px-6 py-6 backdrop-blur">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-rose-200">
-                  How to reach us
-                </p>
-                <p className="mt-3 text-sm leading-relaxed text-charcoal-300">
-                  Use the enquiry form to tell us about your requirement. Include your company,
-                  materials and expected volumes so we can respond with the right information.
-                </p>
-              </div>
-            ) : null}
+    <section id="contact" className="bg-charcoal-900 text-white">
+      <Container className="grid gap-14 py-24 lg:grid-cols-12 lg:gap-12 lg:py-32">
+        <div className="lg:col-span-5">
+          <Reveal as="h2" className="font-display text-head font-bold uppercase">
+            Talk to our team
           </Reveal>
+          <Reveal as="p" delay={80} className="mt-6 max-w-md text-lead text-white">
+            Send us your drawings, materials and volumes, and we will come back with the next
+            steps for your interior program.
+          </Reveal>
+
+          <ul className="mt-12 flex flex-col gap-2">
+            {contactDetails.email && emailHref && (
+              <ContactRow icon="email" label="Email" href={emailHref} delay={120}>
+                {contactDetails.email}
+              </ContactRow>
+            )}
+            {contactDetails.phone && phoneHref && (
+              <ContactRow icon="phone" label="Phone" href={phoneHref} delay={180}>
+                {contactDetails.phone}
+              </ContactRow>
+            )}
+            {contactDetails.address && (
+              <ContactRow icon="address" label="Address" delay={240}>
+                <span className="block">{siteConfig.legalName}</span>
+                <span className="mt-1 block font-normal text-white/80">
+                  {contactDetails.address.replace(/\n/g, " ")}
+                </span>
+              </ContactRow>
+            )}
+          </ul>
         </div>
 
-        <Reveal delay={100}>
-          <div className="rounded-3xl bg-white p-7 shadow-2xl shadow-black/40 sm:p-10">
-            <h3 className="font-display text-2xl font-semibold text-charcoal-900">
-              Enquiry Form
-            </h3>
-            <p className="mt-2 text-sm text-charcoal-500">
-              Fields marked <span className="text-rose-600">*</span> are required.
-            </p>
-            <div className="mt-8">
-              <ContactForm />
-            </div>
+        <Reveal delay={120} className="bg-white p-6 text-charcoal-900 sm:p-10 lg:col-span-7">
+          <h3 className="font-display text-sub font-bold uppercase">Send an enquiry</h3>
+          <p className="mt-3 text-body text-charcoal-700">
+            Tell us about the project and we will reply by email. Fields marked
+            <span className="text-rose-700"> *</span> are required.
+          </p>
+          <div className="mt-8">
+            <ContactForm />
           </div>
         </Reveal>
       </Container>
     </section>
+  );
+}
+
+type ContactRowProps = {
+  icon: ContactIconType;
+  label: string;
+  href?: string;
+  delay: number;
+  children: ReactNode;
+};
+
+/** One contact detail on a raised charcoal panel: round icon, small label, the detail itself. */
+function ContactRow({ icon, label, href, delay, children }: ContactRowProps) {
+  const inner = (
+    <>
+      <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-charcoal-950 text-rose-400 transition-colors duration-200 group-hover:bg-rose-700 group-hover:text-white">
+        <ContactIcon type={icon} className="h-5 w-5" />
+      </span>
+      <span className="min-w-0 flex-1">
+        <span className="block text-small text-white/70">{label}</span>
+        <span className="mt-0.5 block break-words text-body font-semibold">{children}</span>
+      </span>
+      {href && (
+        <span
+          className="hidden self-center text-lead text-white/70 transition-[transform,color] duration-200 group-hover:translate-x-1 group-hover:text-white sm:block"
+          aria-hidden
+        >
+          →
+        </span>
+      )}
+    </>
+  );
+  const rowClass = "group flex items-start gap-4 bg-charcoal-800 px-5 py-4 sm:items-center";
+
+  return (
+    <Reveal as="li" delay={delay}>
+      {href ? (
+        <a href={href} className={`${rowClass} transition-colors duration-200 hover:bg-charcoal-700`}>
+          {inner}
+        </a>
+      ) : (
+        <address className={`${rowClass} not-italic`}>{inner}</address>
+      )}
+    </Reveal>
   );
 }

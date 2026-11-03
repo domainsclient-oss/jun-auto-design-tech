@@ -1,84 +1,56 @@
 import Image from "next/image";
 import { Container } from "@/components/ui/Container";
 import { Reveal } from "@/components/ui/Reveal";
-import { SectionHeading } from "@/components/ui/SectionHeading";
 import { services } from "@/lib/site";
 
+/** Pinned heading on a charcoal field while the two services pass beside it. */
 export function Services() {
   return (
-    <section id="services" className="relative bg-charcoal-50 py-24 sm:py-32">
-      <Container>
-        <SectionHeading
-          eyebrow="Our Services"
-          title={
-            <>
-              Two disciplines, <span className="text-rose-600">one standard of precision</span>
-            </>
-          }
-          description="We support automotive interior programs from design through finishing, so every material leaves our facility ready for the next stage of production."
-        />
+    <section id="services" className="relative bg-charcoal-900 py-24 text-white lg:py-28">
+      <Container className="grid gap-16 lg:grid-cols-12 lg:gap-8">
+        <div className="lg:col-span-5">
+          <h2 className="sticky top-24 z-10 -mx-4 bg-charcoal-900 px-4 py-3 font-display text-head font-bold uppercase sm:-mx-8 sm:px-8 lg:top-32 lg:mx-0 lg:bg-transparent lg:px-0 lg:py-0">
+            What we do
+          </h2>
+        </div>
 
-        <div className="mt-16 grid gap-8 lg:grid-cols-2">
+        <div className="flex flex-col gap-28 lg:col-span-7 lg:col-start-6 lg:gap-40">
           {services.map((service, index) => (
-            <Reveal
-              as="article"
-              key={service.id}
-              delay={index * 150}
-              className="group flex flex-col overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-charcoal-100 transition-shadow duration-500 hover:shadow-2xl hover:shadow-charcoal-900/10"
-            >
-              <div className="relative aspect-[16/10] overflow-hidden">
-                <Image
-                  src={service.image}
-                  alt={service.imageAlt}
-                  fill
-                  sizes="(min-width: 1024px) 50vw, 100vw"
-                  className="object-cover transition-transform duration-700 group-hover:scale-105"
-                />
-                <div
-                  className="absolute inset-0 bg-gradient-to-t from-charcoal-950/80 via-charcoal-950/10 to-transparent"
-                  aria-hidden
-                />
-                <div className="absolute bottom-6 left-6 flex items-center gap-3">
-                  <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-rose-600 font-display text-sm font-semibold text-white">
-                    {String(index + 1).padStart(2, "0")}
-                  </span>
-                  <h3 className="font-display text-2xl font-semibold text-white sm:text-3xl">
-                    {service.title}
-                  </h3>
-                </div>
-              </div>
+            <article key={service.id}>
+              <Reveal as="h3" className="font-display text-sub font-bold uppercase">
+                {service.title}
+              </Reveal>
+              <Reveal as="p" delay={80} className="mt-6 max-w-xl text-lead text-white">
+                {service.summary}
+              </Reveal>
 
-              <div className="flex flex-1 flex-col p-7 sm:p-9">
-                <p className="text-base leading-relaxed text-charcoal-500">{service.summary}</p>
-                <ul className="mt-7 grid gap-3 sm:grid-cols-2">
-                  {service.points.map((point) => (
-                    <li key={point} className="flex items-start gap-3 text-sm text-charcoal-700">
-                      <CheckIcon />
+              <div
+                className={`mt-10 flex flex-col gap-8 sm:flex-row sm:items-start sm:gap-10 ${
+                  index % 2 === 1 ? "sm:flex-row-reverse sm:justify-end" : ""
+                }`}
+              >
+                <Reveal delay={160} className="relative aspect-[4/3] w-full shrink-0 overflow-hidden sm:aspect-[3/4] sm:w-56">
+                  <Image
+                    src={service.image}
+                    alt={service.imageAlt}
+                    fill
+                    sizes="(min-width: 640px) 224px, 100vw"
+                    className="object-cover transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] hover:scale-105"
+                  />
+                </Reveal>
+                <ul className="flex flex-col gap-4">
+                  {service.points.map((point, pointIndex) => (
+                    <Reveal as="li" key={point} delay={200 + pointIndex * 70} className="flex gap-4 text-body text-white">
+                      <span className="mt-[0.6em] h-2 w-2 shrink-0 bg-rose-600" aria-hidden />
                       {point}
-                    </li>
+                    </Reveal>
                   ))}
                 </ul>
               </div>
-            </Reveal>
+            </article>
           ))}
         </div>
       </Container>
     </section>
-  );
-}
-
-function CheckIcon() {
-  return (
-    <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-rose-100 text-rose-600">
-      <svg viewBox="0 0 16 16" fill="none" className="h-3 w-3" aria-hidden>
-        <path
-          d="m3.5 8.5 3 3 6-7"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </span>
   );
 }

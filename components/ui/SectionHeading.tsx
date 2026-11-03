@@ -2,49 +2,30 @@ import type { ReactNode } from "react";
 import { Reveal } from "./Reveal";
 
 type SectionHeadingProps = {
-  eyebrow: string;
   title: ReactNode;
   description?: ReactNode;
-  align?: "left" | "center";
   tone?: "light" | "dark";
+  className?: string;
 };
 
-export function SectionHeading({
-  eyebrow,
-  title,
-  description,
-  align = "left",
-  tone = "light",
-}: SectionHeadingProps) {
+/** Section title in the display face, with an optional supporting sentence. */
+export function SectionHeading({ title, description, tone = "light", className = "" }: SectionHeadingProps) {
   const isDark = tone === "dark";
-  const alignment = align === "center" ? "mx-auto text-center items-center" : "items-start";
 
   return (
-    <Reveal className={`flex max-w-3xl flex-col ${alignment}`}>
-      <span
-        className={`inline-flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.25em] ${
-          isDark ? "text-rose-200" : "text-rose-600"
-        }`}
-      >
-        <span className="h-px w-8 bg-current" aria-hidden />
-        {eyebrow}
-      </span>
-      <h2
-        className={`mt-5 font-display text-3xl font-semibold leading-tight tracking-tight sm:text-4xl lg:text-[2.75rem] ${
-          isDark ? "text-white" : "text-charcoal-900"
-        }`}
-      >
+    <div className={className}>
+      <Reveal as="h2" className={`font-display text-head font-bold uppercase ${isDark ? "text-white" : "text-charcoal-900"}`}>
         {title}
-      </h2>
+      </Reveal>
       {description && (
-        <p
-          className={`mt-5 text-base leading-relaxed sm:text-lg ${
-            isDark ? "text-charcoal-300" : "text-charcoal-500"
-          }`}
+        <Reveal
+          as="p"
+          delay={80}
+          className={`mt-8 max-w-xl text-body ${isDark ? "text-white" : "text-charcoal-900"}`}
         >
           {description}
-        </p>
+        </Reveal>
       )}
-    </Reveal>
+    </div>
   );
 }

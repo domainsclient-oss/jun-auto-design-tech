@@ -7,7 +7,7 @@ type Status = "idle" | "submitting" | "success";
 type Errors = Partial<Record<"name" | "email" | "message", string>>;
 
 const inputClass =
-  "w-full rounded-xl border border-charcoal-100 bg-charcoal-50 px-4 py-3.5 text-sm text-charcoal-900 placeholder:text-charcoal-300 transition-colors focus:border-rose-600 focus:bg-white focus:outline-none focus:ring-4 focus:ring-rose-600/10";
+  "w-full border border-charcoal-300 bg-white px-4 py-3.5 text-body text-charcoal-900 placeholder:text-charcoal-500 transition-colors focus:border-charcoal-900 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-600";
 
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -43,7 +43,7 @@ export function ContactForm() {
   if (status === "success") {
     return (
       <div className="flex min-h-[420px] flex-col items-center justify-center text-center" role="status">
-        <span className="flex h-16 w-16 items-center justify-center rounded-full bg-rose-50 text-rose-600">
+        <span className="flex h-16 w-16 items-center justify-center bg-rose-600 text-white">
           <svg viewBox="0 0 24 24" fill="none" className="h-8 w-8" aria-hidden>
             <path
               d="m5 12.5 4.5 4.5L19 7.5"
@@ -54,16 +54,16 @@ export function ContactForm() {
             />
           </svg>
         </span>
-        <h3 className="mt-6 font-display text-2xl font-semibold text-charcoal-900">
+        <h3 className="mt-6 font-display text-sub font-bold uppercase text-charcoal-900">
           Thank you for your enquiry
         </h3>
-        <p className="mt-3 max-w-sm text-sm leading-relaxed text-charcoal-500">
+        <p className="mt-3 max-w-sm text-body text-charcoal-900">
           We have received your details. A member of our team will get back to you soon.
         </p>
         <button
           type="button"
           onClick={() => setStatus("idle")}
-          className="mt-8 text-sm font-semibold text-rose-600 hover:text-rose-700"
+          className="mt-8 text-body font-semibold text-rose-700 underline-offset-4 hover:underline"
         >
           Send another enquiry
         </button>
@@ -112,7 +112,7 @@ export function ContactForm() {
         <button
           type="submit"
           disabled={status === "submitting"}
-          className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-rose-600 px-8 py-4 text-sm font-semibold text-white shadow-lg shadow-rose-600/25 transition-all duration-300 hover:bg-rose-700 disabled:cursor-wait disabled:opacity-70 sm:w-auto"
+          className="inline-flex w-full items-center justify-center bg-rose-700 px-8 py-4 text-body font-semibold text-white transition-[background-color,transform] duration-200 hover:bg-rose-800 active:scale-[0.97] disabled:cursor-wait disabled:opacity-70 sm:w-auto"
         >
           {status === "submitting" ? "Sending…" : "Submit Enquiry"}
         </button>
@@ -133,13 +133,13 @@ type FieldProps = {
 function Field({ label, htmlFor, required, error, className = "", children }: FieldProps) {
   return (
     <div className={className}>
-      <label htmlFor={htmlFor} className="mb-2 block text-sm font-semibold text-charcoal-800">
+      <label htmlFor={htmlFor} className="mb-2 block text-body font-semibold text-charcoal-900">
         {label}
-        {required && <span className="ml-1 text-rose-600">*</span>}
+        {required && <span className="ml-1 text-rose-700">*</span>}
       </label>
       {children}
       {error && (
-        <p className="mt-2 text-xs font-medium text-rose-600" role="alert">
+        <p className="mt-2 text-small font-medium text-rose-700" role="alert">
           {error}
         </p>
       )}
