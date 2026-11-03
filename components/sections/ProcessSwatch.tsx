@@ -62,10 +62,6 @@ export function ProcessSwatch({ intro }: { intro?: ReactNode }) {
                     on ? "bg-surface text-charcoal-900" : "text-charcoal-500 hover:bg-surface hover:text-charcoal-900"
                   }`}
                 >
-                  <span className="min-w-0 flex-1">
-                    <span className="block font-display text-sub font-semibold uppercase leading-tight">{process.verb}</span>
-                    <span className="block text-small text-charcoal-700">{process.caption}</span>
-                  </span>
                   {/* On/off switch: the knob slides across a track that turns brand red when on. */}
                   <span
                     className={`relative inline-flex h-9 w-[4.5rem] shrink-0 items-center rounded-full transition-colors duration-300 ${
@@ -85,6 +81,10 @@ export function ProcessSwatch({ intro }: { intro?: ReactNode }) {
                         on ? "left-[calc(100%-2rem)]" : "left-1"
                       }`}
                     />
+                  </span>
+                  <span className="min-w-0 flex-1">
+                    <span className="block font-display text-sub font-semibold uppercase leading-tight">{process.verb}</span>
+                    <span className="block text-small text-charcoal-700">{process.caption}</span>
                   </span>
                 </button>
               </li>
