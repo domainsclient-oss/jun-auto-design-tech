@@ -66,7 +66,7 @@ export function Header() {
 
         <a
           href="#contact"
-          className="hidden bg-rose-700 px-6 py-3 text-body font-semibold text-white transition-[background-color,transform] duration-200 hover:bg-rose-800 active:scale-[0.97] lg:inline-flex"
+          className="hidden bg-rose-600 px-6 py-3 text-body font-bold text-white transition-[background-color,transform] duration-200 hover:bg-rose-700 active:scale-[0.97] lg:inline-flex"
         >
           Send an enquiry
         </a>
@@ -104,7 +104,7 @@ export function Header() {
           <a
             href="#contact"
             onClick={() => setMenuOpen(false)}
-            className="mt-10 flex w-full items-center justify-center bg-rose-700 px-6 py-4 text-body font-semibold text-white"
+            className="mt-10 flex w-full items-center justify-center bg-rose-600 px-6 py-4 text-body font-bold text-white transition-colors duration-200 hover:bg-rose-700"
           >
             Send an enquiry
           </a>

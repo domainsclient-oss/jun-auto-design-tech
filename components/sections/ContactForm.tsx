@@ -44,7 +44,7 @@ export function ContactForm() {
   if (status === "success") {
     return (
       <div className="flex min-h-[420px] flex-col items-center justify-center text-center" role="status">
-        <span className="flex h-16 w-16 items-center justify-center rounded-full bg-rose-700 text-white">
+        <span className="flex h-16 w-16 items-center justify-center rounded-full bg-rose-600 text-white">
           <svg viewBox="0 0 24 24" fill="none" className="h-8 w-8" aria-hidden>
             <path
               d="m5 12.5 4.5 4.5L19 7.5"
@@ -113,7 +113,7 @@ export function ContactForm() {
         <button
           type="submit"
           disabled={status === "submitting"}
-          className="inline-flex w-full items-center justify-center bg-rose-700 px-8 py-4 text-body font-semibold text-white transition-[background-color,transform] duration-200 hover:bg-rose-800 active:scale-[0.97] disabled:cursor-wait disabled:opacity-70 sm:w-auto"
+          className="inline-flex w-full items-center justify-center bg-rose-600 px-8 py-4 text-body font-bold text-white transition-[background-color,transform] duration-200 hover:bg-rose-700 active:scale-[0.97] disabled:cursor-wait disabled:opacity-70 sm:w-auto"
         >
           {status === "submitting" ? "Sending…" : "Send enquiry"}
         </button>

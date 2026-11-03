@@ -100,7 +100,7 @@ export function IsoCertification() {
           <a
             href={certificateLink ?? "#contact"}
             {...(certificateLink ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-            className="mt-8 inline-flex items-center bg-charcoal-900 px-7 py-4 text-body font-semibold text-white transition-[background-color,transform] duration-200 hover:bg-rose-700 active:scale-[0.97]"
+            className="mt-8 inline-flex items-center bg-charcoal-900 px-7 py-4 text-body font-semibold text-white transition-[background-color,transform] duration-200 hover:bg-rose-600 active:scale-[0.97]"
           >
             {certificateLink
               ? isoDetails.certificatePdf

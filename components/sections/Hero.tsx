@@ -33,7 +33,7 @@ export function Hero() {
           <div className={`${rise[3]} mt-10 flex flex-wrap items-center gap-x-8 gap-y-4`}>
             <a
               href="#contact"
-              className="inline-flex items-center bg-rose-700 px-7 py-4 text-body font-semibold text-white transition-[background-color,transform] duration-200 hover:bg-rose-800 active:scale-[0.97]"
+              className="inline-flex items-center bg-rose-600 px-7 py-4 text-body font-bold text-white transition-[background-color,transform] duration-200 hover:bg-rose-700 active:scale-[0.97]"
             >
               Send an enquiry
             </a>
