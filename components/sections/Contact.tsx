@@ -77,7 +77,7 @@ type DetailProps = {
 function Detail({ icon, label, children }: DetailProps) {
   return (
     <div className="flex gap-5">
-      <ContactIcon type={icon} className="mt-1 h-6 w-6 shrink-0 text-rose-400" />
+      <ContactIcon type={icon} className="mt-1 h-6 w-6 shrink-0 text-rose-600" />
       <div className="min-w-0">
         <p className="text-small text-white/70">{label}</p>
         <div className="mt-1 break-words text-lead font-semibold">{children}</div>
