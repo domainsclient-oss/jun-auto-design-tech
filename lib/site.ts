@@ -46,6 +46,16 @@ export const contactDetails: ContactDetails = {
   hours: null,
 };
 
+// TODO: placeholder links, replace "#" with the company's real profile URLs before launch.
+export const socialLinks = [
+  { name: "LinkedIn", href: "#" },
+  { name: "Instagram", href: "#" },
+  { name: "Facebook", href: "#" },
+  { name: "YouTube", href: "#" },
+] as const;
+
+export type SocialName = (typeof socialLinks)[number]["name"];
+
 export type IsoDetails = {
   /** e.g. "ISO 9001:2015", exactly as printed on the certificate. */
   standard: string | null;
