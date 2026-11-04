@@ -28,7 +28,7 @@ export function Processes() {
       {processes.map((process, index) => {
         const next = processes[index + 1];
         return (
-          <article key={process.id} id={process.id} className="group relative h-svh overflow-clip bg-charcoal-950">
+          <article key={process.id} id={process.id} className="group relative flex h-svh flex-col overflow-clip bg-charcoal-950 sm:block">
             <Parallax className="absolute inset-0">
               <div
                 className="absolute inset-[-6%]"
@@ -45,7 +45,8 @@ export function Processes() {
             </Parallax>
             <div className="absolute inset-0 bg-charcoal-950/45" aria-hidden />
 
-            <div className="relative flex h-full items-center justify-center px-4 pb-[38svh]">
+            {/* Phones: the verb fills the space above the card. Larger screens: the card overlays the bottom. */}
+            <div className="relative flex min-h-0 flex-1 items-center justify-center px-4 pt-16 sm:h-full sm:pb-[38svh] sm:pt-0">
               <WordsReveal
                 as="h2"
                 text={process.verb}
@@ -53,7 +54,7 @@ export function Processes() {
               />
             </div>
 
-            <Container className="absolute inset-x-0 bottom-4 sm:bottom-8">
+            <Container className="relative pb-4 sm:absolute sm:inset-x-0 sm:bottom-8 sm:pb-0">
               <Reveal delay={150} className="relative max-w-xl bg-charcoal-950/85 p-6 text-white sm:p-8">
                 <span className="block h-0.5 w-10 bg-rose-600" aria-hidden />
                 <h3 className="mt-4 text-lead font-semibold">{process.title}</h3>
