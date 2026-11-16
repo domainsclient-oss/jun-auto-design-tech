@@ -1,44 +1,33 @@
+import Image from "next/image";
 import { siteConfig } from "@/lib/site";
 
 type LogoProps = {
+  /** "light" sits the logo on a white tile so its dark lettering stays readable on charcoal. */
   tone?: "light" | "dark";
-  /** Monogram tile colour; use "dark" on red backgrounds where the rose tile would vanish. */
-  tile?: "rose" | "dark";
+  /** Load early; use for the header logo that is visible on first paint. */
+  preload?: boolean;
   className?: string;
 };
 
-/** Monogram plus the company name set in the display face. Swap for the official logo file when available. */
-export function Logo({ tone = "dark", tile = "rose", className = "" }: LogoProps) {
+/** The company logo (public/images/jadt-logo.svg, a cropped copy of JADT_logo_Red.svg). */
+export function Logo({ tone = "dark", preload = false, className = "" }: LogoProps) {
   return (
     <a
       href="#top"
       aria-label={`${siteConfig.name}, back to top`}
-      className={`group flex items-center gap-3 ${className}`}
+      className={`group inline-flex shrink-0 items-center ${
+        tone === "light" ? "rounded-[0.75rem] bg-white px-3 py-2" : ""
+      } ${className}`}
     >
-      <span
-        className={`relative flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-[0.5rem] transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-105 ${
-          tile === "dark" ? "bg-charcoal-950" : "bg-rose-600"
-        }`}
-      >
-        <span className="absolute -right-3 -top-3 h-8 w-8 rotate-45 bg-white/15" aria-hidden />
-        {/* Same "J" mark as app/icon.svg so the logo and favicon match. */}
-        <svg viewBox="0 0 64 64" fill="none" className="relative h-10 w-10" aria-hidden>
-          <path
-            d="M27 17h12v20a11 11 0 0 1-22 0"
-            stroke="#ffffff"
-            strokeWidth="7.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
-      </span>
-      <span
-        className={`whitespace-nowrap font-display text-[17px] font-bold uppercase leading-none ${
-          tone === "light" ? "text-white" : "text-charcoal-900"
-        }`}
-      >
-        {siteConfig.name}
-      </span>
+      <Image
+        src="/images/jadt-logo.svg"
+        alt={siteConfig.name}
+        width={808}
+        height={432}
+        unoptimized
+        preload={preload}
+        className="h-14 w-auto transition-transform duration-300 group-hover:scale-[1.03] sm:h-16"
+      />
     </a>
   );
 }

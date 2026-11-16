@@ -33,7 +33,7 @@ export function Header() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 bg-white">
       <Container className="flex h-20 items-center justify-between">
-        <Logo tone="dark" />
+        <Logo tone="dark" preload />
 
         <nav aria-label="Primary" className="hidden xl:block">
           <ul className="flex items-center gap-9">
