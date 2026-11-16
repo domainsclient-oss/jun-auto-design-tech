@@ -42,19 +42,9 @@ export const contactDetails: ContactDetails = {
     "No G133, SF No. 149/1, SIPCOT Industrial Park,\nVallam, Sriperumbadur, Kunnam,\nKancheepuram, Tamil Nadu - 631 604.",
   // TODO: placeholder number, replace with the real phone number before launch.
   phone: "1234567890",
-  email: "contact@jundesigntech.in",
+  email: "info@jundesigntech.in",
   hours: null,
 };
-
-// TODO: placeholder links, replace "#" with the company's real profile URLs before launch.
-export const socialLinks = [
-  { name: "LinkedIn", href: "#" },
-  { name: "Instagram", href: "#" },
-  { name: "Facebook", href: "#" },
-  { name: "YouTube", href: "#" },
-] as const;
-
-export type SocialName = (typeof socialLinks)[number]["name"];
 
 export type IsoDetails = {
   /** e.g. "ISO 9001:2015", exactly as printed on the certificate. */
@@ -104,8 +94,8 @@ export const services = [
       "Material and texture selection support",
       "Prototype sampling and design validation",
     ],
-    image: "/images/service-design.jpg",
-    imageAlt: "Engineer reviewing 3D CAD models on a workstation",
+    image: "/images/service-design-interior.jpg",
+    imageAlt: "Designer working on a 3D CAD model of a car interior with seats and dashboard",
   },
   {
     id: "post-processing",
@@ -118,8 +108,8 @@ export const services = [
       "Hot melt lamination of multi-layer materials",
       "Precision cutting to exact specifications",
     ],
-    image: "/images/service-post.jpg",
-    imageAlt: "Leather being guided through an industrial stitching machine",
+    image: "/images/service-post-materials.jpg",
+    imageAlt: "Worker handling perforated and diamond-embossed car seat leather panels beside rolls of automotive interior material",
   },
 ] as const;
 
@@ -133,8 +123,8 @@ export const processes = [
     description:
       "Every project begins with careful study of the customer's design intent. Our team develops patterns, layouts and technical specifications that balance aesthetics, function and manufacturability.",
     highlights: ["Requirement study", "Pattern development", "Sample approval"],
-    image: "/images/process-design.jpg",
-    imageAlt: "Engineer working on technical drawings at a desk",
+    image: "/images/process-design-interior.jpg",
+    imageAlt: "Designer sketching car seats and dashboard interiors beside a drawing tablet and material swatches",
   },
   {
     id: "perforation",
@@ -169,9 +159,8 @@ export const processes = [
     description:
       "Hot melt adhesive lamination bonds face materials with foam, scrim or backing layers, creating durable, multi-layer composites ready for trimming and assembly.",
     highlights: ["Multi-layer bonding", "Solvent-free adhesive", "Strong, even adhesion"],
-    image: "/images/process-lamination.jpg",
-    imageAlt: "Industrial textile machinery running on a production floor",
-  },
+    image: "/images/process-lamination-layers.jpg",
+    imageAlt: "Leather bonded to foam and scrim backing between heated lamination rollers, showing the layered edge",  },
   {
     id: "cutting",
     verb: "Cut",
@@ -181,8 +170,8 @@ export const processes = [
     description:
       "Processed materials are cut to precise shapes and dimensions according to approved patterns, ensuring accurate fit and minimal waste for downstream assembly.",
     highlights: ["Pattern-accurate cutting", "Optimised nesting", "Clean, precise edges"],
-    image: "/images/process-cutting-table.jpg",
-    imageAlt: "Cutter cutting dark material along a marked pattern on a cutting table",
+    image: "/images/process-cutting-cnc.jpg",
+    imageAlt: "Automated cutting head cutting car seat panels from tan leather on a CNC cutting table",
   },
 ] as const;
 
@@ -210,8 +199,8 @@ export const qualitySteps = [
   },
   {
     title: "Traceability & Documentation",
-    image: "/images/service-design.jpg",
-    imageAlt: "Engineer reviewing records on a workstation",
+    image: "/images/qc-traceability.jpg",
+    imageAlt: "Quality inspector scanning a batch label on car seat panels and logging it on a tablet",
     description:
       "Inspection records are maintained so every batch can be traced, reviewed and continuously improved.",
   },
