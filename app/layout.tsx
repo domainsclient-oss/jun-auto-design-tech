@@ -20,8 +20,8 @@ const title = "Jun Auto Design Tech | Automotive Interior Design & Manufacturing
 const description =
   "Jun Auto Design Tech delivers automotive interior design development and post-processing, including perforation, embossing, hot melt lamination and precision cutting, backed by rigorous quality control.";
 
-// Share images need an absolute URL. Set NEXT_PUBLIC_SITE_URL (e.g. in .env.production) to the live domain.
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+// Share images need an absolute URL. NEXT_PUBLIC_SITE_URL overrides the live address, e.g. for a custom domain.
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://jun-auto-design-tech.vercel.app";
 
 // Favicon, apple icon and share images come from the image files in app/.
 export const metadata: Metadata = {
