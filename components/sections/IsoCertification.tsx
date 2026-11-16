@@ -114,18 +114,14 @@ export function IsoCertification() {
               </tbody>
             </table>
 
-            <Button asChild variant="dark" size="cta" className="mt-8 w-full sm:w-auto">
-              <a
-                href={certificateLink ?? "#contact"}
-                {...(certificateLink ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-              >
-                {certificateLink
-                  ? isoDetails.certificatePdf
-                    ? "Download certificate (PDF)"
-                    : "View full certificate"
-                  : "Request a certificate copy"}
-              </a>
-            </Button>
+            {/* Only shown once a certificate file is added in lib/site.ts. */}
+            {certificateLink && (
+              <Button asChild variant="dark" size="cta" className="mt-8 w-full sm:w-auto">
+                <a href={certificateLink} target="_blank" rel="noopener noreferrer">
+                  {isoDetails.certificatePdf ? "Download certificate (PDF)" : "View full certificate"}
+                </a>
+              </Button>
+            )}
           </div>
         </Reveal>
       </Container>

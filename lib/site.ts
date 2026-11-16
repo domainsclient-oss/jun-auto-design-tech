@@ -72,7 +72,7 @@ export type IsoDetails = {
 export const isoDetails: IsoDetails = {
   isSample: true,
   standard: "ISO 9001:2015",
-  certificateNumber: "ISO-SAMPLE-2026",
+  certificateNumber: "XXX-XXXXXXX-2026",
   certifyingBody: "Sample Certification Body",
   scope: "Automotive Interior Material Processing",
   validFrom: null,
@@ -108,8 +108,8 @@ export const services = [
       "Hot melt lamination of multi-layer materials",
       "Precision cutting to exact specifications",
     ],
-    image: "/images/service-post-materials.jpg",
-    imageAlt: "Worker handling perforated and diamond-embossed car seat leather panels beside rolls of automotive interior material",
+    image: "/images/service-post-automated.jpg",
+    imageAlt: "Automated production line processing perforated and embossed car seat leather panels while a technician monitors on a tablet",
   },
 ] as const;
 
