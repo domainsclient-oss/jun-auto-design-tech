@@ -9,7 +9,12 @@ type LogoProps = {
   className?: string;
 };
 
-/** The company logo (public/images/jadt-logo.svg, a cropped copy of JADT_logo_Red.svg). */
+/**
+ * The company logo (public/images/jadt-logo.svg, a cropped copy of JADT_logo_Red.svg).
+ * Kept large: its "DESIGN TECH" line is under a sixth of the logo's height, so smaller sizes
+ * turn it into a few blurred pixels on standard screens. No hover scale, since a transformed
+ * SVG is rasterised by the browser and loses its sharp edges.
+ */
 export function Logo({ tone = "dark", preload = false, className = "" }: LogoProps) {
   return (
     <a
@@ -26,7 +31,9 @@ export function Logo({ tone = "dark", preload = false, className = "" }: LogoPro
         height={432}
         unoptimized
         preload={preload}
-        className="h-14 w-auto transition-transform duration-300 group-hover:scale-[1.03] sm:h-16"
+        className={`w-auto transition-opacity duration-300 group-hover:opacity-80 ${
+          tone === "light" ? "h-20" : "h-[68px] xl:h-[72px]"
+        }`}
       />
     </a>
   );
